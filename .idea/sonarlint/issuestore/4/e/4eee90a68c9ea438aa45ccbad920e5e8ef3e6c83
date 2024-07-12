@@ -1,0 +1,9 @@
+
+”
+java:S3655H"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(•ò§”ÿÿÿÿÿ8˜éÏÈ‡2J$768519b6-3307-4619-944a-e50af70fbaef
+”
+java:S3655Z"LCall "result.isPresent()" or "!result.isEmpty()" before accessing the value.(•ò§”ÿÿÿÿÿ8÷¨ÏÈ‡2J$b0c90338-181d-41ad-9874-2ed4a6edef38
+~
+java:S6813)"BRemove this field injection and use constructor injection instead.(­íûõJ$037fab26-48e9-41f8-a73e-1b15daa5d624
+
+java:S16126"EReplace this lambda with method reference 'BiMappedSource::toTarget'.(«™¯³üÿÿÿÿ8Š©ÎÈ‡2J$b2f42454-2c03-4705-8637-d845716b3df3

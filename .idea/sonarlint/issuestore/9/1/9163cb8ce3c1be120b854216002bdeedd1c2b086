@@ -1,0 +1,9 @@
+
+¤
+java:S1192,"\Define a constant instead of duplicating this literal "after source {}, target  {}" 4 times.(‡ƒ•ûüÿÿÿÿ8õ†ŽÇ‡2J$667caff4-a06a-44d8-83a0-285c355a8428
+¥
+java:S1192 "]Define a constant instead of duplicating this literal "before source {}, target  {}" 4 times.(ÕþÐ—úÿÿÿÿ8ö†ŽÇ‡2J$943e833a-c5cb-4929-88c4-33733ed4124d
+š
+java:S3008"RRename this field "CONTEXT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ³•Ìúÿÿÿÿ8ö†ŽÇ‡2J$d2d6cc60-e67f-4f5e-a33e-2590346bde33
+á
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ž¯Ëáûÿÿÿÿ8ø†ŽÇ‡2J$5b74dcb2-ae08-42c4-81b9-9bc286e88e81

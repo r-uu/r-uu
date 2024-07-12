@@ -1,0 +1,35 @@
+version: "3.9"
+
+services:
+  postgres:
+    container_name: postgres
+    hostname: ${postgres_host_name}
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: ${postgres_db}
+      POSTGRES_USER: ${postgres_user}
+      POSTGRES_PASSWORD: ${postgres_password}
+    ports:
+      - ${postgres_host_port}:${postgres_container_port}
+    volumes:
+      - ruu_data:/var/lib/postgresql/data
+      - ./database-init/init-demo-staging.sql:/docker-entrypoint-initdb.d/init-demo-staging.sql
+      - ./database-init/init-demo-test.sql:/docker-entrypoint-initdb.d/init-demo-test.sql
+    networks:
+      - ruu_network
+
+#  adminer:
+#    image: adminer
+#    restart: always
+#    ports:
+#      - 8080:8080
+
+volumes:
+  ruu_data:
+    driver: local
+
+networks:
+  ruu_network:
+    driver: bridge
+    name: ruu_network

@@ -1,0 +1,38 @@
+
+ˆ	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(îÀò´J$e832fe2c-028a-4890-88a8-79492cde4cb0
+
+java:S1104"NMake id a static final constant or non-public and provide accessors if needed.(—ÑàùşÿÿÿÿJ$facefa71-39c4-4a3c-9db0-19f9c56c9f1c
+
+java:S1104"RMake class_ a static final constant or non-public and provide accessors if needed.(ÜñÂ›J$d99b4d00-e361-4e8e-b852-b0889b8f3a1b
+”
+java:S1104"SMake version a static final constant or non-public and provide accessors if needed.(Õ•ûÿÿÿÿJ$cbd6c73d-05de-465f-98e8-faabc3563dba
+Ì
+java:S1598"This file "AbstractEntity_.java" should be located in "de\ruu\lib\jpa\core" directory, not in "C:\Users\r-uu\develop\github\r-uu.lib\jpa\core".(»ˆñçJ$8b7af720-7fcd-4310-9fa3-097a6565db31
+i
+java:S1444"(Make this "public static id" field final(—ÑàùşÿÿÿÿJ$434cb4d2-5c99-4aef-91c1-5c9d8ba0da9d
+h
+java:S1444",Make this "public static class_" field final(ÜñÂ›J$04ee350e-9ed3-47ac-a6a8-ccb500705333
+n
+java:S1444"-Make this "public static version" field final(Õ•ûÿÿÿÿJ$87b85d62-4f2e-42c8-8f94-b4664e675b9a
+p
+java:S3740"/Provide the parametrized type for this generic.(—ÑàùşÿÿÿÿJ$f0571de8-3b69-4afc-9ab4-252c3cbc0f14
+k
+java:S3740"/Provide the parametrized type for this generic.(ÜñÂ›J$c7449c23-2a17-4350-a026-af6d61f41500
+p
+java:S3740"/Provide the parametrized type for this generic.(Õ•ûÿÿÿÿJ$8f3e9ae1-f613-4764-9d85-30b0946ab1a9
+
+java:S3008"QRename this field "class_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜñÂ›J$48453bad-a5c6-4798-b313-2afb743a6261
+‰
+java:S1845"HRename field "ID" to prevent any misunderstanding/clash with field "id".(ß»ÑíıÿÿÿÿJ$5c4d5800-927c-4d56-9177-a25090c2d80a
+
+java:S1845"RRename field "VERSION" to prevent any misunderstanding/clash with field "version".(ğæ©J$b0792544-5c53-4f9c-a42e-7f95f928e378
+v
+java:S1118
+":Add a private constructor to hide the implicit public one.(îÀò´J$c058e4b8-0bcb-4373-a953-256402444705
+˜
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(—ÑàùşÿÿÿÿJ$790bb533-a28a-4279-97d3-efbe6c75876e
+“
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ÜñÂ›J$c904c59e-3ed7-45b3-9967-0eb1b1e5ef52
+˜
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Õ•ûÿÿÿÿJ$b682d5fd-a67b-4626-85db-ea14126015bc

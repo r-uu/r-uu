@@ -1,0 +1,14 @@
+
+‚
+java:S1192Z"GDefine a constant instead of duplicating this literal "
+uri: " 6 times.(ÒÁ–"J$6bc6a106-dfe0-4bb6-8db5-d89bd01e93f7
+ƒ
+java:S6813'"BRemove this field injection and use constructor injection instead.(Áº–ŽüÿÿÿÿJ$40b670c6-926d-42c7-889a-1ce2e77738b8
+ƒ
+java:S6813+"BRemove this field injection and use constructor injection instead.(Áº–ŽüÿÿÿÿJ$8daa98d9-6105-4950-9a5f-915290e8b2df
+ƒ
+java:S6813/"BRemove this field injection and use constructor injection instead.(Áº–ŽüÿÿÿÿJ$173a4bde-ca3e-4193-9a73-52b01931e721
+t
+java:S10685"3Remove this unused "templateCompany" private field.(ÝŽ™‚üÿÿÿÿJ$dd02d909-2535-4314-b29d-a9342f90a777
+ƒ
+java:S10686"BRemove this unused "templateCompanyWithDepartments" private field.(úú©©úÿÿÿÿJ$91c0e4aa-77c7-47a5-bc8f-5c6d766ded53
