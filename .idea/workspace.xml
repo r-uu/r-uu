@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation" />
+    <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/DepartmentServiceJPAEE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/ApplicationLifecycleListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/common/src/main/java/de/ruu/app/datamodel/company/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/common/src/main/java/de/ruu/app/datamodel/company/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/CompanyServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/CompanyServiceJPAEE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/CompanyServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/DepartmentServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressServiceJPAEE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/se/EntityManagerProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/se/PostalAddressServiceJPASETest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/DataModelMainGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/DemoClientDataModelFXPostalAddressGeneratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/datamodel/company/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/bean/demo/FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/bean/demo/FXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXTableViewConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXTableViewConfigurator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,8 +63,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,105 +87,110 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CDITest.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CompanyServiceDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmptyAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FXBeanEditorDemoAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HierarchyDemoMainAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.de.ruu.app.demo.client.fx.MainAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BiMapTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClasspathTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClientCompanyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClientCompanyTest.testDelete.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.ClientCompanyTest.testRead.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClientPostalAddressTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ClientPostalAddressTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.DTOEntityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.FamilyMappingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapperAsInterfaceTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapperAsInterfaceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapperTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PostalAddressServiceJPASETest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SampleBiMappingCyclicTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SampleBiMappingCyclicTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SampleBiMappingTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SampleBiMappingTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SampleDTOTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestAbstractRepository.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestLombok.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestLombok.invalidCallOfSetter.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStruct (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStruct.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStruct.mapValidDepartmentDTOWithEmployees.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStructGenericMapper.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.bimappable in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.cyclic in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.simple in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-datamodel [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-datamodel [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-datamodel-company-common [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-datamodel-postaladdress [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-client [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-client [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-common [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-common [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-common [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-common [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-common [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-demo-server [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-cdi-se [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-fx-comp [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-gen-java [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-core [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-core-mapstruct [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-se-eclipselink [test].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-mapstruct [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-mapstruct [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-mapstruct-explore [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-util [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Remote JVM Debug.liberty.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/demo/datamodel/src/main/java/de/ruu&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3082822&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CDITest.executor": "Run",
+    "Application.CompanyServiceDemo.executor": "Run",
+    "Application.EmptyAppRunner.executor": "Run",
+    "Application.FXBeanEditorDemoAppRunner.executor": "Run",
+    "Application.HierarchyDemoMainAppRunner.executor": "Run",
+    "Application.MainAppRunner.executor": "Run",
+    "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
+    "JUnit.BiMapTest.executor": "Run",
+    "JUnit.ClasspathTest.executor": "Run",
+    "JUnit.ClientCompanyTest (1).executor": "Run",
+    "JUnit.ClientCompanyTest.executor": "Run",
+    "JUnit.ClientCompanyTest.testDelete.executor": "Debug",
+    "JUnit.ClientCompanyTest.testRead.executor": "Run",
+    "JUnit.ClientPostalAddressTest (1).executor": "Run",
+    "JUnit.ClientPostalAddressTest.executor": "Run",
+    "JUnit.CompanyServiceJPASETest.executor": "Run",
+    "JUnit.DTOEntityTest.executor": "Run",
+    "JUnit.FamilyMappingTest.executor": "Run",
+    "JUnit.MapperAsInterfaceTest (1).executor": "Run",
+    "JUnit.MapperAsInterfaceTest.executor": "Run",
+    "JUnit.MapperTest (1).executor": "Run",
+    "JUnit.MapperTest.executor": "Run",
+    "JUnit.PostalAddressServiceJPASETest.executor": "Run",
+    "JUnit.SampleBiMappingCyclicTest (1).executor": "Run",
+    "JUnit.SampleBiMappingCyclicTest.executor": "Run",
+    "JUnit.SampleBiMappingTest (1).executor": "Run",
+    "JUnit.SampleBiMappingTest.executor": "Run",
+    "JUnit.SampleDTOTest.executor": "Run",
+    "JUnit.TestAbstractRepository.executor": "Run",
+    "JUnit.TestLombok.executor": "Run",
+    "JUnit.TestLombok.invalidCallOfSetter.executor": "Run",
+    "JUnit.TestMapStruct (1).executor": "Run",
+    "JUnit.TestMapStruct.executor": "Run",
+    "JUnit.TestMapStruct.mapValidDepartmentDTOWithEmployees.executor": "Run",
+    "JUnit.TestMapStructGenericMapper.executor": "Run",
+    "JUnit.bimappable in r-uu.lib-util.executor": "Run",
+    "JUnit.cyclic in r-uu.lib-util.executor": "Run",
+    "JUnit.simple in r-uu.lib-util.executor": "Run",
+    "Maven.r-uu [clean,install].executor": "Run",
+    "Maven.r-uu [install].executor": "Run",
+    "Maven.r-uu [package].executor": "Run",
+    "Maven.r-uu [test].executor": "Run",
+    "Maven.r-uu.app [install].executor": "Run",
+    "Maven.r-uu.app-datamodel [clean,install].executor": "Run",
+    "Maven.r-uu.app-datamodel [install].executor": "Run",
+    "Maven.r-uu.app-datamodel-company-common [install].executor": "Run",
+    "Maven.r-uu.app-datamodel-postaladdress [install].executor": "Run",
+    "Maven.r-uu.app-datamodel-postaladdress-jpadto [clean...].executor": "Run",
+    "Maven.r-uu.app-datamodel-postaladdress-jpadto-ee [install].executor": "Run",
+    "Maven.r-uu.app-demo [clean,install].executor": "Run",
+    "Maven.r-uu.app-demo-client [clean,install].executor": "Run",
+    "Maven.r-uu.app-demo-client [install].executor": "Run",
+    "Maven.r-uu.app-demo-common [clean,install].executor": "Run",
+    "Maven.r-uu.app-demo-common [compile].executor": "Run",
+    "Maven.r-uu.app-demo-common [install].executor": "Run",
+    "Maven.r-uu.app-demo-common [package].executor": "Run",
+    "Maven.r-uu.app-demo-common [test].executor": "Run",
+    "Maven.r-uu.app-demo-server [install].executor": "Run",
+    "Maven.r-uu.app-demo-server [test].executor": "Run",
+    "Maven.r-uu.lib [install].executor": "Run",
+    "Maven.r-uu.lib-cdi-se [install].executor": "Run",
+    "Maven.r-uu.lib-fx-comp [install].executor": "Run",
+    "Maven.r-uu.lib-gen-java [install].executor": "Run",
+    "Maven.r-uu.lib-jpa [clean,install].executor": "Run",
+    "Maven.r-uu.lib-jpa [install].executor": "Run",
+    "Maven.r-uu.lib-jpa-core [clean,install].executor": "Run",
+    "Maven.r-uu.lib-jpa-core-mapstruct [clean...].executor": "Run",
+    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [clean...].executor": "Run",
+    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [install].executor": "Run",
+    "Maven.r-uu.lib-jpa-se-eclipselink [test].executor": "Run",
+    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [clean...].executor": "Run",
+    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [compile].executor": "Run",
+    "Maven.r-uu.lib-mapstruct [clean,install].executor": "Run",
+    "Maven.r-uu.lib-mapstruct [install].executor": "Run",
+    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
+    "Maven.r-uu.lib-mapstruct-explore [install].executor": "Run",
+    "Maven.r-uu.lib-util [clean,install].executor": "Run",
+    "Remote JVM Debug.liberty.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "main",
+    "ignore.preview.features.used": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/demo/datamodel/src/main/java/de/ruu",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/demo/server/src/main/resources/META-INF",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3082822",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\server\src\main\resources\META-INF" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\company\jpadto-se\src\main\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\company\jpadto-se\src\test\java\de\ruu\app\datamodel\company\jpa\se" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\test\java\de\ruu\app\datamodel\postaladdress\jpa\se" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\java" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto\src\main\java\de\ruu\app\datamodel\postaladdress\jpadto\jpa" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu\config" />
@@ -150,47 +200,36 @@
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.datamodel.company.jpa" />
+      <recent name="de.ruu.app.datamodel.company.jpa.se" />
       <recent name="de.ruu.app.datamodel.company.jpadto" />
       <recent name="de.ruu.app.datamodel.postaladdress" />
       <recent name="de.ruu.lib.mapstruct.explore.objectfactory" />
-      <recent name="de.ruu.lib.jpa.core.mapstruct" />
-      <recent name="de.ruu.lib.mapstruct" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="de.ruu.lib.jpa.core.mapstruct" />
       <recent name="de.ruu.lib.mapstruct.explore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.datamodel.company.jpa.ee" />
+      <recent name="de.ruu.app.datamodel.company.jpa" />
       <recent name="de.ruu.app.datamodel.postaladdress.jpa.se" />
       <recent name="de.ruu.app.demo.client.datamodel.fx.postaladdress" />
       <recent name="de.ruu.app.demo.client.datamodel.rs.postaladdress" />
-      <recent name="de.ruu.lib.jpa.core" />
-      <recent name="de.ruu.app.datamodel.postaladdress.jpadto.jpa.ee" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostalAddressServiceJPASETest">
-    <configuration name="MainAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.fx.company.MainAppRunner" />
+  <component name="RunManager" selected="JUnit.ClientPostalAddressTest">
+    <configuration name="ClientCompanyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-demo-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.fx.company.*" />
+          <option name="PATTERN" value="de.ruu.app.demo.client.datamodel.rs.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="de.ruu.app.demo.client.fx.MainAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.fx.MainAppRunner" />
-      <module name="r-uu.app-demo-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.fx.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.demo.client.datamodel.rs.company" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.datamodel.rs.company.ClientCompanyTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,6 +264,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompanyServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-datamodel-company-jpadto-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.app.datamodel.company.jpa.se.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.company.jpa.se" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.company.jpa.se.CompanyServiceJPASETest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PostalAddressServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-datamodel-postaladdress-jpadto-se" />
       <extension name="coverage">
@@ -254,8 +308,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MainAppRunner" />
-      <item itemvalue="Application.de.ruu.app.demo.client.fx.MainAppRunner" />
+      <item itemvalue="JUnit.ClientCompanyTest (1)" />
+      <item itemvalue="JUnit.CompanyServiceJPASETest" />
       <item itemvalue="JUnit.ClientCompanyTest" />
       <item itemvalue="JUnit.ClientPostalAddressTest" />
       <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
@@ -263,11 +317,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
         <item itemvalue="JUnit.ClientPostalAddressTest" />
+        <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
+        <item itemvalue="JUnit.ClientCompanyTest (1)" />
+        <item itemvalue="JUnit.CompanyServiceJPASETest" />
         <item itemvalue="JUnit.ClientCompanyTest" />
-        <item itemvalue="Application.de.ruu.app.demo.client.fx.MainAppRunner" />
-        <item itemvalue="Application.MainAppRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -338,6 +392,49 @@
           <url>file://$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/Mapper.java</url>
           <line>49</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java</url>
+          <line>91</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java</url>
+          <line>86</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java</url>
+          <line>95</line>
+          <properties class="de.ruu.app.datamodel.postaladdress.jpa.PostalAddressEntity" method="toTarget">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java</url>
+          <line>91</line>
+          <properties class="de.ruu.app.datamodel.postaladdress.dto.PostalAddressDTO" method="toSource">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,13 +2,14 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-microprofile-config.properties
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+.idea/sonarlint/
+.idea/workspace.xml
 *.iws
 *.iml
 *.ipr
@@ -37,3 +38,8 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### r-uu ###
+*.env
+microprofile-config.properties
+/src/gen/
