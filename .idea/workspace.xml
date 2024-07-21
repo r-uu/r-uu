@@ -5,50 +5,78 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/DepartmentServiceJPAEE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/ApplicationLifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/common/src/main/java/de/ruu/app/datamodel/company/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/common/src/main/java/de/ruu/app/datamodel/company/DepartmentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/CompanyServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-ee/src/main/java/de/ruu/app/datamodel/company/jpa/ee/CompanyServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/CompanyServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/DepartmentServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressFXBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressFXTableViewConfigurator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/FXBeanPostalAddressGeneratorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/FXTableViewPostalAddressConfiguratorGeneratorRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/remove.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/TableViewConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/ButtonProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/ButtonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/FontWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/TableViewSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/css/TableViewUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/jsonb/recursion/CircuitBreaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/recursion/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/recursion/ChildrenAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/recursion/CircuitBreakerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/recursion/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/DepartmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/DepartmentDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/se/EntityManagerProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/se/PostalAddressServiceJPASETest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/common/src/main/java/de/ruu/app/datamodel/postaladdress/PostalAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/DataModelMainGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/DemoClientDataModelFXPostalAddressGeneratorRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/de/ruu/app/demo/server/datamodel/company/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/resources/de/ruu/app/demo/client/datamodel/fx/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/resources/de/ruu/app/demo/client/datamodel/fx/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/DemoClientDataModelFXMainGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/FXCompMainGeneratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/DemoClientDataModelFXPostalAddressGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/FXCompPostalAddressManagerGeneratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/common/CDIExtension.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/common/CDIExtension.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/CDIContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/CDIContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/DemoCDIContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/DemoCDIContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/parameters/DemoProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/parameters/DemoProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/parameters/InjectableImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/bin/de/ruu/lib/cdi/se/demo/parameters/InjectableImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/bean/src/main/java/de/ruu/lib/gen/java/fx/bean/FXBeanGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/bean/src/main/java/de/ruu/lib/gen/java/fx/bean/FXBeanGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/bean/src/main/java/de/ruu/lib/gen/java/fx/bean/FXMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/bean/src/main/java/de/ruu/lib/gen/java/fx/bean/FXMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/empty/Empty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/empty/Empty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyAppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainAppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1AppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2AppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2AppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/gen/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/runner/ComponentDemoEmptyGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/generator/runner/ComponentDemoEmptyGeneratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/runner/ComponentDemoHierarchyGeneratorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/java/de/ruu/lib/gen/java/fx/comp/generator/runner/ComponentDemoHierarchyGeneratorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/HierarchyDemoMain.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMain.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/HierarchyDemoMain.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMain.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/sub1/HierarchyDemoSub1.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/sub1/HierarchyDemoSub1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/sub2/HierarchyDemoSub2.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/runner/sub2/HierarchyDemoSub2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/test/resources/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/tableview/src/main/java/de/ruu/lib/gen/java/fx/tableview/FXTableViewConfiguratorGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/gen/java/fx/tableview/src/main/java/de/ruu/lib/gen/java/fx/tableview/FXTableViewConfiguratorGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/jsonb/AbstractSetAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/jsonb/AbstractSetAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/TestJsonBWithMaxEncapsulationForData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/jsonb/TestJsonBWithMaxEncapsulationForData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_07_2024_08_21_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_07_2024_08_21__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/bean/demo/FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/bean/demo/FXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXTableViewConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gen/java/de/ruu/lib/gen/java/fx/tableview/demo/FXTableViewConfigurator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +92,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="module-info" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -89,18 +118,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ButtonProperties.executor": "Run",
     "Application.CDITest.executor": "Run",
     "Application.CompanyServiceDemo.executor": "Run",
+    "Application.ComponentIconbarAddRemoveGeneratorRunner.executor": "Run",
+    "Application.DemoClientDataModelFXPostalAddressGeneratorRunner.executor": "Run",
     "Application.EmptyAppRunner.executor": "Run",
+    "Application.EnsembleApp.executor": "Run",
     "Application.FXBeanEditorDemoAppRunner.executor": "Run",
+    "Application.FXBeanPostalAddressGeneratorRunner.executor": "Run",
+    "Application.FXTableViewPostalAddressConfiguratorGeneratorRunner.executor": "Run",
+    "Application.FontWeight.executor": "Run",
     "Application.HierarchyDemoMainAppRunner.executor": "Run",
     "Application.MainAppRunner.executor": "Run",
+    "Application.PostalAddressManagerAppRunner.executor": "Run",
+    "Application.TableViewConfig.executor": "Run",
+    "Application.TableViewSelector.executor": "Run",
     "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
+    "Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor": "Run",
     "JUnit.BiMapTest.executor": "Run",
+    "JUnit.CircuitBreakerTest.executor": "Run",
     "JUnit.ClasspathTest.executor": "Run",
     "JUnit.ClientCompanyTest (1).executor": "Run",
     "JUnit.ClientCompanyTest.executor": "Run",
     "JUnit.ClientCompanyTest.testDelete.executor": "Debug",
+    "JUnit.ClientCompanyTest.testFindAll.executor": "Run",
     "JUnit.ClientCompanyTest.testRead.executor": "Run",
     "JUnit.ClientPostalAddressTest (1).executor": "Run",
     "JUnit.ClientPostalAddressTest.executor": "Run",
@@ -118,6 +160,7 @@
     "JUnit.SampleBiMappingTest.executor": "Run",
     "JUnit.SampleDTOTest.executor": "Run",
     "JUnit.TestAbstractRepository.executor": "Run",
+    "JUnit.TestJsonBWithMaxEncapsulationForData.executor": "Run",
     "JUnit.TestLombok.executor": "Run",
     "JUnit.TestLombok.invalidCallOfSetter.executor": "Run",
     "JUnit.TestMapStruct (1).executor": "Run",
@@ -174,7 +217,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/demo/datamodel/src/main/java/de/ruu",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/demo/server/src/main/resources/META-INF",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.lib/fx/comp/icons",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3082822",
@@ -186,40 +229,59 @@
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\icons" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\src\main\resources\de\ruu\lib\fx\comp\iconbar\add_remove" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\java\de\ruu\app\demo\client\datamodel\fx\postaladdress" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\server\src\main\resources\META-INF" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\company\jpadto-se\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\company\jpadto-se\src\test\java\de\ruu\app\datamodel\company\jpa\se" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\test\java\de\ruu\app\datamodel\postaladdress\jpa\se" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\r-uu\develop\github\r-uu\config" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\mapstruct.explore\src\main\java" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\src\main\resources\de\ruu\lib\fx\comp\iconbar\add_remove" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\src\main\java\de\ruu\lib\fx\comp\iconbar\add_remove" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\resources\de\ruu\app\demo\client\datamodel\fx\postaladdress" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\java\de\ruu\app\demo\client\datamodel\fx\postaladdress" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\test\java\de\ruu\lib\gen\java\fx\comp\empty" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.ruu.lib.util.jsonb.recursion" />
       <recent name="de.ruu.app.datamodel.company.jpa" />
       <recent name="de.ruu.app.datamodel.company.jpa.se" />
       <recent name="de.ruu.app.datamodel.company.jpadto" />
       <recent name="de.ruu.app.datamodel.postaladdress" />
-      <recent name="de.ruu.lib.mapstruct.explore.objectfactory" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="de.ruu.lib.util.jsonb" />
       <recent name="de.ruu.lib.jpa.core.mapstruct" />
       <recent name="de.ruu.lib.mapstruct.explore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.ruu.app.datamodel.company.jpa.ee" />
-      <recent name="de.ruu.app.datamodel.company.jpa" />
-      <recent name="de.ruu.app.datamodel.postaladdress.jpa.se" />
+      <recent name="de.ruu.lib.util.jsonb" />
+      <recent name="de.ruu.lib.fx.css" />
+      <recent name="de.ruu.lib.gen.java.fx.comp.generator.runner" />
       <recent name="de.ruu.app.demo.client.datamodel.fx.postaladdress" />
-      <recent name="de.ruu.app.demo.client.datamodel.rs.postaladdress" />
+      <recent name="de.ruu.app.datamodel.company.jpa.ee" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ClientPostalAddressTest">
-    <configuration name="ClientCompanyTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CircuitBreakerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.lib-util" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.lib.util.jsonb.recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.lib.util.jsonb.recursion" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.util.jsonb.recursion.CircuitBreakerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientCompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-demo-client" />
       <extension name="coverage">
         <pattern>
@@ -234,17 +296,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientCompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientCompanyTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-demo-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.rs.company.*" />
+          <option name="PATTERN" value="de.ruu.app.demo.client.datamodel.rs.company.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.demo.client.rs.company" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.rs.company.ClientCompanyTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="de.ruu.app.demo.client.datamodel.rs.company" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.datamodel.rs.company.ClientCompanyTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -264,31 +327,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-datamodel-company-jpadto-se" />
+    <configuration name="TestJsonBWithMaxEncapsulationForData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.lib-util" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.datamodel.company.jpa.se.*" />
+          <option name="PATTERN" value="de.ruu.lib.util.jsonb.recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.company.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.company.jpa.se.CompanyServiceJPASETest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostalAddressServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-datamodel-postaladdress-jpadto-se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.datamodel.postaladdress.jpa.se.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se.PostalAddressServiceJPASETest" />
+      <option name="PACKAGE_NAME" value="de.ruu.lib.util.jsonb" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.util.jsonb.TestJsonBWithMaxEncapsulationForData" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -308,20 +356,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.ClientCompanyTest (1)" />
-      <item itemvalue="JUnit.CompanyServiceJPASETest" />
+      <item itemvalue="JUnit.CircuitBreakerTest" />
       <item itemvalue="JUnit.ClientCompanyTest" />
+      <item itemvalue="JUnit.ClientCompanyTest.testFindAll" />
       <item itemvalue="JUnit.ClientPostalAddressTest" />
-      <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
+      <item itemvalue="JUnit.TestJsonBWithMaxEncapsulationForData" />
       <item itemvalue="Remote JVM Debug.liberty" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ClientPostalAddressTest" />
-        <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
-        <item itemvalue="JUnit.ClientCompanyTest (1)" />
-        <item itemvalue="JUnit.CompanyServiceJPASETest" />
+        <item itemvalue="JUnit.TestJsonBWithMaxEncapsulationForData" />
         <item itemvalue="JUnit.ClientCompanyTest" />
+        <item itemvalue="JUnit.CircuitBreakerTest" />
+        <item itemvalue="JUnit.ClientCompanyTest.testFindAll" />
       </list>
     </recent_temporary>
   </component>
