@@ -5,56 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/CheckUpdates.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/ImageCreation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/MavenProject.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/PMD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/QuickStart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/SpotBugs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/StaticCodeAnalysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/de/_Index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/CheckUpdates.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/ImageCreation.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/MavenProject.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/PMD.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/QuickStart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/SpotBugs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/StaticCodeAnalysis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/documentation/en/_Index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/pmd-ruleset.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/java/de/ruu/app/jfx_exe_min_2/JavaFXApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/java/de/ruu/app/jfx_exe_min_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/java/de/ruu/app/jfx_exe_min_2/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/resources/de/ruu/app/jfx_exe_min_2/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-jpackage-panteleyev/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client-jpackage-panteleyev/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/nbactions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/pmd-ruleset.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/src/main/java/de/ruu/app/demo/client/executable/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/src/main/java/de/ruu/app/demo/client/executable/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/src/main/java/de/ruu/app/demo/client/executable/SystemInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-jpackage-panteleyev/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressManagerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressManagerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_1/JavaFXApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_2/JavaFXApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_1/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/de/ruu/app/jfx_exe_min_2/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/resources/de/ruu/app/jfx_exe_min_1/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/src/main/resources/de/ruu/app/jfx_exe_min_2/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_1/JavaFXApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_2/JavaFXApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_1/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java/de/ruu/app/jfx_exe_min_2/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/resources/de/ruu/app/jfx_exe_min_1/MainWindow.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/resources/de/ruu/app/jfx_exe_min_2/MainWindow.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/TableRefresherJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/app/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/md/lib/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +47,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -102,6 +73,7 @@
     "Application.ComponentIconbarAddRemoveGeneratorRunner.executor": "Run",
     "Application.Demo.executor": "Run",
     "Application.DemoClientDataModelFXPostalAddressGeneratorRunner.executor": "Run",
+    "Application.EditableComboBoxTestRunner.executor": "Run",
     "Application.EmptyAppRunner.executor": "Run",
     "Application.EnsembleApp.executor": "Run",
     "Application.FXBeanEditorDemoAppRunner.executor": "Run",
@@ -116,6 +88,7 @@
     "Application.TableViewSelector.executor": "Run",
     "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
     "Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor": "Run",
+    "Application.demo-client-debug.executor": "Run",
     "JUnit.BiMapTest.executor": "Run",
     "JUnit.CircuitBreakerTest.executor": "Run",
     "JUnit.ClasspathTest.executor": "Run",
@@ -163,7 +136,14 @@
     "Maven.demo-client [javafx:jlink].executor": "Run",
     "Maven.demo-client [javafx:run].executor": "Run",
     "Maven.demo-client [jpackage-panteleyev].executor": "Run",
+    "Maven.demo-client-debug [javafx:run@debug].executor": "Run",
     "Maven.demo-client-debug [javafx:run].executor": "Run",
+    "Maven.demo-client-executable [javafx:run].executor": "Run",
+    "Maven.demo-client-executable-run [javafx:run].executor": "Run",
+    "Maven.demo-client-run [javafx:run@run].executor": "Run",
+    "Maven.demo-client-run [javafx:run].executor": "Run",
+    "Maven.postal-address-manager-maven-image.executor": "Run",
+    "Maven.postal-address-manager-maven-start-and-build-native-image.executor": "Run",
     "Maven.r-uu [clean,install].executor": "Run",
     "Maven.r-uu [clean].executor": "Run",
     "Maven.r-uu [compile].executor": "Run",
@@ -180,6 +160,7 @@
     "Maven.r-uu.app-demo [clean,install].executor": "Run",
     "Maven.r-uu.app-demo-client [clean,install].executor": "Run",
     "Maven.r-uu.app-demo-client [install].executor": "Run",
+    "Maven.r-uu.app-demo-client [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
     "Maven.r-uu.app-demo-client-executable [clean...].executor": "Run",
     "Maven.r-uu.app-demo-client-executable [clean].executor": "Run",
     "Maven.r-uu.app-demo-client-executable [install].executor": "Run",
@@ -187,6 +168,8 @@
     "Maven.r-uu.app-demo-client-executable [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean...].executor": "Run",
     "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor": "Run",
     "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "Maven.r-uu.app-demo-client-executable-jpackage-maven [javafx:run].executor": "Debug",
+    "Maven.r-uu.app-demo-client-executable-jpackage-maven [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
     "Maven.r-uu.app-demo-client-jpackage-panteleyev [clean...].executor": "Run",
     "Maven.r-uu.app-demo-client-jpackage-panteleyev [org.panteleyev:jpackage-maven-plugin:1.6.4:jpackage].executor": "Run",
     "Maven.r-uu.app-demo-common [clean,install].executor": "Run",
@@ -218,6 +201,7 @@
     "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
     "Maven.r-uu.lib-mapstruct-explore [install].executor": "Run",
     "Maven.r-uu.lib-util [clean,install].executor": "Run",
+    "Remote JVM Debug.debug-remote-8000.executor": "Debug",
     "Remote JVM Debug.demo-client-debug-remote.executor": "Debug",
     "Remote JVM Debug.liberty.executor": "Debug",
     "Remote JVM Debug.postal address manager.executor": "Debug",
@@ -228,7 +212,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/datamodel/company/jpadto/src/test/java/de/ruu/app/datamodel/company",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/demo/client-executable-jpackage-maven",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3082822",
@@ -276,13 +260,13 @@
       <recent name="de.ruu.lib.jsonb.demo.creator2" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.demo-client [jpackage-panteleyev]">
-    <configuration name="demo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.executable.Demo" />
-      <module name="r-uu.app-demo-client-executable" />
+  <component name="RunManager" selected="Application.EditableComboBoxTestRunner">
+    <configuration name="EditableComboBoxTestRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.EditableComboBoxTestRunner" />
+      <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.executable.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.control.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,10 +274,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postalAddressManagerAppRunner" type="Application" factoryName="Application" temporary="true">
+    <configuration name="postal-address-manager" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.datamodel.fx.postaladdress.PostalAddressManagerAppRunner" />
       <module name="r-uu.app-demo-client" />
-      <option name="PROGRAM_PARAMETERS" value="--add-reads de.ruu.lib.fx.comp=ALL-UNNAMED" />
+      <option name="VM_PARAMETERS" value="--add-reads de.ruu.lib.fx.comp=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.ruu.app.demo.client.datamodel.fx.postaladdress.*" />
@@ -304,39 +288,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientPostalAddressTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-demo-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.datamodel.rs.postaladdress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.demo.client.datamodel.rs.postaladdress" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.datamodel.rs.postaladdress.ClientPostalAddressTest" />
-      <option name="METHOD_NAME" value="testCreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="postal-address-manager-maven-image" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map>
+                <entry key="image" value="true" />
+              </map>
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="ClientPostalAddressTest.testRead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-demo-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.demo.client.datamodel.rs.postaladdress.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.demo.client.datamodel.rs.postaladdress" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.demo.client.datamodel.rs.postaladdress.ClientPostalAddressTest" />
-      <option name="METHOD_NAME" value="testRead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demo-client [javafx:run]" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="postal-address-manager-maven-start" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
         <option name="myRunnerSettings" />
@@ -360,73 +344,13 @@
               <list />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-executable" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="demo-client [jpackage-panteleyev]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="jpackage:jpackage@win" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-jpackage-panteleyev" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="demo-client-debug [javafx:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="javafx:run@debug" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-executable" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="demo-client-debug-remote" type="Remote">
+    <configuration name="debug-remote-8000" type="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" />
@@ -453,23 +377,18 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.demo" />
-      <item itemvalue="Application.postalAddressManagerAppRunner" />
-      <item itemvalue="JUnit.ClientPostalAddressTest.testCreate" />
-      <item itemvalue="JUnit.ClientPostalAddressTest.testRead" />
-      <item itemvalue="Maven.demo-client [javafx:run]" />
-      <item itemvalue="Maven.demo-client [jpackage-panteleyev]" />
-      <item itemvalue="Maven.demo-client-debug [javafx:run]" />
-      <item itemvalue="Remote JVM Debug.demo-client-debug-remote" />
+      <item itemvalue="Application.EditableComboBoxTestRunner" />
+      <item itemvalue="Application.postal-address-manager" />
+      <item itemvalue="Maven.postal-address-manager-maven-image" />
+      <item itemvalue="Maven.postal-address-manager-maven-start" />
+      <item itemvalue="Remote JVM Debug.debug-remote-8000" />
       <item itemvalue="Remote JVM Debug.liberty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.demo-client-debug [javafx:run]" />
-        <item itemvalue="JUnit.ClientPostalAddressTest.testRead" />
-        <item itemvalue="JUnit.ClientPostalAddressTest.testCreate" />
-        <item itemvalue="Application.postalAddressManagerAppRunner" />
-        <item itemvalue="Application.demo" />
+        <item itemvalue="Application.EditableComboBoxTestRunner" />
+        <item itemvalue="Maven.postal-address-manager-maven-start" />
+        <item itemvalue="Application.postal-address-manager" />
       </list>
     </recent_temporary>
   </component>
@@ -540,6 +459,20 @@
           <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressManagerController.java</url>
           <line>110</line>
           <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressFXBean.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/edit/PostalAddressFXBeanEditorController.java</url>
+          <line>54</line>
+          <properties class="de.ruu.app.demo.client.datamodel.fx.postaladdress.edit.PostalAddressFXBeanEditorController" method="postalAddress">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/pom.xml" />
+        <option value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
