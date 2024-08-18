@@ -14,8 +14,9 @@ services:
       - ${postgres_host_port}:${postgres_container_port}
     volumes:
       - ruu_data:/var/lib/postgresql/data
-      - ./database-init/init-demo-staging.sql:/docker-entrypoint-initdb.d/init-demo-staging.sql
-      - ./database-init/init-demo-test.sql:/docker-entrypoint-initdb.d/init-demo-test.sql
+#      - ./database-init/init-demo-staging.sql:/docker-entrypoint-initdb.d/init-demo-staging.sql
+#      - ./database-init/init-demo-test.sql:/docker-entrypoint-initdb.d/init-demo-test.sql
+      - ./database-init/database-init.sql:/docker-entrypoint-initdb.d/database-init.sql
     networks:
       - ruu_network
 
