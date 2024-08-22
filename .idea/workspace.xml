@@ -5,45 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/de/ruu/app/jeee_raaa/common/Paths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/de/ruu/app/jeee_raaa/common/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/config/shell/cmd/shell-config.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/config/shell/cmd/shell.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/de/ruu/app/jeee_raaa/server/JEEE_RAAA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/de/ruu/app/jeee_raaa/server/TaskServiceNEO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/liberty/config/server.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/docker/database-init/database-init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto-se/src/test/java/de/ruu/app/datamodel/company/jpa/se/CompanyServiceJPASETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-ee/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/ee/PostalAddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/test/java/de/ruu/app/datamodel/postaladdress/jpa/se/PostalAddressServiceJPASETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestJDBCProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestJDBCProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestJDBCURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestJDBCURL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/src/test/java/de/ruu/lib/jpa/se/eclipselink/TestEntityManagerFactoryProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/src/test/java/de/ruu/lib/jpa/se/eclipselink/TestEntityManagerFactoryProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/src/test/java/de/ruu/lib/jpa/se/eclipselink/TestPersistenceUnitInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/src/test/java/de/ruu/lib/jpa/se/eclipselink/TestPersistenceUnitInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/SimpleTypeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/SimpleTypeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/test/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/TestAbstractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/test/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/TestAbstractRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/test/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/TestSimpleTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/test/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/TestSimpleTypeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/AbstractEntityManagerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/AbstractEntityManagerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/EntityManagerFactoryProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/EntityManagerFactoryProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/TestPersistenceUnitInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/TestPersistenceUnitInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/fx/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/java/de/ruu/lib/fx/demo/gantt/gantt_1/GanttChart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/java/de/ruu/lib/fx/demo/gantt/gantt_1/GanttChartSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/java/de/ruu/lib/fx/demo/gantt/gantt_2/GanttChartExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/java/de/ruu/lib/fx/demo/gantt/gantt_3/GanttChartSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/java/de/ruu/lib/fx/demo/gantt/gantt_4/BubbleChartSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/src/main/resources/GanttChart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/fx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/fx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/docker/.env" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker/database-init/init-demo-test.sql" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/database-init/init-demo-test.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/wsl/bash/.bash_aliases" beforeDir="false" afterPath="$PROJECT_DIR$/config/wsl/bash/.bash_aliases" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +34,14 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Class" />
-        <option value="module-info" />
         <option value="Interface" />
+        <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,6 +64,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BubbleChartSample.executor": "Run",
+    "Application.BubbleChartWithBars.executor": "Run",
     "Application.ButtonProperties.executor": "Run",
     "Application.CDITest.executor": "Run",
     "Application.CompanyServiceDemo.executor": "Run",
@@ -102,12 +80,20 @@
     "Application.FXBeanPostalAddressGeneratorRunner.executor": "Run",
     "Application.FXTableViewPostalAddressConfiguratorGeneratorRunner.executor": "Run",
     "Application.FontWeight.executor": "Run",
+    "Application.GanttChart.executor": "Run",
+    "Application.GanttChartBubbleChartSample.executor": "Run",
+    "Application.GanttChartExample.executor": "Run",
+    "Application.GanttChartSample.executor": "Run",
     "Application.HierarchyDemoMainAppRunner.executor": "Run",
+    "Application.HorizontalBarChartExample.executor": "Run",
     "Application.MainAppRunner.executor": "Run",
     "Application.PostalAddressManagerAppRunner.executor": "Run",
+    "Application.Runner.executor": "Run",
     "Application.TableViewConfig.executor": "Run",
     "Application.TableViewSelector.executor": "Run",
     "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
+    "Application.de.ruu.app.jeee_raaa.client.fx.GanttChartSample.executor": "Run",
+    "Application.de.ruu.app.jeee_raaa.client.fx.Runner.executor": "Run",
     "Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor": "Run",
     "Application.demo-client-debug.executor": "Run",
     "JUnit.BiMapTest.executor": "Run",
@@ -238,12 +224,12 @@
     "ignore.preview.features.used": "true",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/datamodel/company/jpadto/src/test/java/de/ruu/app/datamodel/company",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu/config/docker/database-init",
+    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/jeee-raaa/common/src/main/java/de/ruu/app/jeee_raaa",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.3082822",
-    "settings.editor.selected.configurable": "preferences.externalTools"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -252,18 +238,18 @@
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeee-raaa\client\fx\src\main\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu\config\docker\database-init" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\jpa\se.eclipselink\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\company\jpadto-se\src\test\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\jpa\se.hibernate.postgres.demo\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\demo\src\main\resources" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeee-raaa\client\fx\src\main\resources\de.ruu.app.jeee_raaa.client.fx.gantt" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeee-raaa\client\fx\src\main\java\de\ruu\app\jeee_raaa\client\fx\gantt" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeee-raaa\client\fx\src\main\java\de\ruu\app\jeee_raaa\client\fx" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\resources\de\ruu\app\demo\client\datamodel\fx\postaladdress" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\src\main\resources\de\ruu\lib\fx\comp\iconbar\add_remove" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\comp\src\main\java\de\ruu\lib\fx\comp\iconbar\add_remove" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\demo\client\src\main\java\de\ruu\app\demo\client\datamodel\fx\postaladdress" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\test\java\de\ruu\lib\gen\java\fx\comp\empty" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
@@ -288,48 +274,16 @@
       <recent name="de.ruu.lib.gen.java.fx.tableview" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PostalAddressServiceJPASETest">
-    <configuration name="CompanyServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-datamodel-company-jpadto-se" />
+  <component name="RunManager" selected="Application.GanttChartSample">
+    <configuration name="GanttChartSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.demo.gantt.gantt_1.GanttChartSample" />
+      <module name="r-uu.lib-fx-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.datamodel.company.jpa.se.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.demo.gantt.gantt_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.company.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.company.jpa.se.CompanyServiceJPASETest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostalAddressServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-datamodel-postaladdress-jpadto-se" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.datamodel.postaladdress.jpa.se.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se.PostalAddressServiceJPASETest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAbstractRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.lib-jpa-se-hibernate-postgres-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.lib.jpa.se.hibernate.postgres.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.jpa.se.hibernate.postgres.demo.TestAbstractRepository" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -393,18 +347,14 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CompanyServiceJPASETest" />
-      <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
-      <item itemvalue="JUnit.TestAbstractRepository" />
+      <item itemvalue="Application.GanttChartSample" />
       <item itemvalue="Maven.postal-address-manager-maven-image" />
       <item itemvalue="Remote JVM Debug.debug-remote-8000" />
       <item itemvalue="Remote JVM Debug.liberty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
-        <item itemvalue="JUnit.CompanyServiceJPASETest" />
-        <item itemvalue="JUnit.TestAbstractRepository" />
+        <item itemvalue="Application.GanttChartSample" />
       </list>
     </recent_temporary>
   </component>
