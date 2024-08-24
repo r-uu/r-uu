@@ -5,36 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/TaskTableView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/generate/TypeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/TestMapStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/fx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/de/ruu/app/jeee_raaa/common/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/de/ruu/app/jeee_raaa/common/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/config/shell/cmd/shell-config.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/config/shell/cmd/shell-config.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/config/shell/cmd/shell.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/config/shell/cmd/shell.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/de/ruu/app/jeee_raaa/server/JEEE_RAAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeee_raaa/server/TaskServiceREST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/de/ruu/app/jeee_raaa/server/TaskServiceNEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeee_raaa/server/TaskServiceNEO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeee-raaa/server/src/main/liberty/config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/liberty/config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
