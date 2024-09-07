@@ -21,6 +21,7 @@
         <entry key="r-uu.app-jfx-exe-min-2" value="app-jfx-exe-min-2" />
         <entry key="r-uu.lib-jsonb" value="r-uu.lib-json-b" />
         <entry key="r-uu.lib-mapstruct-explore" value="mapstruct.explore" />
+        <entry key="r-uu.lib-tree" value="r-uu.lib.tree" />
       </map>
     </option>
   </component>
