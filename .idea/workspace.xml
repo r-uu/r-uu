@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/Mapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
