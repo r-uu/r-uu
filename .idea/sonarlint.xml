@@ -17,6 +17,7 @@
         <entry key="r-uu.app-demo-datamodel" value="datamodel" />
         <entry key="r-uu.app-jeee-raaa-client-fx" value="fx" />
         <entry key="r-uu.app-jeee-raaa-common" value="common" />
+        <entry key="r-uu.app-jfx-exe-min" value="r-uu.app.jfx-exe-min" />
         <entry key="r-uu.app-jfx-exe-min-1" value="r-uu.app.jfx-exe-min" />
         <entry key="r-uu.app-jfx-exe-min-2" value="app-jfx-exe-min-2" />
         <entry key="r-uu.lib-jsonb" value="r-uu.lib-json-b" />

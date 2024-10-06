@@ -5,9 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/pom.xml" />
-        <option value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/pom.xml" />
-        <option value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -16,5 +13,5 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="23" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK" />
 </project>
