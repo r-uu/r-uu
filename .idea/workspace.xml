@@ -5,128 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/AbstractMappedBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/AbstractMappedDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/BiMappedBeanSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/BiMappedBeanTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/BiMappedFXSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/BiMappedFXTarget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskBeanAndTaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestJSONB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/doc/layered-datamodel.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/doc/layered-datamodel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/sandbox/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/sandbox/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/sandbox/TaskGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/JeeeRaaah.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/health/ApplicationLifecycleListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/health/SystemStartupCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/class.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/class.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/class_dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/interface.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/interface.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/interface_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto-se/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/company/ClientCompanyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/company/ClientCompanyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/client/src/test/java/de/ruu/app/demo/client/datamodel/rs/postaladdress/ClientPostalAddressTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/liberty/config/server.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/demo/server/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskFXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupFXBeanAndTaskGroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskFXBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TableViewConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TableViewConfigurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupFXBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditor.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/generate/TypeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/generate/TypeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupRepositoryJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupRepositoryJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskRepositoryJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskRepositoryJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/EntityManagerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/EntityManagerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASETest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStruct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskBeanAndTaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskBeanAndTaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestMapStruct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestMapStruct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Paths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/liberty/config/server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/liberty/config/server.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/add.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/add.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/add.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/add.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/add_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/add_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/edit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/edit.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/edit.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/edit.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/edit_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/edit_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/remove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/remove.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/remove.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/remove.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/remove.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/icons/remove_dark.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/icons/remove_dark.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/AbstractEntityManagerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres/src/main/java/de/ruu/lib/jpa/se/hibernate/postgres/AbstractEntityManagerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker/database-init/database-init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/database-init/database-init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker/database-init/init-demo-staging.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker/database-init/init-demo-test.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,227 +84,232 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BubbleChartSample.executor": "Run",
-    "Application.BubbleChartWithBars.executor": "Run",
-    "Application.ButtonProperties.executor": "Run",
-    "Application.CDITest.executor": "Run",
-    "Application.CompanyServiceDemo.executor": "Run",
-    "Application.ComponentIconbarAddRemoveGeneratorRunner.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.DemoAppRunner.executor": "Run",
-    "Application.DemoClientDataModelFXPostalAddressGeneratorRunner.executor": "Run",
-    "Application.EditableComboBoxTestRunner.executor": "Run",
-    "Application.EmptyAppRunner.executor": "Run",
-    "Application.EnsembleApp.executor": "Run",
-    "Application.FXBeanEditorDemoAppRunner.executor": "Run",
-    "Application.FXBeanEditorPostalAddressGeneratorRunner.executor": "Run",
-    "Application.FXBeanPostalAddressGeneratorRunner.executor": "Run",
-    "Application.FXTableViewPostalAddressConfiguratorGeneratorRunner.executor": "Run",
-    "Application.FontWeight.executor": "Run",
-    "Application.GanttChart.executor": "Run",
-    "Application.GanttChartBubbleChartSample.executor": "Run",
-    "Application.GanttChartExample.executor": "Run",
-    "Application.GanttChartSample.executor": "Run",
-    "Application.GeneratorFXCAppRunnerTest.executor": "Run",
-    "Application.HierarchyDemoMainAppRunner.executor": "Run",
-    "Application.HierarchyDemoSub1AppRunner.executor": "Run",
-    "Application.HorizontalBarChartExample.executor": "Run",
-    "Application.JavaFXApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainAppRunner.executor": "Run",
-    "Application.PostalAddressFXBeanEditorAppRunner.executor": "Run",
-    "Application.PostalAddressManagerAppRunner.executor": "Run",
-    "Application.RUUFXDemoComponentMainAppRunner.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.TableViewConfig.executor": "Run",
-    "Application.TableViewSelector.executor": "Run",
-    "Application.TaskEditorAppRunner.executor": "Run",
-    "Application.TaskGroupEditorRunner.executor": "Run",
-    "Application.TaskGroupManagementAppRunner.executor": "Debug",
-    "Application.TaskViewAppRunner.executor": "Run",
-    "Application.TypeGenerator.executor": "Debug",
-    "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
-    "Application.de.ruu.app.jeee_raaa.client.fx.GanttChartSample.executor": "Run",
-    "Application.de.ruu.app.jeee_raaa.client.fx.Runner.executor": "Run",
-    "Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor": "Run",
-    "Application.demo-client-debug.executor": "Run",
-    "Application.jeeeraah client runner.executor": "Run",
-    "JUnit.BiMapTest.executor": "Run",
-    "JUnit.CircuitBreakerTest.executor": "Run",
-    "JUnit.ClasspathTest.executor": "Run",
-    "JUnit.ClientCompanyTest (1).executor": "Run",
-    "JUnit.ClientCompanyTest.executor": "Run",
-    "JUnit.ClientCompanyTest.testCreate.executor": "Run",
-    "JUnit.ClientCompanyTest.testDelete.executor": "Debug",
-    "JUnit.ClientCompanyTest.testFindAll.executor": "Run",
-    "JUnit.ClientCompanyTest.testFindWithDepartments.executor": "Run",
-    "JUnit.ClientCompanyTest.testRead.executor": "Run",
-    "JUnit.ClientPostalAddressTest (1).executor": "Run",
-    "JUnit.ClientPostalAddressTest.executor": "Run",
-    "JUnit.ClientPostalAddressTest.testCreate.executor": "Run",
-    "JUnit.ClientPostalAddressTest.testRead.executor": "Debug",
-    "JUnit.CompanyServiceJPASETest.executor": "Run",
-    "JUnit.DTOEntityTest.executor": "Run",
-    "JUnit.FXBeanGeneratorTest.executor": "Run",
-    "JUnit.FamilyMappingTest.executor": "Run",
-    "JUnit.MapperAsInterfaceTest (1).executor": "Run",
-    "JUnit.MapperAsInterfaceTest.executor": "Run",
-    "JUnit.MapperTest (1).executor": "Run",
-    "JUnit.MapperTest.executor": "Run",
-    "JUnit.PostalAddressServiceJPASETest.executor": "Run",
-    "JUnit.SampleBiMappingCyclicTest (1).executor": "Run",
-    "JUnit.SampleBiMappingCyclicTest.executor": "Run",
-    "JUnit.SampleBiMappingTest (1).executor": "Run",
-    "JUnit.SampleBiMappingTest.executor": "Run",
-    "JUnit.SampleDTOTest.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.testCreate.executor": "Run",
-    "JUnit.TestAbstractRepository.executor": "Run",
-    "JUnit.TestDataSourceFactory.executor": "Run",
-    "JUnit.TestDataSourceFactory.testDataSourceFactory.executor": "Run",
-    "JUnit.TestJsonB.executor": "Run",
-    "JUnit.TestJsonBWithCreator (1).executor": "Run",
-    "JUnit.TestJsonBWithCreator.executor": "Run",
-    "JUnit.TestJsonBWithCreator.fromJson.executor": "Run",
-    "JUnit.TestJsonBWithCreator.toJson.executor": "Run",
-    "JUnit.TestJsonBWithMaxEncapsulationForData.executor": "Run",
-    "JUnit.TestLombok.executor": "Run",
-    "JUnit.TestLombok.invalidCallOfSetter.executor": "Run",
-    "JUnit.TestMapStruct (1).executor": "Debug",
-    "JUnit.TestMapStruct.executor": "Run",
-    "JUnit.TestMapStruct.mapValidDepartmentDTOWithEmployees.executor": "Run",
-    "JUnit.TestMapStruct.test.executor": "Run",
-    "JUnit.TestMapStruct.testDTOWithNonSelfParent.executor": "Run",
-    "JUnit.TestMapStruct.testDTOWithSelfParent.executor": "Run",
-    "JUnit.TestMapStruct.testStandaloneDTO.executor": "Run",
-    "JUnit.TestMapStruct.testStandaloneEntity.executor": "Run",
-    "JUnit.TestMapStructGenericMapper.executor": "Run",
-    "JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.executor": "Run",
-    "JUnit.TestMapstructWithLombokForBinaryTree.executor": "Run",
-    "JUnit.TestRoot.executor": "Run",
-    "JUnit.TestSimpleTypeService.executor": "Run",
-    "JUnit.TestSimpleTypeService.testSimpleTypeService.executor": "Debug",
-    "JUnit.TestTree.executor": "Run",
-    "JUnit.bimappable in r-uu.lib-util.executor": "Run",
-    "JUnit.cyclic in r-uu.lib-util.executor": "Run",
-    "JUnit.simple in r-uu.lib-util.executor": "Run",
-    "Maven.demo-client [javafx:jlink].executor": "Run",
-    "Maven.demo-client [javafx:run].executor": "Run",
-    "Maven.demo-client [jpackage-panteleyev].executor": "Run",
-    "Maven.demo-client-debug [javafx:run@debug].executor": "Run",
-    "Maven.demo-client-debug [javafx:run].executor": "Run",
-    "Maven.demo-client-executable [javafx:run].executor": "Run",
-    "Maven.demo-client-executable-run [javafx:run].executor": "Run",
-    "Maven.demo-client-run [javafx:run@run].executor": "Run",
-    "Maven.demo-client-run [javafx:run].executor": "Run",
-    "Maven.postal-address-manager-maven-image.executor": "Run",
-    "Maven.postal-address-manager-maven-start-and-build-native-image.executor": "Run",
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [clean].executor": "Run",
-    "Maven.r-uu [compile].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu [package].executor": "Run",
-    "Maven.r-uu [test].executor": "Run",
-    "Maven.r-uu.app [install].executor": "Run",
-    "Maven.r-uu.app-datamodel [clean,install].executor": "Run",
-    "Maven.r-uu.app-datamodel [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-company-common [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-ee [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [install].executor": "Run",
-    "Maven.r-uu.app-demo [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-client [install].executor": "Run",
-    "Maven.r-uu.app-demo-client [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [clean].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [install].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [javafx:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable-jpackage-maven [javafx:run].executor": "Debug",
-    "Maven.r-uu.app-demo-client-executable-jpackage-maven [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-jpackage-panteleyev [clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-jpackage-panteleyev [org.panteleyev:jpackage-maven-plugin:1.6.4:jpackage].executor": "Run",
-    "Maven.r-uu.app-demo-common [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-common [compile].executor": "Run",
-    "Maven.r-uu.app-demo-common [install].executor": "Run",
-    "Maven.r-uu.app-demo-common [package].executor": "Run",
-    "Maven.r-uu.app-demo-common [test].executor": "Run",
-    "Maven.r-uu.app-demo-server [install].executor": "Run",
-    "Maven.r-uu.app-demo-server [test].executor": "Run",
-    "Maven.r-uu.app-jeee-raaa-common [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx-executable [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [test].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto-ee [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpa-dto [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpadto [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpadto-se [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-server [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-server [install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-1 [install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-2 [clean,install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-2 [install].executor": "Run",
-    "Maven.r-uu.app.jeeeraaah.client.fx.exe [install].executor": "Run",
-    "Maven.r-uu.app.jeeeraaah.client.fx.exe.executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [clean,install].executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [install].executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [validate].executor": "Run",
-    "Maven.r-uu.lib [clean,install].executor": "Run",
-    "Maven.r-uu.lib [install].executor": "Run",
-    "Maven.r-uu.lib-cdi-se [install].executor": "Run",
-    "Maven.r-uu.lib-fx-comp [install].executor": "Run",
-    "Maven.r-uu.lib-gen-java [install].executor": "Run",
-    "Maven.r-uu.lib-jpa [clean,install].executor": "Run",
-    "Maven.r-uu.lib-jpa [install].executor": "Run",
-    "Maven.r-uu.lib-jpa-core [clean,install].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [install].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-eclipselink [test].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [compile].executor": "Run",
-    "Maven.r-uu.lib-json-b [clean,install].executor": "Run",
-    "Maven.r-uu.lib-json-b [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct [clean,install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [install].executor": "Run",
-    "Maven.r-uu.lib-util [clean,install].executor": "Run",
-    "Maven.r-uu.maven-parent [clean,install].executor": "Run",
-    "Remote JVM Debug.debug-remote-8000.executor": "Debug",
-    "Remote JVM Debug.demo-client-debug-remote.executor": "Debug",
-    "Remote JVM Debug.liberty.executor": "Debug",
-    "Remote JVM Debug.postal address manager.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3082822",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BubbleChartSample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleChartWithBars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ButtonProperties.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CDITest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CompanyServiceDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComponentIconbarAddRemoveGeneratorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Demo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoClientDataModelFXPostalAddressGeneratorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditableComboBoxTestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmptyAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnsembleApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXBeanEditorDemoAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXBeanEditorPostalAddressGeneratorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXBeanPostalAddressGeneratorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXTableViewPostalAddressConfiguratorGeneratorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FontWeight.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChart.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChartBubbleChartSample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChartExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChartSample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GeneratorFXCAppRunnerTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyDemoMainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyDemoSub1AppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HorizontalBarChartExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaFXApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostalAddressFXBeanEditorAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostalAddressManagerAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RUUFXDemoComponentMainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TableViewConfig.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TableViewSelector.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskEditorAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupEditorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupManagementAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeGenerator.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.de.ruu.app.demo.client.fx.MainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.app.jeee_raaa.client.fx.GanttChartSample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.app.jeee_raaa.client.fx.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.demo-client-debug.executor&quot;: &quot;Run&quot;,
+    &quot;Application.jeeeraah client runner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BiMapTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CircuitBreakerTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClasspathTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest.testDelete.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.ClientCompanyTest.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest.testFindWithDepartments.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientCompanyTest.testRead.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientPostalAddressTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientPostalAddressTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientPostalAddressTest.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ClientPostalAddressTest.testRead.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CompanyServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.DTOEntityTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FXBeanGeneratorTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FamilyMappingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperAsInterfaceTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperAsInterfaceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostalAddressServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleBiMappingCyclicTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleBiMappingCyclicTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleBiMappingTest (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleBiMappingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SampleDTOTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskGroupServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskGroupServiceJPASETest.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAbstractRepository.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDataSourceFactory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDataSourceFactory.testDataSourceFactory.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonB.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithCreator (1).executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithCreator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithCreator.fromJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithCreator.toJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithMaxEncapsulationForData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestLombok.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestLombok.invalidCallOfSetter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct (1).executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestMapStruct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.mapValidDepartmentDTOWithEmployees.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.testDTOWithNonSelfParent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.testDTOWithSelfParent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.testStandaloneDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStruct.testStandaloneEntity.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructGenericMapper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithTaskBeanAndTaskDTO.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.testWithTasks.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapstructWithLombokForBinaryTree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRoot.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSimpleTypeService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestSimpleTypeService.testSimpleTypeService.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestTree.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.bimappable in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.cyclic in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.simple in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client [javafx:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client [jpackage-panteleyev].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-debug [javafx:run@debug].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-debug [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-executable [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-executable-run [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-run [javafx:run@run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.demo-client-run [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.postal-address-manager-maven-image.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.postal-address-manager-maven-start-and-build-native-image.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-company-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto-ee [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto-se [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto-se [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [javafx:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable-jpackage-maven [javafx:run].executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.r-uu.app-demo-client-executable-jpackage-maven [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-jpackage-panteleyev [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-client-jpackage-panteleyev [org.panteleyev:jpackage-maven-plugin:1.6.4:jpackage].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-common [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-common [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-common [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-common [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-demo-server [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeee-raaa-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx-executable [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto-ee [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-jpa-dto [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-jpadto [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-jpadto-se [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-server [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jfx-exe-min-1 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jfx-exe-min-2 [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jfx-exe-min-2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app.jeeeraaah.client.fx.exe [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app.jeeeraaah.client.fx.exe.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app.jfx-exe-min [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app.jfx-exe-min [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app.jfx-exe-min [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-cdi-se [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx-comp [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-gen-java [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-core [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-core-mapstruct [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-se-eclipselink [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-json-b [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-json-b [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-util [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.maven-parent [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.debug-remote-8000.executor&quot;: &quot;Debug&quot;,
+    &quot;Remote JVM Debug.demo-client-debug-remote.executor&quot;: &quot;Debug&quot;,
+    &quot;Remote JVM Debug.liberty.executor&quot;: &quot;Debug&quot;,
+    &quot;Remote JVM Debug.postal address manager.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.preview.features.used&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3082822&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="de.ruu.lib.jpa.core.mapstruct.demo.tree" />
@@ -449,7 +354,7 @@
       <recent name="de.ruu.app.jeeeraaah.client.rs" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO">
+  <component name="RunManager" selected="JUnit.TestMapStructWithTaskBeanAndTaskDTO">
     <configuration name="TaskGroupManagementAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.TaskGroupManagementAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
@@ -459,21 +364,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMapStruct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common-jpadto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpadto" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpadto.TestMapStruct" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -493,7 +383,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMapStructWithTaskGroupBeanAndTaskGroupDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestMapStructWithTaskBeanAndTaskDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-client-fx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithTaskBeanAndTaskDTO" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapStructWithTaskGroupBeanAndTaskGroupDTO.testWithTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
@@ -503,23 +408,31 @@
       </extension>
       <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithTaskGroupBeanAndTaskGroupDTO" />
+      <option name="METHOD_NAME" value="testWithTasks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-client-fx" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMapStruct.testStandaloneDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common-jpadto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpadto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpadto" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpadto.TestMapStruct" />
-      <option name="METHOD_NAME" value="testStandaloneDTO" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="mapstruct in r-uu.app-jeeeraaah-client-fx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-client-fx" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -692,10 +605,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.TaskGroupManagementAppRunner" />
-      <item itemvalue="JUnit.TestMapStruct (1)" />
-      <item itemvalue="JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO" />
-      <item itemvalue="JUnit.TestMapStruct.testStandaloneDTO" />
       <item itemvalue="JUnit.TestMapStruct" />
+      <item itemvalue="JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.testWithTasks" />
+      <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
+      <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
+      <item itemvalue="JUnit.TestMapStructWithTaskBeanAndTaskDTO" />
       <item itemvalue="Maven.postal-address-manager-maven-image" />
       <item itemvalue="Maven.r-uu.app.jfx-exe-min [install]" />
       <item itemvalue="Maven.r-uu.app.jeeeraaah.client.fx.exe [install]" />
@@ -704,11 +618,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO" />
-        <item itemvalue="JUnit.TestMapStruct (1)" />
+        <item itemvalue="JUnit.TestMapStructWithTaskBeanAndTaskDTO" />
+        <item itemvalue="JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.testWithTasks" />
         <item itemvalue="Application.TaskGroupManagementAppRunner" />
-        <item itemvalue="JUnit.TestMapStruct" />
-        <item itemvalue="JUnit.TestMapStruct.testStandaloneDTO" />
+        <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
+        <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
       </list>
     </recent_temporary>
   </component>
@@ -814,9 +728,29 @@
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStruct.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="142" />
+          <url>file://$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Mapper.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskBeanAndTaskDTO.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskBeanAndTaskDTO.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="171" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
