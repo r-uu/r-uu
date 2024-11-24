@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "r-uu",
+			"path": "."
+		},
+		{
+			"name": "r-uu.maven-parent",
+			"path": "../r-uu.maven-parent"
+		},
+		{
+			"name": "r-uu.lib",
+			"path": "../r-uu.lib"
+		},
+		{
+			"name": "r-uu.app",
+			"path": "../r-uu.app"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic",
+		"maven.view": "hierarchical"
+	}
+}
