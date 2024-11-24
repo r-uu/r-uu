@@ -4,8 +4,8 @@ import lombok.NonNull;
 
 class SimpleAbstractMappedDTO extends AbstractMappedDTO<SimpleAbstractMappedEntity>
 {
-	@Override public void beforeMapping(@NonNull SimpleAbstractMappedEntity source) { }
-	@Override public void afterMapping (@NonNull SimpleAbstractMappedEntity source) { }
+	void beforeMapping(@NonNull SimpleAbstractMappedEntity source) { }
+	void afterMapping (@NonNull SimpleAbstractMappedEntity source) { }
 
 	@Override public @NonNull SimpleAbstractMappedEntity toSource()
 	{
