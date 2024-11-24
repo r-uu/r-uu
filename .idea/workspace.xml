@@ -5,7 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_DTO_Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/PersonAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/PersonSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_DTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_TaskGroup_JPA_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_TaskGroup_JPA_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_Task_JPA_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_Task_JPA_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentTarget.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct/src/main/java/de/ruu/lib/mapstruct/BiMappedSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct/src/main/java/de/ruu/lib/mapstruct/BiMappedSource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct/src/main/java/de/ruu/lib/mapstruct/BiMappedTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct/src/main/java/de/ruu/lib/mapstruct/BiMappedTarget.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +58,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -162,7 +192,7 @@
     "JUnit.TestMapStruct.testStandaloneEntity.executor": "Run",
     "JUnit.TestMapStructGenericMapper.executor": "Run",
     "JUnit.TestMapStructWithEntityDTOAndBean.executor": "Debug",
-    "JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO.executor": "Debug",
+    "JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO.executor": "Run",
     "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
     "JUnit.TestMapStructWithTaskBeanAndTaskDTO.executor": "Run",
     "JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.executor": "Run",
@@ -175,6 +205,7 @@
     "JUnit.TestTree.executor": "Run",
     "JUnit.bimappable in r-uu.lib-util.executor": "Run",
     "JUnit.cyclic in r-uu.lib-util.executor": "Run",
+    "JUnit.java in r-uu.lib-mapstruct-explore.executor": "Run",
     "JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx.executor": "Run",
     "JUnit.simple in r-uu.lib-util.executor": "Run",
     "Maven.demo-client [javafx:jlink].executor": "Run",
@@ -330,14 +361,14 @@
       <recent name="de.ruu.lib.mapstruct.explore" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.v2" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
+      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.v2" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
       <recent name="de.ruu.app.jeeeraaah.server" />
       <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO">
+  <component name="RunManager" selected="JUnit.java in r-uu.lib-mapstruct-explore">
     <configuration name="TestMapStructWithEntityDTOAndBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
@@ -399,10 +430,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mapstruct in r-uu.app-jeeeraaah-client-fx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
+    <configuration name="java in r-uu.lib-mapstruct-explore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.lib-mapstruct-explore" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct" />
+      <dir value="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/test/java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -574,11 +605,11 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.java in r-uu.lib-mapstruct-explore" />
       <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean" />
       <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO" />
       <item itemvalue="JUnit.TestMapStructWithEntityDTOAndEntityJPA" />
       <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
-      <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
       <item itemvalue="Maven.postal-address-manager-maven-image" />
       <item itemvalue="Maven.r-uu.app.jfx-exe-min [install]" />
       <item itemvalue="Maven.r-uu.app.jeeeraaah.client.fx.exe [install]" />
@@ -587,11 +618,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.java in r-uu.lib-mapstruct-explore" />
         <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO" />
         <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean" />
         <item itemvalue="JUnit.TestMapStructWithEntityDTOAndEntityJPA" />
         <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
-        <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
       </list>
     </recent_temporary>
   </component>
@@ -628,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720765360128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="large reorganisation">
+      <option name="closed" value="true" />
+      <created>1732000030179</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732000030179</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -684,24 +723,19 @@
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/target/generated-test-sources/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperImpl.java</url>
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/target/generated-test-sources/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapTaskDTOBeanImpl.java</url>
           <line>96</line>
           <option name="timeStamp" value="186" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/target/generated-sources/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperImpl.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndBean.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="190" />
+          <line>20</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="191" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_DTO_Bean.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="194" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
