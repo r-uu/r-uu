@@ -89,8 +89,8 @@ public abstract class AbstractDTO<E extends AbstractEntity<?>> implements Entity
 	 * @param source
 	 * @throws NullPointerException if {@code source} is {@code null}
 	 */
-//	protected void mapIdAndVersion(@NonNull AbstractEntity source)
-	protected <E extends AbstractEntity> void mapIdAndVersion(@NonNull E source)
+	protected void mapIdAndVersion(@NonNull Entity<Long> source)
+//	protected <E extends AbstractEntity> void mapIdAndVersion(@NonNull E source)
 	{
 		// set fields that can not be modified from outside
 		id      = source.id();

@@ -3,7 +3,8 @@ package de.ruu.lib.mapstruct;
 import lombok.NonNull;
 
 /**
- * Interface for types that can be mapped to {@code S}.
+ * Interface for types that can be mapped to {@code S}. Instances of  {@code S} on the other hand can be mapped
+ *  * int {@link BiMappedTarget} with {@link BiMappedSource#toTarget()}.
  *
  * @param <S> {@link BiMappedSource} type
  *
@@ -11,12 +12,5 @@ import lombok.NonNull;
  */
 public interface BiMappedTarget<S extends BiMappedSource<?>>
 {
-	/**
-	 * map values from {@code input} into private / protected fields of {@code this} {@link BiMappedTarget}
-	 * @param input
-	 */
-	void beforeMapping(@NonNull S input);
-	void afterMapping (@NonNull S input);
-
 	@NonNull S toSource();
 }
