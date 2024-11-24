@@ -9,6 +9,7 @@ class SimpleAbstractMappedDTO extends AbstractMappedDTO<SimpleAbstractMappedEnti
 
 	@Override public @NonNull SimpleAbstractMappedEntity toSource()
 	{
-		return null;
+		// TODO Auto-generated method stub
+		throw new UnsupportedOperationException("Unimplemented method 'afterMapping'");
 	}
 }
