@@ -1,11 +1,9 @@
-# r-uu - github root repository
+# r-uu.lib
 
-r-uu's github root repository
+r-uu's library of potentially reusable java code
 
-- [lib](https://github.com/r-uu/r-uu.lib)
+- [FX](fx/readme.md)
 
-  r-uu's collection of reusable java code.
+  r-uu's umbrella project that offers software libraries that are designed to ease the development of major or large applications with javafx-based user interfaces.
 
-- [app](https://github.com/r-uu/r-uu.app)
-
-  r-uu's applications are mainly pocs for the library code mentioned above.
+[back](https://github.com/r-uu/r-uu)

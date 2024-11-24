@@ -3,26 +3,27 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
-        <entry key="r-uu.app-datamodel" value="datamodel" />
-        <entry key="r-uu.app-datamodel-company-common" value="common" />
-        <entry key="r-uu.app-datamodel-company-jpadto" value="jpadto" />
-        <entry key="r-uu.app-datamodel-company-jpadto-ee" value="jpadto-ee" />
-        <entry key="r-uu.app-datamodel-company-jpadto-se" value="jpadto-se" />
-        <entry key="r-uu.app-datamodel-postaladdress" value="postaladdress" />
-        <entry key="r-uu.app-datamodel-postaladdress-common" value="common" />
-        <entry key="r-uu.app-datamodel-postaladdress-jpadto" value="jpadto" />
-        <entry key="r-uu.app-datamodel-postaladdress-jpadto-ee" value="jpadto-ee" />
-        <entry key="r-uu.app-datamodel-postaladdress-jpadto-se" value="jpadto-se" />
-        <entry key="r-uu.app-demo-client-jpackage-panteleyev" value="app-demo-client-jpackage-panteleyev" />
-        <entry key="r-uu.app-demo-datamodel" value="datamodel" />
-        <entry key="r-uu.app-jeee-raaa-client-fx" value="fx" />
-        <entry key="r-uu.app-jeee-raaa-common" value="common" />
-        <entry key="r-uu.app-jfx-exe-min" value="r-uu.app.jfx-exe-min" />
-        <entry key="r-uu.app-jfx-exe-min-1" value="r-uu.app.jfx-exe-min" />
-        <entry key="r-uu.app-jfx-exe-min-2" value="app-jfx-exe-min-2" />
-        <entry key="r-uu.lib-jsonb" value="r-uu.lib-json-b" />
-        <entry key="r-uu.lib-mapstruct-explore" value="mapstruct.explore" />
-        <entry key="r-uu.lib-tree" value="r-uu.lib.tree" />
+        <entry key="r-uu.lib-archunit" value="ruu.lib.archunit" />
+        <entry key="r-uu.lib-cdi-common" value="ruu.lib.cdi.common" />
+        <entry key="r-uu.lib-cdi-se" value="ruu.lib.cdi.se" />
+        <entry key="r-uu.lib-cdi-se-demo" value="ruu.lib.cdi.se.demo" />
+        <entry key="r-uu.lib-fx-comp" value="ruu.lib.fx.comp" />
+        <entry key="r-uu.lib-fx-comp-demo" value="ruu.lib.fx.comp.demo" />
+        <entry key="r-uu.lib-fx-core" value="ruu.lib.fx.core" />
+        <entry key="r-uu.lib-fx-demo" value="ruu.lib.fx.demo" />
+        <entry key="ruu.lib.gen.core" value="ruu.lib.gen.core (1)" />
+        <entry key="ruu.lib.gen.java.core" value="ruu.lib.gen.java.core (1)" />
+        <entry key="ruu.lib.jdbc.core" value="ruu.lib.jdbc.core (1)" />
+        <entry key="ruu.lib.jdbc.postgres" value="ruu.lib.jdbc.postgres (1)" />
+        <entry key="ruu.lib.jpa.core" value="ruu.lib.jpa.core (1)" />
+        <entry key="ruu.lib.jpa.core.mapstruct" value="ruu.lib.jpa.core.mapstruct (1)" />
+        <entry key="ruu.lib.jpa.core.mapstruct.demo.bidirectional" value="ruu.lib.jpa.core.mapstruct.demo.bidirectional (1)" />
+        <entry key="ruu.lib.jpa.se" value="ruu.lib.jpa.se (1)" />
+        <entry key="ruu.lib.jpa.se.eclipselink" value="ruu.lib.jpa.se.eclipselink (1)" />
+        <entry key="ruu.lib.jpa.se.hibernate" value="ruu.lib.jpa.se.hibernate (1)" />
+        <entry key="ruu.lib.jpa.se.hibernate.postgres" value="ruu.lib.jpa.se.hibernate.postgres (1)" />
+        <entry key="ruu.lib.jpa.se.hibernate.postgres.demo" value="ruu.lib.jpa.se.hibernate.postgres.demo (1)" />
+        <entry key="ruu.lib.mapstruct" value="ruu.lib.mapstruct (1)" />
       </map>
     </option>
   </component>

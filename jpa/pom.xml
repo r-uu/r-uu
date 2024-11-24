@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>r-uu.lib-jpa</artifactId>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>r-uu</groupId>
+        <artifactId>r-uu.lib</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <modules>
+        <module>core</module>
+        <module>core.mapstruct</module>
+        <module>core.mapstruct.demo.bidirectional</module>
+        <module>se</module>
+        <!-- TODO find out why this can not be built with maven -->
+        <module>se.eclipselink</module>
+        <module>se.hibernate</module>
+        <module>se.hibernate.postgres</module>
+        <module>se.hibernate.postgres.demo</module>
+    </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>jakarta.persistence</groupId>
+            <artifactId>jakarta.persistence-api</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

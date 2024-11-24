@@ -1,29 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>r-uu</groupId>
-    <artifactId>r-uu</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.13.0</version>
-                <configuration>
-                    <showDeprecation>true</showDeprecation>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>r-uu.lib</artifactId>
+	<packaging>pom</packaging>
+	<description>root module for possibly reusable artifacts of group r-uu</description>
+
+	<parent>
+		<groupId>r-uu</groupId>
+		<artifactId>r-uu.maven-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../r-uu.maven-parent</relativePath>
+	</parent>
+
     <modules>
-        <module>../r-uu.maven-parent</module>
-        <module>../r-uu.lib</module>
-        <module>../r-uu.app/</module>
+        <module>archunit</module>
+        <module>cdi</module>
+        <module>fx</module>
+        <module>gen</module>
+        <module>jackson</module>
+        <module>jdbc</module>
+        <module>jpa</module>
+        <module>junit</module>
+        <module>mapstruct</module>
+        <module>util</module>
+        <module>mapstruct-explore</module>
+        <module>jsonb</module>
+        <module>jsonb-demo</module>
+        <module>tree</module>
     </modules>
 
 </project>
