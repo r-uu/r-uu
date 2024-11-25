@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="large reorganisation">
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractDTO.java" afterDir="false" />
+    <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,49 +21,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="Enum" />
-        <option value="module-info" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;r-uu&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "r-uu"
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/r-uu/r-uu.git&quot;,
     &quot;accountId&quot;: &quot;90c66e46-56b9-4a46-9b79-6fb618c96f25&quot;
   }
 }</component>
-  <component name="HierarchyBrowserManager">
-    <option name="SORT_ALPHABETICALLY" value="true" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 2
-}</component>
-  <component name="ProjectId" id="2iB6OTMJPyzGvn4ZaLHSnN8ciAT" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2pMK7tW2Rue8P10yPAfDLigoJkr" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenModules" value="true" />
@@ -63,652 +47,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.BubbleChartSample.executor": "Run",
-    "Application.BubbleChartWithBars.executor": "Run",
-    "Application.ButtonProperties.executor": "Run",
-    "Application.CDITest.executor": "Run",
-    "Application.CompanyServiceDemo.executor": "Run",
-    "Application.ComponentIconbarAddRemoveGeneratorRunner.executor": "Run",
-    "Application.Demo.executor": "Run",
-    "Application.DemoAppRunner.executor": "Run",
-    "Application.DemoClientDataModelFXPostalAddressGeneratorRunner.executor": "Run",
-    "Application.EditableComboBoxTestRunner.executor": "Run",
-    "Application.EmptyAppRunner.executor": "Run",
-    "Application.EnsembleApp.executor": "Run",
-    "Application.FXBeanEditorDemoAppRunner.executor": "Run",
-    "Application.FXBeanEditorPostalAddressGeneratorRunner.executor": "Run",
-    "Application.FXBeanPostalAddressGeneratorRunner.executor": "Run",
-    "Application.FXTableViewPostalAddressConfiguratorGeneratorRunner.executor": "Run",
-    "Application.FontWeight.executor": "Run",
-    "Application.GanttChart.executor": "Run",
-    "Application.GanttChartBubbleChartSample.executor": "Run",
-    "Application.GanttChartExample.executor": "Run",
-    "Application.GanttChartSample.executor": "Run",
-    "Application.GeneratorFXCAppRunnerTest.executor": "Run",
-    "Application.HierarchyDemoMainAppRunner.executor": "Run",
-    "Application.HierarchyDemoSub1AppRunner.executor": "Run",
-    "Application.HorizontalBarChartExample.executor": "Run",
-    "Application.JavaFXApp.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainAppRunner.executor": "Run",
-    "Application.PostalAddressFXBeanEditorAppRunner.executor": "Run",
-    "Application.PostalAddressManagerAppRunner.executor": "Run",
-    "Application.RUUFXDemoComponentMainAppRunner.executor": "Run",
-    "Application.Runner.executor": "Run",
-    "Application.TableViewConfig.executor": "Run",
-    "Application.TableViewSelector.executor": "Run",
-    "Application.TaskEditorAppRunner.executor": "Run",
-    "Application.TaskGroupEditorRunner.executor": "Run",
-    "Application.TaskGroupManagementAppRunner.executor": "Run",
-    "Application.TaskViewAppRunner.executor": "Run",
-    "Application.TypeGenerator.executor": "Debug",
-    "Application.de.ruu.app.demo.client.fx.MainAppRunner.executor": "Run",
-    "Application.de.ruu.app.jeee_raaa.client.fx.GanttChartSample.executor": "Run",
-    "Application.de.ruu.app.jeee_raaa.client.fx.Runner.executor": "Run",
-    "Application.de.ruu.lib.fx.comp.demo.hierarchy.HierarchyDemoMainAppRunner.executor": "Run",
-    "Application.demo-client-debug.executor": "Run",
-    "Application.jeeeraah client runner.executor": "Run",
-    "JUnit.BiMapTest.executor": "Run",
-    "JUnit.CircuitBreakerTest.executor": "Run",
-    "JUnit.ClasspathTest.executor": "Run",
-    "JUnit.ClientCompanyTest (1).executor": "Run",
-    "JUnit.ClientCompanyTest.executor": "Run",
-    "JUnit.ClientCompanyTest.testCreate.executor": "Run",
-    "JUnit.ClientCompanyTest.testDelete.executor": "Debug",
-    "JUnit.ClientCompanyTest.testFindAll.executor": "Run",
-    "JUnit.ClientCompanyTest.testFindWithDepartments.executor": "Run",
-    "JUnit.ClientCompanyTest.testRead.executor": "Run",
-    "JUnit.ClientPostalAddressTest (1).executor": "Run",
-    "JUnit.ClientPostalAddressTest.executor": "Run",
-    "JUnit.ClientPostalAddressTest.testCreate.executor": "Run",
-    "JUnit.ClientPostalAddressTest.testRead.executor": "Debug",
-    "JUnit.CompanyServiceJPASETest.executor": "Run",
-    "JUnit.DTOEntityTest.executor": "Run",
-    "JUnit.FXBeanGeneratorTest.executor": "Run",
-    "JUnit.FamilyMappingTest.executor": "Run",
-    "JUnit.MapperAsInterfaceTest (1).executor": "Run",
-    "JUnit.MapperAsInterfaceTest.executor": "Run",
-    "JUnit.MapperTest (1).executor": "Run",
-    "JUnit.MapperTest.executor": "Run",
-    "JUnit.PostalAddressServiceJPASETest.executor": "Run",
-    "JUnit.SampleBiMappingCyclicTest (1).executor": "Run",
-    "JUnit.SampleBiMappingCyclicTest.executor": "Run",
-    "JUnit.SampleBiMappingTest (1).executor": "Run",
-    "JUnit.SampleBiMappingTest.executor": "Run",
-    "JUnit.SampleDTOTest.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.testCreate.executor": "Run",
-    "JUnit.TestAbstractRepository.executor": "Run",
-    "JUnit.TestDataSourceFactory.executor": "Run",
-    "JUnit.TestDataSourceFactory.testDataSourceFactory.executor": "Run",
-    "JUnit.TestJsonB.executor": "Run",
-    "JUnit.TestJsonBWithCreator (1).executor": "Run",
-    "JUnit.TestJsonBWithCreator.executor": "Run",
-    "JUnit.TestJsonBWithCreator.fromJson.executor": "Run",
-    "JUnit.TestJsonBWithCreator.toJson.executor": "Run",
-    "JUnit.TestJsonBWithMaxEncapsulationForData.executor": "Run",
-    "JUnit.TestLombok.executor": "Run",
-    "JUnit.TestLombok.invalidCallOfSetter.executor": "Run",
-    "JUnit.TestMapStruct (1).executor": "Debug",
-    "JUnit.TestMapStruct.executor": "Run",
-    "JUnit.TestMapStruct.mapValidDepartmentDTOWithEmployees.executor": "Run",
-    "JUnit.TestMapStruct.test.executor": "Run",
-    "JUnit.TestMapStruct.testDTOWithNonSelfParent.executor": "Run",
-    "JUnit.TestMapStruct.testDTOWithSelfParent.executor": "Run",
-    "JUnit.TestMapStruct.testStandaloneDTO.executor": "Run",
-    "JUnit.TestMapStruct.testStandaloneEntity.executor": "Run",
-    "JUnit.TestMapStructGenericMapper.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndBean.executor": "Debug",
-    "JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO.executor": "Debug",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
-    "JUnit.TestMapStructWithTaskBeanAndTaskDTO.executor": "Run",
-    "JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.executor": "Run",
-    "JUnit.TestMapStructWithTaskGroupBeanAndTaskGroupDTO.testWithTasks.executor": "Debug",
-    "JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean.executor": "Run",
-    "JUnit.TestMapstructWithLombokForBinaryTree.executor": "Run",
-    "JUnit.TestRoot.executor": "Run",
-    "JUnit.TestSimpleTypeService.executor": "Run",
-    "JUnit.TestSimpleTypeService.testSimpleTypeService.executor": "Debug",
-    "JUnit.TestTree.executor": "Run",
-    "JUnit.bimappable in r-uu.lib-util.executor": "Run",
-    "JUnit.cyclic in r-uu.lib-util.executor": "Run",
-    "JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx.executor": "Run",
-    "JUnit.simple in r-uu.lib-util.executor": "Run",
-    "Maven.demo-client [javafx:jlink].executor": "Run",
-    "Maven.demo-client [javafx:run].executor": "Run",
-    "Maven.demo-client [jpackage-panteleyev].executor": "Run",
-    "Maven.demo-client-debug [javafx:run@debug].executor": "Run",
-    "Maven.demo-client-debug [javafx:run].executor": "Run",
-    "Maven.demo-client-executable [javafx:run].executor": "Run",
-    "Maven.demo-client-executable-run [javafx:run].executor": "Run",
-    "Maven.demo-client-run [javafx:run@run].executor": "Run",
-    "Maven.demo-client-run [javafx:run].executor": "Run",
-    "Maven.postal-address-manager-maven-image.executor": "Run",
-    "Maven.postal-address-manager-maven-start-and-build-native-image.executor": "Run",
     "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [clean].executor": "Run",
-    "Maven.r-uu [compile].executor": "Run",
     "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu [package].executor": "Run",
-    "Maven.r-uu [test].executor": "Run",
-    "Maven.r-uu.app [install].executor": "Run",
-    "Maven.r-uu.app-datamodel [clean,install].executor": "Run",
-    "Maven.r-uu.app-datamodel [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-company-common [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-ee [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [clean...].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [install].executor": "Run",
-    "Maven.r-uu.app-demo [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-client [install].executor": "Run",
-    "Maven.r-uu.app-demo-client [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [clean].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [install].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [javafx:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.apache.maven.plugins:maven-clean-plugin:3.4.0:clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:jlink].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-executable-jpackage-maven [javafx:run].executor": "Debug",
-    "Maven.r-uu.app-demo-client-executable-jpackage-maven [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "Maven.r-uu.app-demo-client-jpackage-panteleyev [clean...].executor": "Run",
-    "Maven.r-uu.app-demo-client-jpackage-panteleyev [org.panteleyev:jpackage-maven-plugin:1.6.4:jpackage].executor": "Run",
-    "Maven.r-uu.app-demo-common [clean,install].executor": "Run",
-    "Maven.r-uu.app-demo-common [compile].executor": "Run",
-    "Maven.r-uu.app-demo-common [install].executor": "Run",
-    "Maven.r-uu.app-demo-common [package].executor": "Run",
-    "Maven.r-uu.app-demo-common [test].executor": "Run",
-    "Maven.r-uu.app-demo-server [install].executor": "Run",
-    "Maven.r-uu.app-demo-server [test].executor": "Run",
-    "Maven.r-uu.app-jeee-raaa-common [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx-executable [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [test].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto-ee [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpa-dto [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpadto [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-jpadto-se [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-server [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-server [install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-1 [install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-2 [clean,install].executor": "Run",
-    "Maven.r-uu.app-jfx-exe-min-2 [install].executor": "Run",
-    "Maven.r-uu.app.jeeeraaah.client.fx.exe [install].executor": "Run",
-    "Maven.r-uu.app.jeeeraaah.client.fx.exe.executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [clean,install].executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [install].executor": "Run",
-    "Maven.r-uu.app.jfx-exe-min [validate].executor": "Run",
-    "Maven.r-uu.lib [clean,install].executor": "Run",
-    "Maven.r-uu.lib [install].executor": "Run",
-    "Maven.r-uu.lib-cdi-se [install].executor": "Run",
-    "Maven.r-uu.lib-fx-comp [install].executor": "Run",
-    "Maven.r-uu.lib-gen-java [install].executor": "Run",
-    "Maven.r-uu.lib-jpa [clean,install].executor": "Run",
-    "Maven.r-uu.lib-jpa [install].executor": "Run",
-    "Maven.r-uu.lib-jpa-core [clean,install].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-core-mapstruct-demo-bidirectional [install].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-eclipselink [test].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [clean...].executor": "Run",
-    "Maven.r-uu.lib-jpa-se-hibernate-postgres-demo [compile].executor": "Run",
-    "Maven.r-uu.lib-json-b [clean,install].executor": "Run",
-    "Maven.r-uu.lib-json-b [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct [clean,install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [install].executor": "Run",
-    "Maven.r-uu.lib-util [clean,install].executor": "Run",
-    "Maven.r-uu.maven-parent [clean,install].executor": "Run",
-    "Remote JVM Debug.debug-remote-8000.executor": "Debug",
-    "Remote JVM Debug.demo-client-debug-remote.executor": "Debug",
-    "Remote JVM Debug.liberty.executor": "Debug",
-    "Remote JVM Debug.postal address manager.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.preview.features.used": "true",
-    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/v2",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3082822",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="de.ruu.lib.jpa.core.mapstruct.demo.tree" />
-      <recent name="de.ruu.app.jeeeraaah.common" />
-      <recent name="de.ruu.app.jeee_raaa.server" />
-      <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\taskgroup\mapstruct\v2" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\taskgroup\mapstruct" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\icons" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\server\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\datamodel\postaladdress\jpadto-se\src\test\resources" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\icons" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\taskgroup\editor" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\editor" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\editor" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="de.ruu.lib.jpa.se.hibernate.postgres.demo" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup" />
-      <recent name="" />
-    </key>
-    <key name="MoveInnerDialog.RECENTS_KEY">
-      <recent name="de.ruu.lib.util.jsonb" />
-      <recent name="de.ruu.lib.jpa.core.mapstruct" />
-      <recent name="de.ruu.lib.mapstruct.explore" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.v2" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
-      <recent name="de.ruu.app.jeeeraaah.server" />
-      <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO">
-    <configuration name="TestMapStructWithEntityDTOAndBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithEntityDTOAndBean" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMapStructWithEntityDTOAndBean.testStandaloneDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithEntityDTOAndBean" />
-      <option name="METHOD_NAME" value="testStandaloneDTO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMapStructWithEntityDTOAndEntityJPA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common-jpadto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpadto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpadto" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpadto.TestMapStructWithEntityDTOAndEntityJPA" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="mapstruct in r-uu.app-jeeeraaah-client-fx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="r-uu.lib-fx" />
+      <module name="r-uu.app-demo-common-jpa-se" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="r-uu.lib-fx" />
+      <module name="r-uu.app-demo-common-jpa-se" />
       <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="postal-address-manager-maven-image" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map>
-                <entry key="image" value="true" />
-              </map>
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
       <method v="2" />
     </configuration>
-    <configuration name="r-uu.app.jeeeraaah.client.fx.exe [install]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="#USE_PROJECT_JDK" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="install" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map>
-                <entry key="image" value="true" />
-              </map>
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="r-uu.app.jfx-exe-min [install]" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings">
-          <MavenRunnerSettings>
-            <option name="delegateBuildToMaven" value="false" />
-            <option name="environmentProperties">
-              <map />
-            </option>
-            <option name="jreName" value="#USE_PROJECT_JDK" />
-            <option name="mavenProperties">
-              <map />
-            </option>
-            <option name="passParentEnv" value="true" />
-            <option name="runMavenInBackground" value="true" />
-            <option name="skipTests" value="false" />
-            <option name="vmOptions" value="" />
-          </MavenRunnerSettings>
-        </option>
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="install" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map>
-                <entry key="image" value="true" />
-              </map>
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../r-uu.app/jfx-exe-min" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="debug-remote-8000" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="8000" />
-      <option name="AUTO_RESTART" value="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="8000" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2" />
-    </configuration>
-    <configuration name="liberty" type="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="7777" />
-      <option name="AUTO_RESTART" value="false" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="7777" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean" />
-      <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO" />
-      <item itemvalue="JUnit.TestMapStructWithEntityDTOAndEntityJPA" />
-      <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
-      <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
-      <item itemvalue="Maven.postal-address-manager-maven-image" />
-      <item itemvalue="Maven.r-uu.app.jfx-exe-min [install]" />
-      <item itemvalue="Maven.r-uu.app.jeeeraaah.client.fx.exe [install]" />
-      <item itemvalue="Remote JVM Debug.debug-remote-8000" />
-      <item itemvalue="Remote JVM Debug.liberty" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean.testStandaloneDTO" />
-        <item itemvalue="JUnit.TestMapStructWithEntityDTOAndBean" />
-        <item itemvalue="JUnit.TestMapStructWithEntityDTOAndEntityJPA" />
-        <item itemvalue="JUnit.TestMapStructWithTaskGroupFXBeanAndTaskGroupBean" />
-        <item itemvalue="JUnit.mapstruct in r-uu.app-jeeeraaah-client-fx" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9bb4f72-2e5c-4cd0-ba51-7be42a5a72e9" name="Changes" comment="" />
-      <created>1718951591686</created>
+      <changelist id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="" />
+      <created>1732570339552</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718951591686</updated>
+      <updated>1732570339552</updated>
     </task>
-    <task id="LOCAL-00001" summary="large reorganisation">
-      <option name="closed" value="true" />
-      <created>1720021413021</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720021413021</updated>
-    </task>
-    <task id="LOCAL-00002" summary="large reorganisation">
-      <option name="closed" value="true" />
-      <created>1720159849399</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1720159849400</updated>
-    </task>
-    <task id="LOCAL-00003" summary="large reorganisation">
-      <option name="closed" value="true" />
-      <created>1720765360128</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1720765360128</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="large reorganisation" />
-    <option name="LAST_COMMIT_MESSAGE" value="large reorganisation" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="74" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpadto/Mapper.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/json-b/src/test/java/de/ruu/lib/jsonb/creator/Parent.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="76" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressManagerController.java</url>
-          <line>110</line>
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/demo/client/src/main/java/de/ruu/app/demo/client/datamodel/fx/postaladdress/PostalAddressFXBean.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="102" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/gen/java/fx/tableview/src/main/java/de/ruu/lib/gen/java/fx/tableview/GeneratorFXTableViewConfigurator.java</url>
-          <line>273</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/main/java/de/ruu/lib/jpa/se/hibernate/EntityManagerFactoryProducer.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate.postgres.demo/src/test/java/de/ruu/lib/jpa/se/hibernate/postgres/demo/TestSimpleTypeService.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="124" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Mapper.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="160" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/target/generated-test-sources/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperImpl.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/target/generated-sources/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperImpl.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndBean.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Mapper.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/r_uu$TaskEditorAppRunner.ic" NAME="TaskEditorAppRunner Coverage Results" MODIFIED="1728113058188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
-      <FILTER>de.ruu.app.jeeeraaah.client.fx.task.editor.*</FILTER>
-    </SUITE>
   </component>
 </project>
