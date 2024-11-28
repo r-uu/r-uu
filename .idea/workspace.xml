@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/TestMapstruct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/DepartmentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/bidirectional/EmployeeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/AbstractMappedNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/AbstractMappedNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/SimpleAbstractMappedDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/SimpleMappedDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/SimpleAbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/test/java/de/ruu/lib/jpa/core/mapstruct/SimpleMappedEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,24 +28,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "r-uu"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;r-uu&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/r-uu/r-uu.git&quot;,
     &quot;accountId&quot;: &quot;90c66e46-56b9-4a46-9b79-6fb618c96f25&quot;
   }
 }</component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2pMK7tW2Rue8P10yPAfDLigoJkr" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
@@ -49,17 +63,22 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.lib.jpa.core.mapstruct" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="r-uu.app-demo-common-jpa-se" />
