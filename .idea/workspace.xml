@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Map_Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/CompanyDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/DepartmentDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/dto/DepartmentDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/CompanyEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/company/jpadto/src/main/java/de/ruu/app/datamodel/company/jpa/DepartmentEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/dto/PostalAddressDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpa/PostalAddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/datamodel/postaladdress/jpadto/src/main/java/de/ruu/app/datamodel/postaladdress/jpadto/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct.demo.bidirectional/src/main/java/de/ruu/lib/jpa/core/mapstruct/demo/tree/NodeSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ChildTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/Map_Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentTarget.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/de/ruu/lib/mapstruct/explore/objectfactory/ParentTarget.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/test/java/de/ruu/lib/mapstruct/explore/objectfactory/MapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/mapstruct-explore/src/test/java/de/ruu/lib/mapstruct/explore/objectfactory/MapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,21 +52,21 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MapperTest.executor": "Run",
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="de.ruu.lib.mapstruct.explore.objectfactory" />
