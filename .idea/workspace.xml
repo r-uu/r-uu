@@ -5,31 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_Bean_FXBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_EntityDTO_DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/ObjectFactories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMappingTaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMappingTaskGroupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_Bean_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_DTO_EntityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_FXBean_Bean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_Bean_FXBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_DTO_Bean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_EntityDTO_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_DTO_Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/MapperFX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_TaskGroup_Bean_FXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/Map_Task_Bean_FXBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TaskGroupFXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithEntityDTOAndDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupBeanAndTaskGroupDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/mapstruct/TestMapStructWithTaskGroupFXBeanAndTaskGroupBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_Task_JPA_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/Map_Task_JPA_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core.mapstruct/src/main/java/de/ruu/lib/jpa/core/mapstruct/AbstractMappedEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -72,30 +57,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MapperTest.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Debug",
-    "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
-    "JUnit.TestMappingTaskGroupDTO.executor": "Run",
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMappingTaskGroupDTO.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
