@@ -45,3 +45,4 @@ build/
 *.env
 microprofile-config.properties
 /src/gen/
+/.idea
