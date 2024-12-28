@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskGroupBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskGroupRootTreeItems.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/Time.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/TimeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/test/java/de/ruu/lib/util/TimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewCellValueFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/FXComponentBundleGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementAppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/chatgpt/GanttChartChatGPT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewAppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskTreeTableViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/gantt/ruu/treetable/TaskUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/gantt/ruu/treetable/TaskTreeTableView.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/gantt/ruu/treetable/TaskTreeTableView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/gantt/ruu/treetable/FXComponentBundleGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/task/FXComponentBundleGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +36,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,60 +78,65 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GanttChartChatGPT.executor": "Run",
-    "Application.GanttChatGPT.executor": "Run",
-    "Application.MainAppRunner.executor": "Run",
-    "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
-    "Application.TaskTreeTableViewAppRunner.executor": "Run",
-    "Application.chatgpt.GanttChatGPT.executor": "Run",
-    "JUnit.MapperTest.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Debug",
-    "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
-    "JUnit.TestMappingTaskGroupDTO.executor": "Run",
-    "JUnit.TestTaskEntityJPA.executor": "Run",
-    "JUnit.TestTaskEntityJPA.test.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_Bean_FXBean.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor": "Run",
-    "JUnit.Test_Map_Task_DTO_Bean.executor": "Run",
-    "JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor": "Debug",
-    "JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor": "Run",
-    "JUnit.TimeTest.executor": "Run",
-    "JUnit.types in r-uu.app-jeeeraaah-client-fx.executor": "Debug",
-    "Maven.common2 [install].executor": "Run",
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [compile].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/r-uu/AppData/Local/SceneBuilder/SceneBuilder.exe",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FXComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChartChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupEditorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupManagementAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskTreeTableViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chatgpt.GanttChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMappingTaskGroupDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskEntityJPA.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_Bean_FXBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.types in r-uu.app-jeeeraaah-client-fx.executor&quot;: &quot;Debug&quot;,
+    &quot;Maven.common2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common2\src\main\java" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\main\java\de\ruu\app\jeeeraaah\common2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\xxx" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\test\java\gantt\ruu\treetable" />
       <recent name="C:\Users\r-uu\develop\github\r-uu\config\ide" />
@@ -130,20 +148,20 @@
       <recent name="de.ruu.app.jeeeraaah.client.fx.types" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
+      <recent name="gantt.ruu.treetable" />
       <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
       <recent name="de.ruu.app.jeeeraaah.common2" />
       <recent name="de.ruu.app.jeeeraaah.client.rs" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.taskgroup.mapstruct" />
-      <recent name="de.ruu.lib.mapstruct.explore.objectfactory" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskTreeTableViewAppRunner">
+  <component name="RunManager" selected="Application.TaskViewAppRunner">
     <configuration name="FXComponentBundleGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gantt.ruu.treetable.FXComponentBundleGenerator" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.FXComponentBundleGenerator" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gantt.ruu.treetable.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +169,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GanttChartChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gantt.chatgpt.GanttChartChatGPT" />
+    <configuration name="MainAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.MainAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gantt.chatgpt.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +182,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTreeTableViewAppRunner" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gantt.ruu.treetable.TaskTreeTableViewAppRunner" />
+    <configuration name="TaskGroupEditorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.editor.TaskGroupEditorRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gantt.ruu.treetable.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.editor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="chatgpt.GanttChatGPT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chatgpt.GanttChatGPT" />
+    <configuration name="TaskGroupManagementAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.TaskGroupManagementAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chatgpt.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,17 +208,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.lib-util" />
+    <configuration name="TaskViewAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.TaskViewAppRunner" />
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.util.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.lib.util" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.util.TimeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -217,19 +233,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.chatgpt.GanttChatGPT" />
       <item itemvalue="Application.FXComponentBundleGenerator" />
-      <item itemvalue="Application.GanttChartChatGPT" />
-      <item itemvalue="Application.TaskTreeTableViewAppRunner" />
-      <item itemvalue="JUnit.TimeTest" />
+      <item itemvalue="Application.MainAppRunner" />
+      <item itemvalue="Application.TaskGroupEditorRunner" />
+      <item itemvalue="Application.TaskGroupManagementAppRunner" />
+      <item itemvalue="Application.TaskViewAppRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskTreeTableViewAppRunner" />
-        <item itemvalue="JUnit.TimeTest" />
+        <item itemvalue="Application.TaskViewAppRunner" />
+        <item itemvalue="Application.TaskGroupManagementAppRunner" />
+        <item itemvalue="Application.MainAppRunner" />
         <item itemvalue="Application.FXComponentBundleGenerator" />
-        <item itemvalue="Application.GanttChartChatGPT" />
-        <item itemvalue="Application.chatgpt.GanttChatGPT" />
+        <item itemvalue="Application.TaskGroupEditorRunner" />
       </list>
     </recent_temporary>
   </component>
