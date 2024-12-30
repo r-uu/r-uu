@@ -5,28 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_Bean_FXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewCellValueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewCellValueFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_EntityDTO_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_FXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_EntityDTO_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskFXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskGroupDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskGroupDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_Bean_FXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_DTO_Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_EntityDTO_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_DTO_Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_EntityDTO_DTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupEntityDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskGroupEntityJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestMapStructWithEntityDTOAndEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestMapStructWithEntityDTOAndEntityJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/bimapped/BiMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/bimapped/BiMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -286,6 +268,11 @@
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_Bean_FXBean.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskFXBean.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
