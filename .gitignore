@@ -47,3 +47,4 @@ microprofile-config.properties
 /src/gen/
 /.idea
 .idea/workspace.xml
+/.idea
