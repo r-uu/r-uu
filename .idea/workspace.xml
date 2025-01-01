@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableCellData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableDataItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/test/TableCellColorExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de.ruu.app.jeeeraaah.client.fx.test/table-cell-color-example.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/DataItemFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/DataItemFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableCellData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableCellData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewCellValueFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewCellValueFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableDataItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableDataItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewControllerOld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewControllerOld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -152,7 +151,7 @@
       <recent name="de.ruu.app.jeeeraaah.common2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TableCellColorExample">
+  <component name="RunManager" selected="Application.TaskTreeTableViewAppRunner">
     <configuration name="TableCellColorExample" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
@@ -222,9 +221,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TableCellColorExample" />
-        <item itemvalue="Application.TableCellColorExample" />
         <item itemvalue="Application.TaskTreeTableViewAppRunner" />
+        <item itemvalue="Application.TableCellColorExample" />
+        <item itemvalue="Application.TableCellColorExample" />
         <item itemvalue="JUnit.types in r-uu.app-jeeeraaah-client-fx" />
         <item itemvalue="JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped" />
       </list>
@@ -258,6 +257,11 @@
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_Bean_FXBean.java</url>
           <line>25</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/DataItemFactory.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
