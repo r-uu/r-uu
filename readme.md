@@ -8,4 +8,4 @@ r-uu's github root repository
 
 - [app](https://github.com/r-uu/r-uu.app)
 
-  r-uu's applications are mainly pocs for the library code mentioned above.
+  r-uu's applications are primarily pocs for the library code from [lib](https://github.com/r-uu/r-uu.lib).
