@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableCellData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableCellData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/TaskTreeTableColumn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,66 +59,66 @@
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.FXComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GanttChartChatGPT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GanttChatGPT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TableCellColorExample.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskGroupEditorRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskGroupManagementAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskTreeTableViewAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TaskViewAppRunner.executor&quot;: &quot;Run&quot;,
-    &quot;Application.chatgpt.GanttChatGPT.executor&quot;: &quot;Run&quot;,
-    &quot;Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestMappingTaskGroupDTO.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestTaskEntityJPA.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestTaskEntityJPA.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_TaskGroup_Bean_FXBean.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_TaskGroup_EntityDTO_DTO.standaloneMapped.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_Bean_FXBean.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_DTO_Bean.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.standaloneMapped.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.withChildren.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.TimeTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.types in r-uu.app-jeeeraaah-client-fx.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.common2 [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah-client [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah-client [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/AppData/Local/SceneBuilder/SceneBuilder.exe&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FXComponentBundleGenerator.executor": "Run",
+    "Application.GanttChartChatGPT.executor": "Run",
+    "Application.GanttChatGPT.executor": "Run",
+    "Application.MainAppRunner.executor": "Run",
+    "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
+    "Application.TableCellColorExample.executor": "Run",
+    "Application.TaskGroupEditorRunner.executor": "Run",
+    "Application.TaskGroupManagementAppRunner.executor": "Run",
+    "Application.TaskTreeTableViewAppRunner.executor": "Run",
+    "Application.TaskViewAppRunner.executor": "Run",
+    "Application.chatgpt.GanttChatGPT.executor": "Run",
+    "Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor": "Run",
+    "JUnit.MapperTest.executor": "Run",
+    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
+    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Debug",
+    "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
+    "JUnit.TestMappingTaskGroupDTO.executor": "Run",
+    "JUnit.TestTaskEntityJPA.executor": "Run",
+    "JUnit.TestTaskEntityJPA.test.executor": "Run",
+    "JUnit.Test_Map_TaskGroup_Bean_FXBean.executor": "Run",
+    "JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor": "Run",
+    "JUnit.Test_Map_TaskGroup_EntityDTO_DTO.standaloneMapped.executor": "Run",
+    "JUnit.Test_Map_Task_Bean_FXBean.executor": "Run",
+    "JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped.executor": "Run",
+    "JUnit.Test_Map_Task_DTO_Bean.executor": "Run",
+    "JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor": "Debug",
+    "JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor": "Run",
+    "JUnit.Test_Map_Task_EntityDTO_DTO.executor": "Run",
+    "JUnit.Test_Map_Task_EntityDTO_DTO.standaloneMapped.executor": "Run",
+    "JUnit.Test_Map_Task_EntityDTO_DTO.withChildren.executor": "Debug",
+    "JUnit.TimeTest.executor": "Run",
+    "JUnit.types in r-uu.app-jeeeraaah-client-fx.executor": "Run",
+    "Maven.common2 [install].executor": "Run",
+    "Maven.r-uu [clean,install].executor": "Run",
+    "Maven.r-uu [install].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah [clean].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah [compile].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah [install].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah-client [clean,install].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah-client [install].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor": "Run",
+    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
+    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/r-uu/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common2\src\main\java" />
@@ -144,7 +145,7 @@
       <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TableCellColorExample">
+  <component name="RunManager" selected="Application.TaskTreeTableViewAppRunner">
     <configuration name="TableCellColorExample" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
@@ -214,9 +215,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TableCellColorExample" />
-        <item itemvalue="Application.TableCellColorExample" />
         <item itemvalue="Application.TaskTreeTableViewAppRunner" />
+        <item itemvalue="Application.TableCellColorExample" />
+        <item itemvalue="Application.TableCellColorExample" />
         <item itemvalue="JUnit.types in r-uu.app-jeeeraaah-client-fx" />
         <item itemvalue="JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped" />
       </list>
