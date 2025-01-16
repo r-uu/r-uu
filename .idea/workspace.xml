@@ -5,7 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TableViewConfigurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TableViewConfigurator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_Bean_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_Bean_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_Bean_FXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_DTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_DTO_EntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_DTO_EntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_EntityDTO_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_FXBean_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_TaskGroup_FXBean_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_Bean_FXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_EntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_DTO_EntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_EntityDTO_DTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_EntityDTO_DTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_FXBean_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/Map_Task_FXBean_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/ObjectDictionaryAndFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/ObjectDictionaryAndFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/core/src/main/java/de/ruu/lib/jdbc/core/AbstractJDBCProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/core/src/main/java/de/ruu/lib/jdbc/core/AbstractJDBCProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jdbc/postgres/src/test/java/de/ruu/lib/jdbc/postgres/TestDataSourceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jsonb-demo/src/main/java/de/ruu/lib/jsonb/demo/creator/ChildDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jsonb-demo/src/main/java/de/ruu/lib/jsonb/demo/creator/ChildDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jsonb-demo/src/test/java/de/ruu/lib/jsonb/demo/creator/TestJsonBWithCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jsonb-demo/src/test/java/de/ruu/lib/jsonb/demo/creator/TestJsonBWithCreator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/docker/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +38,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -65,13 +88,22 @@
     "Application.MainAppRunner.executor": "Run",
     "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
     "Application.TableCellColorExample.executor": "Run",
+    "Application.TaskEditorAppRunner.executor": "Run",
     "Application.TaskGroupEditorRunner.executor": "Run",
     "Application.TaskGroupManagementAppRunner.executor": "Run",
+    "Application.TaskManagementAppRunner.executor": "Run",
     "Application.TaskTreeTableViewAppRunner.executor": "Run",
     "Application.TaskViewAppRunner.executor": "Run",
     "Application.chatgpt.GanttChatGPT.executor": "Run",
     "Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor": "Run",
+    "JUnit.CompanyServiceJPASETest.executor": "Run",
     "JUnit.MapperTest.executor": "Run",
+    "JUnit.PostalAddressServiceJPASETest.executor": "Run",
+    "JUnit.TaskGroupServiceJPASETest.executor": "Run",
+    "JUnit.TaskGroupServiceJPASETest.testDelete.executor": "Debug",
+    "JUnit.TaskServiceJPASETest.executor": "Run",
+    "JUnit.TaskServiceJPASETest.testDelete.executor": "Debug",
+    "JUnit.TestIntegerTextFieldConfigurator.executor": "Run",
     "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
     "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Debug",
     "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
@@ -94,6 +126,9 @@
     "Maven.common2 [install].executor": "Run",
     "Maven.r-uu [clean,install].executor": "Run",
     "Maven.r-uu [install].executor": "Run",
+    "Maven.r-uu [test].executor": "Run",
+    "Maven.r-uu.app-datamodel-postaladdress [test].executor": "Run",
+    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [test].executor": "Run",
     "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
     "Maven.r-uu.app-jeeeraaah [clean].executor": "Run",
     "Maven.r-uu.app-jeeeraaah [compile].executor": "Run",
@@ -110,11 +145,11 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/r-uu/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu/pom.xml",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+    "settings.editor.selected.configurable": "Settings.Markdown"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -136,20 +171,20 @@
       <recent name="de.ruu.app.jeeeraaah.client.fx.types" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
+      <recent name="de.ruu.app.jeeeraaah.common.jpa.se" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.gantt" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.types" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
       <recent name="gantt.ruu.treetable" />
-      <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TaskTreeTableViewAppRunner">
-    <configuration name="TableCellColorExample" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample" />
+  <component name="RunManager" selected="Application.TaskManagementAppRunner">
+    <configuration name="TaskEditorAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.editor.TaskEditorAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.test.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.editor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskTreeTableViewAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.gantt.TaskTreeTableViewAppRunner" />
+    <configuration name="TaskManagementAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.TaskManagementAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.gantt.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,26 +205,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Map_Task_Bean_FXBean.standaloneMapped" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
+    <configuration name="CompanyServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-datamodel-company-jpadto-se" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.types.*" />
+          <option name="PATTERN" value="de.ruu.app.datamodel.company.jpa.se.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.types" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.types.Test_Map_Task_Bean_FXBean" />
-      <option name="METHOD_NAME" value="standaloneMapped" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.company.jpa.se" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.company.jpa.se.CompanyServiceJPASETest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="types in r-uu.app-jeeeraaah-client-fx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types" />
+    <configuration name="PostalAddressServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-datamodel-postaladdress-jpadto-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.app.datamodel.postaladdress.jpa.se.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.datamodel.postaladdress.jpa.se.PostalAddressServiceJPASETest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskServiceJPASETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-common-jpadto-se" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpa.se.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se.TaskServiceJPASETest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -206,18 +262,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TableCellColorExample" />
-      <item itemvalue="Application.TaskTreeTableViewAppRunner" />
-      <item itemvalue="JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped" />
-      <item itemvalue="JUnit.types in r-uu.app-jeeeraaah-client-fx" />
+      <item itemvalue="Application.TaskEditorAppRunner" />
+      <item itemvalue="Application.TaskManagementAppRunner" />
+      <item itemvalue="JUnit.TaskServiceJPASETest" />
+      <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
+      <item itemvalue="JUnit.CompanyServiceJPASETest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TaskTreeTableViewAppRunner" />
-        <item itemvalue="Application.TableCellColorExample" />
-        <item itemvalue="Application.TableCellColorExample" />
-        <item itemvalue="JUnit.types in r-uu.app-jeeeraaah-client-fx" />
-        <item itemvalue="JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped" />
+        <item itemvalue="Application.TaskManagementAppRunner" />
+        <item itemvalue="JUnit.TaskServiceJPASETest" />
+        <item itemvalue="JUnit.PostalAddressServiceJPASETest" />
+        <item itemvalue="JUnit.CompanyServiceJPASETest" />
+        <item itemvalue="Application.TaskEditorAppRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +294,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_DTO_Bean.java</url>
-          <line>40</line>
+          <line>36</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -247,13 +304,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_Bean_FXBean.java</url>
-          <line>25</line>
+          <line>30</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/gantt/DataItemFactory.java</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractRepository.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.5.2.Final/hibernate-core-6.5.2.Final.jar!/org/hibernate/collection/spi/PersistentSet.class</url>
+          <line>153</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/hibernate/orm/hibernate-core/6.5.2.Final/hibernate-core-6.5.2.Final-sources.jar!/org/hibernate/collection/spi/PersistentSet.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/target/classes/de/ruu/app/jeeeraaah/common/jpadto/TaskEntityJPA.class</url>
+          <line>423</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskManagementController.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
