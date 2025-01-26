@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/JacksonContextResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
