@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTask.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.maven-parent/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
     "Application.GanttChartChatGPT.executor": "Run",
     "Application.GanttChatGPT.executor": "Run",
     "Application.MainAppRunner.executor": "Run",
-    "Application.RePopulateDB.executor": "Debug",
+    "Application.RePopulateDB.executor": "Run",
     "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
     "Application.TableCellColorExample.executor": "Run",
     "Application.TaskEditorAppRunner.executor": "Run",
