@@ -118,7 +118,7 @@ fi
 
 ### configuration of bash environment
 
-# this section configures bash environment for ruu
+# this section configures bash environment for r-uu
 # purpose of this section is to fetch config/wsl/bash directory from windows filesystem into wsl filesystem and to make
 # the configuration available by sourcing the configuration in ~/config/wsl/bash/config.sh
 
@@ -127,7 +127,7 @@ echo "starting configuration of bash environment from .bashrc"
 echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 # echo "remove directory for config"
-rmdir -r ~/config
+rm -rf ~/config
 
 echo "fetch config from windows filesystem into wsl filesystem"
 cp -a -r -v /mnt/c/Users/${USER}/develop/github/r-uu/config ~
