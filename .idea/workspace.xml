@@ -5,62 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/config/shell/cmd/build-jeeraaah-exe.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/img/png/vfl-bochum-200-200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepositoryJPA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/apidata/InterTaskRelationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/config/shell/cmd/shell-config.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/config/shell/cmd/shell-config.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/config/shell/cmd/shell.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/config/shell/cmd/shell.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/TaskManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorAppRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/TaskGroupManagementController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditorRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/Main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/Main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/editor/TaskEditor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditor.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditor.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/editor/TaskGroupEditor.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/edit/TaskGroupEditor.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/generate/TypeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/generate/TypeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/de/ruu/app/jeeeraaah/client/rs/demo/DBClean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/de/ruu/app/jeeeraaah/client/rs/demo/DBClean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/de/ruu/app/jeeeraaah/client/rs/demo/DBPopulate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/de/ruu/app/jeeeraaah/client/rs/demo/DBPopulate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/ClientTaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskGroupServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/test/java/de/ruu/app/jeeeraaah/client/rs/TestClientTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/test/java/de/ruu/app/jeeeraaah/client/rs/TestTaskServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/test/java/de/ruu/app/jeeeraaah/client/rs/TestClientTaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/test/java/de/ruu/app/jeeeraaah/client/rs/TestTaskServiceClientGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupRepositoryJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupRepositoryJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskGroupServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskRepositoryJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskRepositoryJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/ee/TaskServiceJPAEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-ee/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupRepositoryJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupRepositoryJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskGroupServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskRepositoryJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskRepositoryJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/de/ruu/app/jeeeraaah/common/jpa/se/TaskServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/EntityManagerProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/EntityManagerProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/TestTaskGroupServiceJPASE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/TestTaskGroupServiceJPASE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskCreationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/apidata/TaskCreationData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpadto/TaskEntityDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel-task-object-model.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel-task-objects.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel-task-object-model.drawio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel-task-recursive-relations.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel-task-recursive-relations.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel.md" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/datamodel/datamodel.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/config/shell/cmd/shell-config.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/config/shell/cmd/shell-config.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/jackson/src/main/java/de/ruu/lib/jackson/JacksonContextResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jackson/src/main/java/de/ruu/lib/jackson/JacksonContextResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/TaskGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/TaskGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/TestBidirectional.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jackson/src/test/java/de/ruu/lib/jackson/TestBidirectional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/core/src/main/java/de/ruu/lib/jpa/core/AbstractRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/EntityManagerFactoryProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/jpa/se.hibernate/src/test/java/de/ruu/lib/jpa/se/hibernate/EntityManagerFactoryProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/rs/filter/logging/ContainerLoggingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/rs/filter/logging/ContainerLoggingFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -117,9 +90,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AutoCompleteTextFieldCountryDemo.executor": "Run",
+    "Application.AutoCompleteTextFieldCountryDemoRunner.executor": "Run",
     "Application.DBClean.executor": "Run",
     "Application.DBCommandRunner.executor": "Run",
     "Application.DBPopulate.executor": "Run",
+    "Application.DashAppRunner.executor": "Run",
     "Application.DataAsStringTransformer.executor": "Run",
     "Application.DataFactory.executor": "Run",
     "Application.FXComponentBundleGenerator.executor": "Run",
@@ -135,6 +111,7 @@
     "Application.TaskManagementAppRunner.executor": "Run",
     "Application.TaskTreeTableViewAppRunner.executor": "Run",
     "Application.TaskViewAppRunner.executor": "Run",
+    "Application.TypeGenerator.executor": "Run",
     "Application.chatgpt.GanttChatGPT.executor": "Run",
     "Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor": "Run",
     "JUnit.All in r-uu.lib-jackson.executor": "Run",
@@ -250,7 +227,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "Errors",
     "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
   }
 }]]></component>
@@ -263,11 +240,11 @@
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common-jpadto-se\src\test\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\taskgroup\select" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\taskgroup\selector" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\dash" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\dash" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx-executable\config\shell\cmd" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\rs-demo\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\test\resources\de\ruu\app\jeeeraaah\client\fx\gantt" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\xxx" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="de.ruu.app.jeeeraaah.common.jpadto" />
@@ -286,13 +263,13 @@
       <recent name="de.ruu.app.jeeeraaah.client.fx.task" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DBClean">
-    <configuration name="DBClean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.rs.demo.DBClean" />
-      <module name="r-uu.app-jeeeraah-client-rs-demo" />
+  <component name="RunManager" selected="Application.TypeGenerator">
+    <configuration name="AutoCompleteTextFieldCountryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemo" />
+      <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.rs.demo.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.control.autocomplete.textfield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -300,12 +277,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBCommandRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.rs.demo.DBCommandRunner" />
-      <module name="r-uu.app-jeeeraah-client-rs-demo" />
+    <configuration name="AutoCompleteTextFieldCountryDemoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner" />
+      <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.rs.demo.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.control.autocomplete.textfield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,12 +290,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DBPopulate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.rs.demo.DBPopulate" />
-      <module name="r-uu.app-jeeeraah-client-rs-demo" />
+    <configuration name="DashAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.dash.DashAppRunner" />
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.rs.demo.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.dash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -326,33 +303,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTaskGroupServiceJPASE" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common-jpadto-se" />
+    <configuration name="TaskGroupEditorRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.edit.TaskGroupEditorRunner" />
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpa.se.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.taskgroup.edit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se.TestTaskGroupServiceJPASE" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTaskGroupServiceJPASE.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common-jpadto-se" />
+    <configuration name="TypeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.generate.TypeGenerator" />
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpa.se.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.generate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpa.se.TestTaskGroupServiceJPASE" />
-      <option name="METHOD_NAME" value="testFindAll" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -382,20 +354,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DBClean" />
-      <item itemvalue="Application.DBPopulate" />
-      <item itemvalue="Application.DBCommandRunner" />
-      <item itemvalue="JUnit.TestTaskGroupServiceJPASE" />
-      <item itemvalue="JUnit.TestTaskGroupServiceJPASE.testFindAll" />
+      <item itemvalue="Application.AutoCompleteTextFieldCountryDemo" />
+      <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
+      <item itemvalue="Application.DashAppRunner" />
+      <item itemvalue="Application.TaskGroupEditorRunner" />
+      <item itemvalue="Application.TypeGenerator" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DBClean" />
-        <item itemvalue="JUnit.TestTaskGroupServiceJPASE.testFindAll" />
-        <item itemvalue="JUnit.TestTaskGroupServiceJPASE" />
-        <item itemvalue="Application.DBCommandRunner" />
-        <item itemvalue="Application.DBPopulate" />
+        <item itemvalue="Application.TypeGenerator" />
+        <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
+        <item itemvalue="Application.AutoCompleteTextFieldCountryDemo" />
+        <item itemvalue="Application.TaskGroupEditorRunner" />
+        <item itemvalue="Application.DashAppRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -437,37 +409,9 @@
           <option name="timeStamp" value="54" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/test/java/de/ruu/app/jeeeraaah/client/rs/TestTaskServiceClientGroup.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java</url>
-          <line>103</line>
-          <option name="timeStamp" value="65" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/test/java/de/ruu/app/jeeeraaah/common/jpadto/TestMapStructTaskGroupWithEntityDTOAndEntityJPA.java</url>
-          <line>36</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/TestDTOsDataModel.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/types/TaskGroupDTO.java</url>
-          <line>46</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto-se/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/TestTaskGroupServiceJPASE.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="74" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpadto/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="86" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
