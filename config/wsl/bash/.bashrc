@@ -139,6 +139,9 @@ find ~/config -type f -print0 | xargs -0 dos2unix
 cp -v ~/config/wsl/bash/.bashrc ~
 cp -v ~/config/wsl/bash/.bash_aliases ~
 
+# use alias to start docker daemon automatically
+docker-daemon-start
+
 echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 echo "finished configuration of bash environment from .bashrc"
 echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
