@@ -5,25 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/ComparatorCountry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemoRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/dash/Dash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/dash/Dash.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelector.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelector.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskGroupServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskGroupServiceClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupFlat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupFlat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/ClearableTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/ClearableTextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/ComparatorCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/ComparatorCountry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/Country.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -475,7 +464,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java</url>
-          <line>110</line>
+          <line>109</line>
           <option name="timeStamp" value="262" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
