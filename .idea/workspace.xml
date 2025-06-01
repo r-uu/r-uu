@@ -5,14 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy/Map_TaskGroup_EntityJPA_Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy/Map_Task_EntityJPA_Lazy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_TaskGroup_Lazy_Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/MappingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/ReferenceCycleTrackingWithMappingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/fx/TestCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/fx/TestPreconditionCheckRelationalOperations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/ComparatorCountry.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/ComparatorCountry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButtonCountryDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskGroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupFlat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupFlat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/Collector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/Collector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/PreconditionCheckRelationalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/PreconditionCheckRelationalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupRepositoryJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepositoryJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepositoryJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/dto/Map_Task_EntityDTO_EntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/dto/Map_Task_EntityDTO_EntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskGroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +108,7 @@
     "Application.DBPopulateTiny.executor": "Run",
     "Application.DBPopulateTinySE (1).executor": "Run",
     "Application.DBPopulateTinySE.executor": "Run",
-    "Application.DashAppRunner.executor": "Debug",
+    "Application.DashAppRunner.executor": "Run",
     "Application.DataAsStringTransformer.executor": "Run",
     "Application.DataFactory.executor": "Run",
     "Application.FXComponentBundleGenerator.executor": "Run",
@@ -122,6 +140,8 @@
     "JUnit.TaskServiceJPASETest.executor": "Run",
     "JUnit.TaskServiceJPASETest.testDelete.executor": "Debug",
     "JUnit.TaskServiceJPASETest.testFindWithRelated.executor": "Debug",
+    "JUnit.TestBeansDataModel.executor": "Run",
+    "JUnit.TestBeansDataModel.testGroupBeanCount.executor": "Run",
     "JUnit.TestBeansDataModel.testTaskBeansPerGroupCount.executor": "Debug",
     "JUnit.TestBidirectional.executor": "Run",
     "JUnit.TestBidirectional.taskGroupSingleWithTaskSingleWithSubTaskSingle.executor": "Run",
@@ -133,6 +153,7 @@
     "JUnit.TestClientTaskGroup.testCreate.executor": "Run",
     "JUnit.TestClientTaskGroup.testCreateWithTasks.executor": "Run",
     "JUnit.TestClientTaskGroup.testFindAll.executor": "Run",
+    "JUnit.TestCollector.executor": "Debug",
     "JUnit.TestDTOsDataModel.executor": "Run",
     "JUnit.TestDTOsDataModel.testSubTaskBeansPerMainTaskBeans.executor": "Debug",
     "JUnit.TestDTOsDataModel.testTaskBeansPerGroupCount.executor": "Debug",
@@ -175,6 +196,12 @@
     "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Run",
     "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
     "JUnit.TestMappingTaskGroupDTO.executor": "Run",
+    "JUnit.TestPreconditionCheckRelationalOperations.executor": "Run",
+    "JUnit.TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask.executor": "Run",
+    "JUnit.TestPreconditionCheckRelationalOperations.testCanBeSubTask.executor": "Debug",
+    "JUnit.TestPreconditionCheckRelationalOperations.testCheckSubTask.executor": "Debug",
+    "JUnit.TestRelationsBean.executor": "Run",
+    "JUnit.TestRelationsBean.testMakeTaskSubTaskOfTask.executor": "Debug",
     "JUnit.TestRelationsJPA.executor": "Run",
     "JUnit.TestRelationsJPA.testMappingOfInterrelatedTasks.executor": "Debug",
     "JUnit.TestRelationsMappingDTO.testRelationsMappingForPredecessor.executor": "Debug",
@@ -255,21 +282,21 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/resources",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\main\java\de\ruu\app\jeeeraaah\common\map\jpa\lazy" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\java\de\ruu\lib\fx\control\autocomplete\textfield\v3" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources\META-INF" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\rs-demo\src\test\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources" />
@@ -289,75 +316,87 @@
       <recent name="de.ruu.app.jeeeraaah.common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.common.map.lazy.bean" />
       <recent name="de.ruu.lib.fx.control.autocomplete" />
       <recent name="de.ruu.lib.fx.control.autocomplete.textfield" />
       <recent name="de.ruu.app.jeeeraaah.common" />
       <recent name="de.ruu.app.jeeeraaah.common.dto" />
-      <recent name="de.ruu.lib.fx.control" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DashAppRunner">
-    <configuration name="AutoCompleteTextFieldCountryDemoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.autocomplete.textfield.v2.AutoCompleteTextFieldCountryDemoRunner" />
-      <module name="r-uu.lib-fx-core" />
+    <configuration name="TestBeansDataModel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.autocomplete.textfield.v2.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.types" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.types.TestBeansDataModel" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
-      <module name="r-uu.lib-fx-core" />
+    <configuration name="TestBeansDataModel.testGroupBeanCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.autocomplete.textfield.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.types.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.client.fx.types" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.types.TestBeansDataModel" />
+      <option name="METHOD_NAME" value="testGroupBeanCount" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClearableTextFieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.ClearableTextFieldDemo" />
-      <module name="r-uu.lib-fx-core" />
+    <configuration name="TestCollector" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.fx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.fx" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.fx.TestCollector" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClearableTextFieldDemoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.ClearableTextFieldDemoRunner" />
-      <module name="r-uu.lib-fx-core" />
+    <configuration name="TestPreconditionCheckRelationalOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.fx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.fx" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.fx.TestPreconditionCheckRelationalOperations" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner" />
-      <module name="r-uu.lib-fx-core" />
+    <configuration name="TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.autocomplete.textfield.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.fx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.fx" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.fx.TestPreconditionCheckRelationalOperations" />
+      <option name="METHOD_NAME" value="testCanBeAddedAsSubTask" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -378,20 +417,20 @@
       <item itemvalue="Application.DBPopulate" />
       <item itemvalue="Application.DBClean" />
       <item itemvalue="Application.DBPopulateSE" />
-      <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
-      <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
-      <item itemvalue="Application.ClearableTextFieldDemo" />
-      <item itemvalue="Application.ClearableTextFieldDemoRunner" />
-      <item itemvalue="Application.de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner" />
+      <item itemvalue="JUnit.TestBeansDataModel" />
+      <item itemvalue="JUnit.TestBeansDataModel.testGroupBeanCount" />
+      <item itemvalue="JUnit.TestCollector" />
+      <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations" />
+      <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
-        <item itemvalue="Application.de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner" />
-        <item itemvalue="Application.ClearableTextFieldDemoRunner" />
-        <item itemvalue="Application.ClearableTextFieldDemo" />
-        <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
+        <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations" />
+        <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask" />
+        <item itemvalue="JUnit.TestCollector" />
+        <item itemvalue="JUnit.TestBeansDataModel" />
+        <item itemvalue="JUnit.TestBeansDataModel.testGroupBeanCount" />
       </list>
     </recent_temporary>
   </component>
@@ -459,13 +498,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java</url>
-          <line>204</line>
+          <line>211</line>
           <option name="timeStamp" value="254" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/DataFactory.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="262" />
+          <line>170</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <condition expression="name().contains(&quot;feature set 3&quot;) &amp;&amp; task.name().contains(&quot;feature 3&quot;)" language="JAVA" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="282" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/target/generated-test-sources/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA_.java</url>
