@@ -383,16 +383,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.DashAppRunner" />
+      <item itemvalue="Application.DBPopulate" />
+      <item itemvalue="Application.DBPopulateSE" />
+      <item itemvalue="Application.DBClean" />
       <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
       <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
       <item itemvalue="Application.ClearableTextFieldDemoRunner" />
       <item itemvalue="Application.ClearableTextFieldDemo" />
-      <item itemvalue="Application.DashAppRunner" />
-      <item itemvalue="Application.DBPopulate" />
       <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
-      <item itemvalue="Application.DBPopulateSE" />
-      <item itemvalue="Application.DBClean" />
     </list>
     <recent_temporary>
       <list>
