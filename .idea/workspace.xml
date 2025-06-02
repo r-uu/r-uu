@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewNarrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewNarrow.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashAppRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/ClearableTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/ClearableTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldWithArrowButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/dash/Dash.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/dash/Dash.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelector.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelector.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpa-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpa/ee/TaskGroupRepositoryJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpa-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpa/ee/TaskGroupRepositoryJPAEE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpa-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpa/ee/TaskGroupServiceJPAEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common-jpa-ee/src/main/java/de/ruu/app/jeeeraaah/common/jpa/ee/TaskGroupServiceJPAEE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupServiceJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/FXCApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/FXCApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextFieldCountryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -262,7 +272,7 @@
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -272,11 +282,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\main\java\de\ruu\app\jeeeraaah\common\map\jpa\lazy" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\java\de\ruu\lib\fx\control\autocomplete\textfield\v3" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources\META-INF" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\test\resources" />
@@ -293,14 +303,15 @@
       <recent name="de.ruu.app.jeeeraaah.common.jpa.se" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view" />
       <recent name="de.ruu.app.jeeeraaah.common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view" />
       <recent name="de.ruu.app.jeeeraaah.common.map.lazy.bean" />
       <recent name="de.ruu.lib.fx.control.autocomplete" />
       <recent name="de.ruu.lib.fx.control.autocomplete.textfield" />
       <recent name="de.ruu.app.jeeeraaah.common" />
-      <recent name="de.ruu.app.jeeeraaah.common.dto" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DashAppRunner">
@@ -356,17 +367,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPreconditionCheckRelationalOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common" />
+    <configuration name="TaskViewAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.TaskViewAppRunner" />
+      <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.fx.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.fx" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.fx.TestPreconditionCheckRelationalOperations" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,20 +396,20 @@
       <item itemvalue="Application.DBPopulate" />
       <item itemvalue="Application.DBPopulateSE" />
       <item itemvalue="Application.DBClean" />
+      <item itemvalue="Application.TaskViewAppRunner" />
       <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
       <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
       <item itemvalue="Application.ClearableTextFieldDemoRunner" />
       <item itemvalue="Application.ClearableTextFieldDemo" />
-      <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
+        <item itemvalue="Application.TaskViewAppRunner" />
         <item itemvalue="Application.AutoCompleteTextFieldCountryDemoRunner" />
+        <item itemvalue="Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner" />
         <item itemvalue="Application.ClearableTextFieldDemoRunner" />
         <item itemvalue="Application.ClearableTextFieldDemo" />
-        <item itemvalue="JUnit.TestPreconditionCheckRelationalOperations" />
       </list>
     </recent_temporary>
   </component>
