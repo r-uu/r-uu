@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -276,7 +276,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.import",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Issue.Navigation",
     "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
   }
 }]]></component>
@@ -317,7 +317,7 @@
       <recent name="de.ruu.lib.fx.control.autocomplete.textfield" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DBPopulate">
+  <component name="RunManager" selected="Application.DashAppRunner">
     <configuration name="TaskHierarchyViewAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.hierarchy.TaskHierarchyViewAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
