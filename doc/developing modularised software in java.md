@@ -1,6 +1,6 @@
 # Modularisierung und Java
 
-Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart- und Erweiterbarkeit bei. 
+Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart-, Test- und Erweiterbarkeit bei. 
 
 Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Software so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen. Für einige wird auch beschrieben, wie sie sich in der Praxis umsetzen lassen.
 
@@ -28,7 +28,7 @@ Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Das
 
 [Bild mit Mont St. Michel]()
 
-Zu wenig Platz wie im Bild ist bei Softwaresystemen normalerweise nicht das Problem. Wie schon gesagt, liegt das Problem hier vor allem in der stetig wachsende Zahl von internen Abhängigkeiten.
+Zu wenig Platz wie im Bild ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt das Problem hier vor allem in der stetig wachsende Zahl von internen Abhängigkeiten.
 
 [Bild für komplexere Struktur mit mehr Abhängigkeiten]()
 
@@ -45,7 +45,13 @@ Im folgenden wird gezeigt, wie die Softwareindustrie darauf reagiert hat und wie
 
 ## Microservices vs. Monolithen
 
-Mehrere Probleme monolithischer Systeme (s. o.) haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen. Mit Microservices lässt sich zwar ein hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices z. B. die Komplexität der benötigten Infrastruktur enorm steigt.
+Das Folgende bezieht sich in erster Linie auf die heute sehr verbreiteten Java-(Alt)-Systeme, dürfte in ähnlicher Weise aber auch auf andere Technologiestacks übertragbar sein.
+
+Mehrere Probleme monolithischer Systeme (s. o.) haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen. Monolithen werden typischerweise als eine große Deploymenteinheit betrieben, in der sich mehrere Teilsysteme befinden. Die Deploymenteinheit wird dabei (in einem Applikationsserver) in einem Betriebssystemprozess ausgeführt.
+
+Dies erleichtert den Betrieb, hat aber auch seinen Preis: Innerhalb des Monolithen war es lange schwer, die enthaltenen Teilsysteme sauber voneinander zu trennen. So schlichen sich, bewusst oder unbewusst, unnötige Abhängigkeiten zwischen den Teilsystemen ein. Viele Monolithen wurden zu einem "big ball of mud", deren Wart-, Test- und Erweiterbarkeit zunehmend komplexer bis hin zu unmöglich wurden. Es gab keine Module, mit denen sich die Abhängigkeiten von Teilsystemen besser hätten kontrollieren lassen.
+
+Da Microservices jeweils in eigenen, autonomen, vernetzten Prozessen laufen, lässt sich zwar ein hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices z. B. die Komplexität der benötigten Infrastruktur enorm steigt.
 
 Warum ist das so?
 
