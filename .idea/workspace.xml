@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/ActionHandlingRemove.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/ActionHandlingRemove.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.run/DBClean.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/DBClean.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/DBPopulate.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/DBPopulate.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/developing modularised software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modularised software in java.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +79,7 @@
     "Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner.executor": "Run",
     "Application.ClearableTextFieldDemo.executor": "Run",
     "Application.ClearableTextFieldDemoRunner.executor": "Run",
+    "Application.DBClean (1).executor": "Run",
     "Application.DBClean.executor": "Run",
     "Application.DBCleanSE (1).executor": "Run",
     "Application.DBCleanSE.executor": "Run",
@@ -88,7 +90,7 @@
     "Application.DBPopulateTiny.executor": "Run",
     "Application.DBPopulateTinySE (1).executor": "Run",
     "Application.DBPopulateTinySE.executor": "Run",
-    "Application.DashAppRunner.executor": "Run",
+    "Application.DashAppRunner.executor": "Debug",
     "Application.DataAsStringTransformer.executor": "Run",
     "Application.DataFactory.executor": "Run",
     "Application.DemoAppRunner.executor": "Run",
@@ -280,7 +282,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.editor",
     "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
   }
 }]]></component>
@@ -363,21 +365,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRelationsMappingDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="r-uu.app-jeeeraaah-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.dto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.dto" />
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.dto.TestRelationsMappingDTO" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRelationsMappingDTO.testRelationsMappingForPredecessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
@@ -413,7 +400,6 @@
       <item itemvalue="Application.TaskViewListDirectNeighboursAppRunner" />
       <item itemvalue="Application.TaskViewWithDirectNeighboursAppRunner" />
       <item itemvalue="Application.TypeGenerator" />
-      <item itemvalue="JUnit.TestRelationsMappingDTO" />
       <item itemvalue="JUnit.TestRelationsMappingDTO.testRelationsMappingForPredecessor" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
@@ -423,7 +409,6 @@
         <item itemvalue="Application.TaskViewListDirectNeighboursAppRunner" />
         <item itemvalue="Application.TypeGenerator" />
         <item itemvalue="JUnit.TestRelationsMappingDTO.testRelationsMappingForPredecessor" />
-        <item itemvalue="JUnit.TestRelationsMappingDTO" />
       </list>
     </recent_temporary>
   </component>
@@ -539,14 +524,14 @@
           <option name="timeStamp" value="305" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/ActionHandlingRemove.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="306" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepositoryJPA.java</url>
           <line>169</line>
           <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="316" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/target/generated-test-sources/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA_.java</url>
