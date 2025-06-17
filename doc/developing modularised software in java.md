@@ -4,11 +4,17 @@ Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme.
 
 Im folgenden wird zunächst beschrieben, warum dies so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen.
 
-[test.drawio](test.drawio)
+[open diagram](test.drawio)
 
-[test.svg](test.svg)
+[open diagram](test.svg)
 
-[test_mit_include.svg](test_mit_include.svg)
+[open diagram](test_mit_include.svg)
+
+## Komplexität
+
+Die Schwierigkeit, Softwaresysteme zu verstehen, zu warten und zu erweitern, liegt vor allem in deren Komplexität begründet. Es stellt sich somit die Frage, was macht ein System komplex?
+
+Nicht selten ist vor allem die interne Struktur von Systemen dafür verantwortlich. Sie ist häufig gekennzeichnet durch eine kaum überschaubare Menge von direkten und indirekten internen Abhängigkeiten. Diese Abhängigkeiten machen es schwer vorherzusagen, welche Auswirkungen lokale Änderungen auf das Verhalten des Gesamtsystems haben.
 
 ## Microservices vs. Monoliths
 
