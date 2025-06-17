@@ -1,11 +1,10 @@
 # Modularisierung und Java
 
-Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre
-Beherrschbarkeit und trägt zu effektiverer Wartung und Erweiterbarkeit bei. 
+Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart- und Erweiterbarkeit bei. 
 
+Im folgenden wird zunächst beschrieben, warum dies so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wir ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen.
 
-Im Folgenden wird vorgestellt, wie
-Modularisierung in Java realisiert werden kann.
+[open diagram](test drawio pic as svg.svg)
 
 ## Microservices vs. Monoliths
 
