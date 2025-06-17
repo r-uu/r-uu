@@ -32,44 +32,38 @@ Zu wenig Platz wie im Bild ist bei Softwaresystemen normalerweise nicht das Prob
 
 [Bild für komplexere Struktur mit mehr Abhängigkeiten]()
 
-Was hier jedoch Hoffnung macht ist, dass 
 ## Design for Changeability
 
-## Microservices vs. Monoliths
+Gesucht wird also nach Ansätzen, die Softwaresysteme anpassbar machen, ihre Grenzen erweitern, ohne dass ihre Komplexität überhand nimmt. Solange zu viele Abhängigkeiten aber die Ursache für die Probleme sind, ist die Beherrschung dieser Abhängigkeiten ein Beitrag zur Lösung. Was hier Hoffnung macht ist, dass eine große Menge dieser Abhängigkeiten weder gewollt, noch nötig ist.
 
-Mehrere Probleme monolithischer Systeme haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die
-eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen. Mit Microservices lässt sich zwar ein hoher Grad
-an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices z. B. die Komplexität der
-benötigten Infrastruktur enorm steigt.
+Warum gibt es sie dann? Zwei Gründe sind meist ausschlaggebend:
 
-Warum ist das so? Der Grund liegt in einem typischen Merkmal von Microservices: sie sind üblicherweise tatsächlich
-klein - so klein, dass sie isoliert von der Aussenwelt wenig Sinn erbringen. Typischerweise laufen Microservices daher
-in einem Netzwerk aus Microservices, und zwar meist als jeweils eigenständiger Betriebssystemprozesse in sogenannten
-Containern. Im Netzwerk kommunizieren die Microservices untereinander und stellen so die mächtige Funktionalität
-heutiger Softwaresysteme zur Verfügung. Die Mächtigkeit dieser Systeme steht dabei im Kontrast zu der Kleinheit der
-Microservices. Es liegt auf der Hand, dass es eine große Anzahl von Microservices braucht, um heutige Systeme zu
-bauen.
+- Es kann bequem sein, zusätzliche Abhängigkeiten bewusst in Kauf zu nehmen, und
+- es gibt kein wirksames Mittel gegen das unbewusste, ungewollte Entstehen unnötiger Abhängigkeiten.
 
-Natürlich steigt mit wachsender Zahl von Microservices / Containern / Prozessen die Komplexität, diese zu beherrschen.
-Um dem zu begegnen entstand eine Vielzahl von zum Teil konkurrierenden Tools und Technologien (und natürlich
-entsprechenden Dienstleistungsangeboten). Dies hinterließ bei vielen den Eindruck, dass die Komplexität von Microservices
-die der Monolithen sogar deutlich übersteigt. Bevor aber Microservices hier nun voreilig ad acta gelegt werden, muss
-natürlich eingeräumt werden, dass Modularisierung nicht das einzige Qualitätsmerkmal von Softwaresystemen ist. Neben
-diesem erhält man mit Microservices neue Möglichkeiten z.B. für die Skalierbarkeit und für das Deployment neuer
-Softwarefeatures.
+Im folgenden wird gezeigt, wie die Softwareindustrie darauf reagiert hat und wie erfolgreich sie dabei war bzw. ist.
 
-Trotzdem führte die Komplexität der Microservices zu einer gegenläufigen Entwicklung mit Slogans wie "I want my monolith
-back". Tatsächlich tat sich gleichzeitig und unabhängig vom Trend zu Microservices auch einiges in Bezug auf
-Modularisierung z. B. im Java-Umfeld.
+## Microservices vs. Monolithen
+
+Mehrere Probleme monolithischer Systeme (s. o.) haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen. Mit Microservices lässt sich zwar ein hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices z. B. die Komplexität der benötigten Infrastruktur enorm steigt.
+
+Warum ist das so?
+
+Der Grund liegt in einem typischen Merkmal von Microservices: sie sind üblicherweise tatsächlich klein - so klein, dass sie isoliert von der Aussenwelt wenig Sinn erbringen. Typischerweise laufen Microservices daher in einem Netzwerk aus Microservices, und zwar meist als jeweils eigenständiger Betriebssystemprozesse in sogenannten Containern. Im Netzwerk kommunizieren die Microservices untereinander und stellen so die mächtige Funktionalität heutiger Softwaresysteme zur Verfügung. Deren Mächtigkeit steht dabei im Kontrast zur Kleinheit der Microservices. Es liegt auf der Hand, dass es eine große Anzahl von Microservices braucht, um heutige Systeme zu bauen.
+
+Natürlich steigt mit wachsender Zahl von Microservices / Containern / Prozessen die Komplexität, diese zu beherrschen. Um dem zu begegnen entstand eine Vielzahl von zum Teil konkurrierenden Tools und Technologien (und natürlich entsprechenden Dienstleistungsangeboten). Dies hinterließ bei vielen den Eindruck, dass die Komplexität von Microservices die der Monolithen sogar deutlich übersteigt. Bevor aber Microservices hier nun voreilig ad acta gelegt werden, muss natürlich eingeräumt werden, dass Modularisierung nicht das einzige Qualitätsmerkmal von guten Softwaresystemen ist. Neben diesem erhält man mit Microservices neue Möglichkeiten z.B. für die Skalierbarkeit und für das Deployment neuer Softwarefeatures.
+
+Trotzdem führte die Komplexität der Microservices zu einer gegenläufigen Entwicklung mit Slogans wie "I want my monolith back". Tatsächlich tat sich gleichzeitig und unabhängig vom Trend zu Microservices auch einiges in Bezug auf Modularisierung, z. B. im Java-Umfeld (s. u.).
 
 ## Warum ist Modularisierung wichtig?
 
-Das Schlüsselargument ist hier Beherrschung von Komplexität auch in großen Systemen. Große monolithische Systeme wiesen
-in der Vergangenheit häufig problematische Merkmale wie starke Kopplung auf. Bei zu starker Kopplung sind Systemteile
-unnötiger und oft ungewollter Weise voneinander abhängig. Viele dieser Abhängigkeiten entstehen unkontrolliert und so
-kommt es, dass schnell so viele existieren, dass große Teile des Systems nahezu unwartbar werden: Jede Änderung birgt
-die Gefahr von schwer kontrollierbaren Seiteneffekten in kaum vorhersehbaren Teilen des Systems. Diese Komplexität führt
-dazu, dass die Kosten für Wartung und Erweiterung der Software explodieren.
+Das Schlüsselargument ist hier Beherrschung von Komplexität auch in großen Systemen. Große monolithische Systeme wiesen in der Vergangenheit häufig problematische Merkmale wie starke Kopplung auf. Bei zu starker Kopplung sind Systemteile unnötiger und oft ungewollter Weise voneinander abhängig. Viele dieser Abhängigkeiten entstehen unkontrolliert und so kommt es, dass schnell so viele existieren, dass große Teile des Systems nahezu unwartbar werden: Jede Änderung birgt die Gefahr von schwer kontrollierbaren Seiteneffekten in kaum vorhersehbaren Teilen des Systems. Dies wiederum führt dazu, dass die Kosten für Wartung und Erweiterung der Software explodieren.
+
+Module sind in sich gekapselt, d. h., ein Zugriff ist nur über vom Modul selbst zur Verfügung gestellte Schnittstellen möglich.
+
+## Modulithen
+
+Sollte es also nicht möglich sein,
 
 ## Wie Code in Java strukturiert wird
 
