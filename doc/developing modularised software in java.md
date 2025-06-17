@@ -2,9 +2,11 @@
 
 Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart- und Erweiterbarkeit bei. 
 
-Im folgenden wird zunächst beschrieben, warum dies so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wir ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen.
+Im folgenden wird zunächst beschrieben, warum dies so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen.
 
-[open diagram](./test drawio pic as svg.svg)
+[open diagram](test.drawio)
+[open diagram](test.svg)
+[open diagram](test_mit_include.svg)
 
 ## Microservices vs. Monoliths
 
