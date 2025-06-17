@@ -2,7 +2,7 @@
 
 Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart- und Erweiterbarkeit bei. 
 
-Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Software so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen. Für einige dieser Möglichkeiten wird auch beschrieben, wie sie sich in der Praxis umsetzen lassen.
+Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Software so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen. Für einige wird auch beschrieben, wie sie sich in der Praxis umsetzen lassen.
 
 [open diagram](test.drawio)
 
@@ -15,6 +15,25 @@ Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Softwar
 Die Schwierigkeit, Softwaresysteme zu verstehen, zu warten und zu erweitern, liegt vor allem in deren Komplexität begründet. Es stellt sich somit die Frage, was macht ein System komplex?
 
 Nicht selten ist vor allem die interne Struktur von Systemen dafür verantwortlich. Sie ist häufig gekennzeichnet durch eine kaum überschaubare Menge von direkten und indirekten internen Abhängigkeiten. Diese Abhängigkeiten machen es schwer vorherzusagen, welche Auswirkungen lokale Änderungen auf das Verhalten des Gesamtsystems haben.
+
+## Softwarearchitektur
+
+Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für große Systeme zu entwickeln. Bedeuten die beschriebenen Probleme also ein Scheitern der Softwarearchitektur?
+
+Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen.
+
+[Bild für einfache Struktur mit wenigen Abhängigkeiten]()
+
+Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
+
+[Bild mit Mont St. Michel]()
+
+Zu wenig Platz wie im Bild ist bei Softwaresystemen normalerweise nicht das Problem. Wie schon gesagt, liegt das Problem hier vor allem in der stetig wachsende Zahl von internen Abhängigkeiten.
+
+[Bild für komplexere Struktur mit mehr Abhängigkeiten]()
+
+Was hier jedoch Hoffnung macht ist, dass 
+## Design for Changeability
 
 ## Microservices vs. Monoliths
 
