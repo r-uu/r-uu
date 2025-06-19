@@ -1,15 +1,15 @@
-# Modularisierung und Java
+# Entwicklung modularer Software mit Java
 
 Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart-, Test- und Erweiterbarkeit bei. 
 
-Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Software so schwierig ist und wie es dazu kommt. Anschließend wird auf einige typische Strategien für den Umgang mit den genannten Problemen eingegangen. Schließlich wird ein Blick auf Möglichkeiten zur Modularisierung in Java geworfen. Für einige wird auch beschrieben, wie sie sich in der Praxis umsetzen lassen.
+Dieser Beitrag beschreibt unzureichende Modularisierung als eine Ursache für die Schwierigkeit, komplexe Software zu beherrschen und wie es zu Defiziten in der Modularisierung kommt. Es wird auf Strategien für die Reduzierung dieser Defizite eingegangen und dabei wird insbesondere auf Möglichkeiten zur Modularisierung in Java eingegangen. Diese werden zum Teil an praktischen Beispielen demonstriert.
 
 <!---
 [open diagram](test.drawio)
 
 [open diagram](test.svg)
 -->
-[open diagram](test_mit_include.svg)
+[open diagram](test.drawio.svg)
 
 ## Komplexität
 
@@ -23,7 +23,7 @@ Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für g
 
 Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen.
 
-[Bild für einfache Struktur mit wenigen Abhängigkeiten]()
+[Bild für einfache Struktur mit wenigen Abhängigkeiten](system-architecture-1.drawio.svg)
 
 Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
 

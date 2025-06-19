@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/ActionHandlingEdit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/mont-st-michel.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/system-architecture-1.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/system-architecture-1.drawio.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/DBClean.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/DBClean.run.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/developing modularised software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modularised software in java.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -279,7 +277,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/img/png",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu/doc",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -289,11 +287,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu\doc" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\img\png" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\common\src\main\java\de\ruu\app\jeeeraaah\common\map\jpa\lazy" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\java\de\ruu\lib\fx\control\autocomplete\textfield\v3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\directneighbours" />
