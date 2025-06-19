@@ -14,11 +14,11 @@ Nicht selten ist vor allem die interne Struktur von Systemen dafür verantwortli
 
 Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für große Systeme zu entwickeln. Bedeuten die beschriebenen Probleme also ein Scheitern der Softwarearchitektur?
 
-Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen.
+Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen (v1 im Bild).
 
 ![Bild für einfache Struktur mit wenigen Abhängigkeiten](system-architecture-evolving.drawio.svg)
 
-Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
+Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Die ADasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
 
 ![Bild mit Mont St. Michel](mont-st-michel.png)
 

@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/doc/system-architecture-1.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/system-architecture-1.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/system-architecture-1.drawio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/system-architecture-1.drawio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/developing modularised software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modularised software in java.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
