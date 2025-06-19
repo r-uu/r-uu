@@ -16,7 +16,7 @@ Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für g
 
 Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen.
 
-![Bild für einfache Struktur mit wenigen Abhängigkeiten](system-architecture-1.drawio.svg)
+![Bild für einfache Struktur mit wenigen Abhängigkeiten](system-architecture-evolving.drawio.svg)
 
 Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
 
