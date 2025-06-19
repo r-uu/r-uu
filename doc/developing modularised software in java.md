@@ -8,7 +8,7 @@ Im folgenden wird zunächst beschrieben, warum die Beherrschung heutiger Softwar
 
 [open diagram](test.svg)
 
-[open diagram](test_drawio.svg)
+[open diagram](test.drawio.svg)
 
 ## Komplexität
 
