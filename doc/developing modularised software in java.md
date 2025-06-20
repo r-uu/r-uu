@@ -14,7 +14,7 @@ Nicht selten ist vor allem die interne Struktur von Systemen dafür verantwortli
 
 Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für große Systeme zu entwickeln. Bedeuten die beschriebenen Probleme also ein Scheitern der Softwarearchitektur?
 
-Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen (v1 im **Abb. 1**).
+Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen (v1 in **Abb. 1**).
 
 <p align="center">
   <img src="system-architecture-evolving.drawio.svg" alt="Erosion der Systemarchitektur" width="500"/>
@@ -23,13 +23,13 @@ Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sin
 </p>
 *Abb. 1: Erosion der Systemarchitektur*
 
-[//]: # (![Erosion der Systemarchitektur]&#40;system-architecture-evolving.drawio.svg&#41;)
-
-[//]: # (*Abb. 1: Erosion der Systemarchitektur*)
-
 Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
 
-![Mont St. Michel](mont-st-michel.png)
+<p align="center">
+  <img src="mont-st-michel.png" alt="Es wird eng ..." width="500"/>
+  <br/>
+  <em>Abb. 2: Es wird eng ...</em>
+</p>
 *Abb. 2: Es wird eng ...*
 
 Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt es hier vor allem in der stetig wachsende Zahl von (internen) Abhängigkeiten. Liessen sich diese besser in den Griff kriegen, könnten auch große Systeme besser verstanden, verbessert, erweitert, getestet werden.
