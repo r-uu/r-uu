@@ -32,8 +32,6 @@ Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Das
 
 Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt es hier vor allem in der stetig wachsende Zahl von (internen) Abhängigkeiten. Liessen sich diese besser in den Griff kriegen, könnten auch große Systeme besser verstanden, verbessert, erweitert, getestet werden.
 
-[Bild für komplexere Struktur mit mehr Abhängigkeiten]()
-
 ## Design for Changeability
 
 Gesucht wird also nach Ansätzen, die Softwaresysteme anpassbar machen, ihre Grenzen erweitern, ohne dass ihre Komplexität Überhand nimmt und die gleichzeitig effektive Qualitätssicherung unterstützen. Solange zu viele Abhängigkeiten aber die Ursache für die Probleme sind, ist die Beherrschung dieser Abhängigkeiten ein Beitrag zur Lösung. Was hier Hoffnung macht ist, dass eine große Menge dieser Abhängigkeiten weder gewollt noch nötig ist.
