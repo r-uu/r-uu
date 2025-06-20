@@ -21,7 +21,6 @@ Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sin
   <br/>
   <em>Abb. 1: Erosion der Systemarchitektur</em>
 </p>
-*Abb. 1: Erosion der Systemarchitektur*
 
 Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
 
@@ -30,7 +29,6 @@ Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Das
   <br/>
   <em>Abb. 2: Es wird eng ...</em>
 </p>
-*Abb. 2: Es wird eng ...*
 
 Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt es hier vor allem in der stetig wachsende Zahl von (internen) Abhängigkeiten. Liessen sich diese besser in den Griff kriegen, könnten auch große Systeme besser verstanden, verbessert, erweitert, getestet werden.
 
