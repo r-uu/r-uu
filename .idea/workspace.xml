@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.lib/cdi/common/src/main/java/de/ruu/lib/cdi/common/CDIUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/taskgroup/selector/TaskGroupSelectorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/buttons/AddController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/buttons/AddController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyControllerAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/fx/core/src/main/java/de/ruu/lib/fx/control/autocomplete/textfield/AutoCompleteTextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/developing modularised software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modularised software in java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/system-architecture-evolving.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/system-architecture-evolving.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/system-architecture-evolving.drawio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/system-architecture-evolving.drawio.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -99,6 +104,7 @@
     "Application.DataAsStringTransformer.executor": "Run",
     "Application.DataFactory.executor": "Run",
     "Application.DemoAppRunner.executor": "Run",
+    "Application.EditAppRunner.executor": "Run",
     "Application.EmptyAppRunner.executor": "Run",
     "Application.FXBeanEditorDemoAppRunner.executor": "Run",
     "Application.FXComponentBundleGenerator.executor": "Run",
@@ -110,12 +116,15 @@
     "Application.MainAppRunner.executor": "Run",
     "Application.RUUFXDemoComponentMainAppRunner.executor": "Run",
     "Application.RePopulateDB.executor": "Run",
+    "Application.RemoveAppRunner.executor": "Run",
     "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
     "Application.TableCellColorExample.executor": "Run",
     "Application.TaskEditorAppRunner.executor": "Run",
     "Application.TaskGroupEditorRunner.executor": "Run",
     "Application.TaskGroupManagementAppRunner.executor": "Run",
     "Application.TaskGroupSelectorAppRunner.executor": "Run",
+    "Application.TaskHierarchyAppRunner.executor": "Run",
+    "Application.TaskHierarchyPredecessorsAppRunner.executor": "Debug",
     "Application.TaskHierarchyViewAppRunner.executor": "Run",
     "Application.TaskManagementAppRunner.executor": "Run",
     "Application.TaskTreeTableViewAppRunner.executor": "Run",
@@ -125,8 +134,8 @@
     "Application.TypeGenerator.executor": "Run",
     "Application.chatgpt.GanttChatGPT.executor": "Run",
     "Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor": "Run",
+    "Application.de.ruu.lib.fx.TypeGenerator.executor": "Run",
     "Application.de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner.executor": "Run",
-    "Application.de.ruu.lib.fx.control.buttons.AddAppRunner.executor": "Run",
     "JUnit.All in r-uu.lib-jackson.executor": "Run",
     "JUnit.All in r-uu.lib-util.executor": "Run",
     "JUnit.CompanyServiceJPASETest.executor": "Run",
@@ -271,7 +280,12 @@
     "Maven.r-uu.app-jeeeraaah-common-se [install].executor": "Run",
     "Maven.r-uu.app-jeeeraaah-server [install].executor": "Run",
     "Maven.r-uu.lib [clean,install].executor": "Run",
+    "Maven.r-uu.lib [install].executor": "Run",
     "Maven.r-uu.lib-excel [install].executor": "Run",
+    "Maven.r-uu.lib-fx [clean,install].executor": "Run",
+    "Maven.r-uu.lib-fx-comp [clean,install].executor": "Run",
+    "Maven.r-uu.lib-fx-comp [compile].executor": "Run",
+    "Maven.r-uu.lib-fx-comp-demo [install].executor": "Run",
     "Maven.r-uu.lib-fx-core [clean,install].executor": "Run",
     "Maven.r-uu.lib-jsonb [clean,install].executor": "Run",
     "Maven.r-uu.lib-mapstruct [clean,install].executor": "Run",
@@ -286,7 +300,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.lib/gen/java/fx/comp/src/main/java/de/ruu/lib/fx/comp/buttons",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -296,18 +310,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\main\java\de\ruu\lib\fx\comp\buttons" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\test\resources\de\ruu\lib\fx\comp\buttons" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\main\java\de\ruu\lib\gen\java\fx\comp\buttons" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\img\png" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources\icons" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources\de\ruu\lib\fx\control\buttons" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\java\de\ruu\lib\fx\control\buttons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources\de\ruu\lib\controls\buttons" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\directneighbours" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\directneighbours" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\list\directneighbours" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\list\directneighbours" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.hierarchy.TaskHierarchyView" />
@@ -320,26 +334,27 @@
       <recent name="de.ruu.lib.fx.control.autocomplete.textfield.v2" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy" />
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.dash" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.list.directneighbours" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view" />
       <recent name="de.ruu.app.jeeeraaah.common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy" />
+      <recent name="de.ruu.lib.gen.java.element" />
+      <recent name="de.ruu.lib.fx.gaga" />
+      <recent name="de.ruu.lib.fx.comp" />
       <recent name="de.ruu.lib.fx.control.buttons" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.dash" />
-      <recent name="de.ruu.app.jeeeraaah.common.map.lazy.bean" />
-      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view" />
-      <recent name="de.ruu.lib.fx.control.autocomplete" />
     </key>
   </component>
   <component name="RunManager" selected="Application.DashAppRunner">
     <configuration name="AddAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.comp.buttons.AddAppRunner" />
-      <module name="r-uu.lib-gen-java-fx-comp" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.buttons.AddAppRunner" />
+      <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.comp.buttons.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.control.buttons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,12 +362,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonsGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.gen.java.fx.comp.buttons.ButtonsGenerator" />
-      <module name="r-uu.lib-gen-java-fx-comp" />
+    <configuration name="EditAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.buttons.EditAppRunner" />
+      <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.gen.java.fx.comp.buttons.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.control.buttons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -360,12 +375,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskViewWithDirectNeighboursAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.directneighbours.TaskViewWithDirectNeighboursAppRunner" />
+    <configuration name="RemoveAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.buttons.RemoveAppRunner" />
+      <module name="r-uu.lib-fx-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.ruu.lib.fx.control.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskHierarchyPredecessorsAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.TaskHierarchyPredecessorsAppRunner" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.directneighbours.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -374,24 +402,11 @@
       </method>
     </configuration>
     <configuration name="TypeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.generate.TypeGenerator" />
-      <module name="r-uu.app-jeeeraaah-client-fx" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.generate.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="de.ruu.lib.fx.control.buttons.AddAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.control.buttons.AddAppRunner" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.lib.fx.TypeGenerator" />
       <module name="r-uu.lib-fx-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.lib.fx.control.buttons.*" />
+          <option name="PATTERN" value="de.ruu.lib.fx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -415,20 +430,20 @@
       <item itemvalue="Application.DBPopulate" />
       <item itemvalue="Application.DBPopulateSE" />
       <item itemvalue="Application.DBClean" />
-      <item itemvalue="Application.de.ruu.lib.fx.control.buttons.AddAppRunner" />
-      <item itemvalue="Application.AddAppRunner" />
-      <item itemvalue="Application.ButtonsGenerator" />
-      <item itemvalue="Application.TaskViewWithDirectNeighboursAppRunner" />
+      <item itemvalue="Application.EditAppRunner" />
+      <item itemvalue="Application.RemoveAppRunner" />
       <item itemvalue="Application.TypeGenerator" />
+      <item itemvalue="Application.TaskHierarchyPredecessorsAppRunner" />
+      <item itemvalue="Application.AddAppRunner" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.de.ruu.lib.fx.control.buttons.AddAppRunner" />
-        <item itemvalue="Application.AddAppRunner" />
-        <item itemvalue="Application.ButtonsGenerator" />
-        <item itemvalue="Application.TaskViewWithDirectNeighboursAppRunner" />
+        <item itemvalue="Application.TaskHierarchyPredecessorsAppRunner" />
         <item itemvalue="Application.TypeGenerator" />
+        <item itemvalue="Application.AddAppRunner" />
+        <item itemvalue="Application.RemoveAppRunner" />
+        <item itemvalue="Application.EditAppRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -470,94 +485,9 @@
           <option name="timeStamp" value="54" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/map/jpa/dto/TestMapStructTaskWithEntityDTOAndEntityJPA.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="216" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/jpa/se/DBPopulateSE.java</url>
-          <line>104</line>
-          <option name="timeStamp" value="230" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/TestDTOsDataModel.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="235" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/dto/TestRelationsMappingDTO.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="236" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/jpa/TestRelationsJPA.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="242" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/DataFactory.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="265" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java</url>
-          <line>164</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="277" />
-        </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <condition expression="name().contains(&quot;feature set 3&quot;) &amp;&amp; task.name().contains(&quot;feature 3&quot;)" language="JAVA" />
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java</url>
-          <line>246</line>
-          <option name="timeStamp" value="279" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="282" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Test_Map_TaskGroup_Lazy_Bean.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="296" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskServiceClient.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="297" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java</url>
-          <line>287</line>
-          <option name="timeStamp" value="305" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskRepositoryJPA.java</url>
-          <line>169</line>
-          <option name="timeStamp" value="309" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/main/java/de/ruu/lib/fx/comp/buttons/AddAppRunner.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/gen/java/fx/comp/src/main/java/de/ruu/lib/fx/comp/buttons/AddAppRunner.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="319" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/fx/comp/src/main/java/de/ruu/lib/fx/comp/DefaultFXCView.java</url>
-          <line>228</line>
-          <option name="timeStamp" value="342" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/target/generated-test-sources/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA_.java</url>
-          <line>27</line>
-          <properties field="start" class="de.ruu.app.jeeeraaah.common.jpa.TaskEntityJPA_" />
-          <option name="timeStamp" value="259" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessorsController.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="362" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

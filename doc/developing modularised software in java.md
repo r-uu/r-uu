@@ -17,9 +17,9 @@ Eine zentrale Aufgabe von Softwarearchitektur ist, tragfähige Strukturen für g
 Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sinnvolle Strukturen, die den bekannten Anforderungen genügen (v1 in **Abb. 1**).
 
 <p align="center">
-  <img src="system-architecture-evolving.drawio.svg" alt="Erosion der Systemarchitektur" width="500"/>
+  <img src="system-architecture-evolving.drawio.svg" alt="Erosion einer Systemarchitektur" width="500"/>
   <br/>
-  <em>Abb. 1: Erosion der Systemarchitektur</em>
+  <em>Abb. 1: Erosion einer Systemarchitektur</em>
 </p>
 
 Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
@@ -39,9 +39,9 @@ Gesucht wird also nach Ansätzen, die Softwaresysteme anpassbar machen, ihre Gre
 Warum gibt es sie dann? Zwei Gründe sind meist ausschlaggebend:
 
 - Es kann bequem sein, zusätzliche Abhängigkeiten bewusst in Kauf zu nehmen, und
-- es gibt kein wirksames Mittel gegen das unbewusste, ungewollte Entstehen unnötiger Abhängigkeiten.
+- es gibt kein zuverlässig wirksames Mittel, das das unbewusste, ungewollte Entstehen unnötiger Abhängigkeiten verhindert.
 
-Wie hat die Softwareindustrie darauf reagiert hat und wie erfolgreich ist bzw. war sie bis jetzt dabei?
+Wie hat die Softwareindustrie darauf reagiert und wie erfolgreich ist bzw. war sie bis jetzt dabei, hochleistungsfähige und flexibel anpassbare Systeme herzustellen?
 
 ## Klassische Ansätze
 
@@ -59,7 +59,7 @@ Microservices verfolgen hier einen rigoroseren Ansatz. Für jeden Microservice w
 
 Warum ist das so?
 
-Der Grund liegt in einem typischen Merkmal von Microservices: sie sind üblicherweise tatsächlich klein - so klein, dass sie isoliert von der Aussenwelt wenig Sinn erbringen. Typischerweise laufen Microservices daher in einem Netzwerk aus Microservices, oft in sogenannten Containern. Im Netzwerk kommunizieren die Microservices untereinander und stellen so die mächtige Funktionalität heutiger Softwaresysteme zur Verfügung. Deren Mächtigkeit steht dabei im Kontrast zur Kleinheit der Microservices. Es liegt auf der Hand, dass es eine große Anzahl von Microservices braucht, um heutige Systeme zu bauen.
+Der Grund liegt in einem typischen Merkmal von Microservices: sie sind üblicherweise tatsächlich klein - so klein, dass sie isoliert von der Aussenwelt wenig Sinn erbringen. Typischerweise laufen Microservices daher in einem Netzwerk aus Microservices, oft in sogenannten Containern. Im Netzwerk kommunizieren die Microservices untereinander und stellen so die mächtige Funktionalität heutiger Softwaresysteme zur Verfügung. Deren Mächtigkeit steht dabei zunächst im Kontrast zur Kleinheit der Microservices. Es liegt auf der Hand, dass es eine große Anzahl von Microservices braucht, um heutige Systeme zu bauen.
 
 Natürlich steigt mit wachsender Zahl von Microservices / Containern / Prozessen die Komplexität, diese zu beherrschen. In einem vernetzten System von eigenständigen Betriebssystemprozessen muss über viele Aspekte ganz neu nachgedacht werden: Wie wird mit der Latenz bei der Netzwerkkommunikation umgegangen? Wie erkennt das Gesamtsystem den Ausfall einzelner Komponenten und wie reagiert es darauf? Wird die Konsistenz ggf. redundanter Daten hergestellt und falls ja, wie? Wie lassen sich Transaktionen über Prozessgrenzen realisieren? Um all dem zu begegnen, entstand eine Vielzahl von zum Teil konkurrierenden Konzepten, Tools und Technologien (und natürlich entsprechenden Dienstleistungsangeboten).
 
