@@ -51,7 +51,7 @@ Monolithen werden typischerweise als eine große Einheit entworfen, in der sich 
 
 Dies erleichtert vieles, hat aber auch seinen Preis: Innerhalb des Monolithen war es lange schwer, die enthaltenen Teilsysteme sauber voneinander zu trennen. So schlichen sich, bewusst oder unbewusst, unnötige Abhängigkeiten zwischen Teilsystemen ein. Viele Monolithen wurden so zu einem "big ball of mud", deren Wart-, Test- und Erweiterbarkeit zunehmend komplexer bis hin zu unmöglich wurden. Es gab schlicht keine effektiven und technisch wasserdichten Mechanismen, mit denen sich die Abhängigkeiten von Teilsystemen besser hätten kontrollieren und ggf. verhindern lassen können.
 
-Sicher macht man sich Konzepte wie Kapselung von Klassen und Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen . Diese Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen. Vieles beruhte auf Einhaltung von Konventionen. Verstösse mussten dabei erst einmal mit viel Mühe erkannt werden, bevor sie korrigiert werden konnten. Tools wie z. B. archunit ermöglichen eine automatisierte und regelbasierte Unterstützung dabei, müssen aber für jedes System korrekt und möglichst vollständig konfiguriert (und getestet?) werden. Ist die automatisierte Überprüfung der Systemstruktur in den Buildprozess integriert, erhält man frühzeitig Hinweise auf Verstöße. Natürlich darf in so einem Fall nicht die entsprechende Regel gelockert oder gar deaktiviert werden.
+Sicher macht man sich Konzepte wie Kapselung von Klassen und Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen ([vgl. unten](#wie-code-in-java-strukturiert-wird)). Diese Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen. Vieles beruhte auf Einhaltung von Konventionen. Verstösse mussten dabei erst einmal mit viel Mühe erkannt werden, bevor sie korrigiert werden konnten. Tools wie z. B. archunit ermöglichen eine automatisierte und regelbasierte Unterstützung dabei, müssen aber für jedes System korrekt und möglichst vollständig konfiguriert (und getestet?) werden. Ist die automatisierte Überprüfung der Systemstruktur in den Buildprozess integriert, erhält man frühzeitig Hinweise auf Verstöße. Natürlich darf in so einem Fall nicht die entsprechende Regel gelockert oder gar deaktiviert werden.
 
 ## Microservices
 
@@ -67,7 +67,7 @@ Natürlich steigt mit wachsender Zahl von Microservices / Containern / Prozessen
 
 Dies hinterließ bei vielen den Eindruck, dass die Komplexität von Microservices die der Monolithen deutlich übersteigt, wenn es sich hier auch um eine andere Art von Komplexität handelt. Das darf aber kein Grund sein, Microservices voreilig ad acta zu legen. Es muss eingeräumt werden, dass Modularisierung nicht das einzige Qualitätsmerkmal von guten Softwaresystemen ist. Neben diesem erhält man mit Microservices neue Möglichkeiten z.B. für die Skalierbarkeit und für das Deployment neuer Softwarefeatures.
 
-Dennoch, die Kritik an Microservices führte nach einiger Zeit zu einer gegenläufigen Entwicklung mit Slogans wie "I want my monolith back". Tatsächlich tat sich gleichzeitig und unabhängig vom Trend zu Microservices auch einiges in Bezug auf Modularisierung im Java-Umfeld (s. u.).
+Dennoch, die Kritik an Microservices führte nach einiger Zeit zu einer gegenläufigen Entwicklung mit Slogans wie "I want my monolith back". Tatsächlich tat sich gleichzeitig und unabhängig vom Trend zu Microservices auch einiges in Bezug auf Modularisierung im Java-Umfeld ([siehe unten](#modularisierung-mit-java)).
 
 ## Warum ist Modularisierung wichtig und was sind Module?
 
@@ -81,12 +81,7 @@ Beim Java Platform Module System ist es sogar möglich, dass ein Modul bis ins D
 
 Sollte es also nicht möglich sein, Softwaresysteme zu konstruieren, die strukturell deutlich weniger komplex sind als die klassischen Monolithen, trotzdem aber deren einfachere Handhabbarkeit im Produktivbetrieb nutzen? Gibt es gleichzeitig eine Möglichkeit, bei Bedarf die Vorteile von Microservices z. B. in Sachen Skalierbarkeit mit einzubringen? Dieser Beitrag versucht anhand eines konkreten Beispiels zu zeigen, dass ein modular aufgebauter Monolith, ggf. an performancekritischen Stellen gezielt kombiniert mit hochskalierbaren Mikroservices, genau dies realisiert. Dieses Konzept taucht seit einiger Zeit in der Literatur unter dem Kunstnamen "Modulith" auf.
 
-## Ein Anwendungsbeispiel
-
-
----------- Hintergrund ----------
-
-## Wie Code in Java strukturiert wird<a name="wie_code_in_java_strukturiert_wird"></a>
+## Wie Code in Java strukturiert wird
 
 Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, strukturiert man Java Code schon lange in Konstrukte wie interfaces, classes und packages und verwendet access level (public, protected, ...), um Zugriff auf interne Teile dieser Einheiten gezielt zu steuern. Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
 
@@ -94,11 +89,15 @@ Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend 
 
 Dies ist ein Ausgangspunkt für die Entstehung von big balls of mud: Früher oder später wird es dazu kommen, dass die Klasse von (weit entfernten) Stellen aus verwendet wird, die eigentlich keinen Zugriff haben sollten, da die Klasse für sie ein zu verbergendes Implementierungsdetail eines größeren Bausteins ist.
 
+## Modularisierung mit Java
+
 Module schaffen hier Abhilfe, indem sie insbesondere für enthaltene packages Mechanismen bereitstellen, mit denen präzise definiert werden kann, von wem (also von welchen anderen packages) und wie auf deren Bestandteile zugegriffen werden kann. Module erfordern dabei zwar im ersten Moment einen gewissen Zusatzaufwand, garantieren aber danach eine sauberere interne Struktur des Gesamtsystems. Dies wird erreicht, indem die beschriebene Inflation von Abhängigkeiten effektiv verhindert wird.
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+## Ein Anwendungsbeispiel
 
-## Modularisierung mit Java
+---------- Hintergrund ----------
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
 
