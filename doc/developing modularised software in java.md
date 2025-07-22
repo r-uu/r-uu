@@ -1,5 +1,5 @@
 # Entwicklung modularer Software mit Java
-xxx
+
 Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart-, Test- und Erweiterbarkeit bei. 
 
 Dieser Beitrag beschreibt unzureichende Modularisierung als eine Ursache für die Schwierigkeit, komplexe Software zu beherrschen und wie es zu Defiziten in der Modularisierung kommt. Es werden Strategien für die Reduzierung dieser Defizite bescgrieben und dabei wird insbesondere auf Möglichkeiten zur Modularisierung in Java eingegangen. Diese werden zum Teil an praktischen Beispielen demonstriert.
