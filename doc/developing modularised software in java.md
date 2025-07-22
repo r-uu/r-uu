@@ -43,19 +43,21 @@ Warum gibt es sie dann? Zwei Gründe sind meist ausschlaggebend:
 
 Wie hat die Softwareindustrie darauf reagiert und wie erfolgreich ist bzw. war sie bis jetzt dabei, hochleistungsfähige und flexibel anpassbare Systeme herzustellen?
 
-## Klassische Ansätze
+## Klassische Ansätze - Kapselung in Monolithen
 
 Das Folgende bezieht sich in erster Linie auf die heute sehr verbreiteten Java-(Alt)-Systeme, ist in ähnlicher Weise aber auch auf andere Technologiestacks übertragbar.
 
-Mehrere Probleme monolithischer Systeme (s. o.) haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen. Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden. Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
+Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden. Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
 
 Dies erleichtert vieles, hat aber auch seinen Preis: Innerhalb des Monolithen war es lange schwer, die enthaltenen Teilsysteme sauber voneinander zu trennen. So schlichen sich, bewusst oder unbewusst, unnötige Abhängigkeiten zwischen Teilsystemen ein. Viele Monolithen wurden so zu einem "big ball of mud", deren Wart-, Test- und Erweiterbarkeit zunehmend komplexer bis hin zu unmöglich wurden. Es gab schlicht keine effektiven und technisch wasserdichten Mechanismen, mit denen sich die Abhängigkeiten von Teilsystemen besser hätten kontrollieren und ggf. verhindern lassen können.
 
-Sicher macht man sich Konzepte wie Kapselung von Klassen und Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen. Diese Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen. Vieles beruhte auf Einhaltung von Konventionen. Verstösse mussten dabei erst einmal mit viel Mühe erkannt werden, bevor sie korrigiert werden konnten. Tools wie z. B. archunit ermöglichen eine automatisierte und regelbasierte Unterstützung dabei, müssen aber für jedes System korrekt und möglichst vollständig konfiguriert (und getestet?) werden. Ist die automatisierte Überprüfung der Systemstruktur in den Buildprozess integriert, erhält man frühzeitig Hinweise auf Verstöße. Natürlich darf in so einem Fall nicht die entsprechende Regel gelockert oder gar deaktiviert werden.
+Sicher macht man sich Konzepte wie Kapselung von Klassen und Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen . Diese Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen. Vieles beruhte auf Einhaltung von Konventionen. Verstösse mussten dabei erst einmal mit viel Mühe erkannt werden, bevor sie korrigiert werden konnten. Tools wie z. B. archunit ermöglichen eine automatisierte und regelbasierte Unterstützung dabei, müssen aber für jedes System korrekt und möglichst vollständig konfiguriert (und getestet?) werden. Ist die automatisierte Überprüfung der Systemstruktur in den Buildprozess integriert, erhält man frühzeitig Hinweise auf Verstöße. Natürlich darf in so einem Fall nicht die entsprechende Regel gelockert oder gar deaktiviert werden.
 
 ## Microservices
 
-Microservices verfolgen hier einen rigoroseren Ansatz. Für jeden Microservice wird eine oft plattformunabhängige Schnittstelle vereinbart. Die Implementierung dieser Schnittstelle erfolgt vollständig autonom, bis hin zur Wahl der verwendeten Technologie. Auch teilen sich Microservices nicht einen gemeinsamen Betriebssystemprozess, sondern jeder bekommt exklusiv einen eigenen. Offensichtlich werden so unerwünschte Querverbindungen zwischen den Teilsystemen, also solche, die nicht dessen Schnittstelle verwenden, kategorisch unterbunden. Auf diese Weise lässt sich so ein sehr hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices die Komplexität an anderen Stellen, z. B. bei der Infrastruktur und dessen Management, enorm steigt.
+Mehrere Probleme monolithischer Systeme (s. o.) haben vor Jahren das Aufkommen von Microservices stark begünstigt, u. a. die eingeschränkten Möglichkeiten zur Modularisierung von großen Systemen.
+
+Microservices verfolgen insbesondere bei der Kapselung von Code einen rigoroseren Ansatz als herkömmliche Systemarchitekturen: Für jeden Microservice wird eine (oft plattformunabhängige) Schnittstelle vereinbart. Die Implementierung dieser Schnittstelle erfolgt vollständig autonom, bis hin zur Wahl der verwendeten Technologie. Auch teilen sich Microservices nicht einen gemeinsamen Betriebssystemprozess, sondern jeder bekommt exklusiv einen eigenen. Offensichtlich werden so unerwünschte Querverbindungen zwischen den Teilsystemen, also solche, die nicht dessen Schnittstelle verwenden, kategorisch unterbunden. Auf diese Weise lässt sich so ein sehr hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices die Komplexität an anderen Stellen, z. B. bei der Infrastruktur und deren Management, enorm steigt.
 
 Warum ist das so?
 
@@ -84,7 +86,7 @@ Sollte es also nicht möglich sein, Softwaresysteme zu konstruieren, die struktu
 
 ---------- Hintergrund ----------
 
-## Wie Code in Java strukturiert wird
+## Wie Code in Java strukturiert wird<a name="wie_code_in_java_strukturiert_wird"></a>
 
 Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, strukturiert man Java Code schon lange in Konstrukte wie interfaces, classes und packages und verwendet access level (public, protected, ...), um Zugriff auf interne Teile dieser Einheiten gezielt zu steuern. Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
 
