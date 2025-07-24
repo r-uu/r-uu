@@ -51,13 +51,13 @@ Monolithen werden typischerweise als eine große Einheit entworfen, in der sich 
 
 Dies erleichtert vieles, hat aber auch seinen Preis: Innerhalb des Monolithen war es lange schwer, die enthaltenen Teilsysteme sauber voneinander zu trennen. So schlichen sich, bewusst oder unbewusst, unnötige Abhängigkeiten zwischen Teilsystemen ein. Viele Monolithen wurden so zu einem "big ball of mud", deren Wart-, Test- und Erweiterbarkeit zunehmend komplexer bis hin zu unmöglich wurden. Es gab schlicht keine effektiven und technisch wasserdichten Mechanismen, mit denen sich die Abhängigkeiten von Teilsystemen besser hätten kontrollieren und ggf. verhindern lassen können.
 
-Sicher machte man sich konventionelle Konzepte wie Kapselung von Objektstruktur und -verhalten in Klassen und die Organisation von Code in Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen ([vgl. unten](#wie-code-in-java-strukturiert-wird)). Bei Kapselung geht es im Wesentlichen darum, unnötige und unerwünschte Abhängigkeiten zu unterbinden. Die konventionellen Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen.
+Sicher machte man sich konventionelle Konzepte wie Kapselung von Objektstruktur und -verhalten in Klassen und die Organisation von Code in Packages zunutze, um eine interne Struktur des Gesamtsystems herzustellen ([vgl. unten](#wie-code-in-java-strukturiert-wird---kapselung-durch-zugriffskontrolle-und-packages)). Bei Kapselung geht es im Wesentlichen darum, unnötige und unerwünschte Abhängigkeiten zu unterbinden. Die konventionellen Konzepte sind aber letztlich zu durchlässig, um die Einhaltung der Strukturen, also die Sicherstellung einer konsistenten Architektur, systemweit zu erzwingen.
 
 Vieles beruhte nämlich auf Einhaltung von Konventionen. (Unbewusste) Verstösse mussten dabei erst einmal mit viel Mühe erkannt werden, bevor sie korrigiert werden konnten. Tools wie z. B. [archunit](https://www.archunit.org/) ermöglichen eine automatisierte und regelbasierte Unterstützung dabei, die Regeln aber müssen für jedes System korrekt und möglichst vollständig konfiguriert (und getestet?) werden. Ist die automatisierte Überprüfung der Systemstruktur in den Buildprozess integriert, erhält man frühzeitig Hinweise auf Verstöße. Natürlich darf in solchen Fällen nicht einfach die entsprechende Regel gelockert oder gar deaktiviert werden. Stattdessen muss der Code so geändert werden, dass die Regeln eingehalten werden. Das ist natürlich nicht immer einfach, aber es ist der einzige Weg, um die Modularisierung des Systems zu verbessern und damit die Beherrschbarkeit zu erhöhen.
 
 ### Microservices
 
-Mehrere Probleme monolithischer Systeme [siehe "Kapselung in Monolithen"](#klassische-ansätze---kapselung-in-monolithen) haben vor Jahren das Aufkommen von Microservices stark begünstigt.
+Mehrere Probleme monolithischer Systeme ([siehe "Kapselung in Monolithen"](#klassische-ansätze---kapselung-in-monolithen)) haben vor Jahren das Aufkommen von Microservices stark begünstigt.
 
 Microservices verfolgen insbesondere bei der Kapselung von Code einen rigoroseren Ansatz als herkömmliche Systemarchitekturen: Für jeden Microservice wird eine (oft plattformunabhängige) Schnittstelle vereinbart. Die Implementierung dieser Schnittstelle erfolgt vollständig autonom, bis hin zur Wahl der verwendeten Technologie. Auch teilen sich Microservices nicht einen gemeinsamen Betriebssystemprozess, sondern jeder bekommt exklusiv einen eigenen. Offensichtlich werden so unerwünschte Querverbindungen zwischen den Teilsystemen, also solche, die nicht dessen Schnittstelle verwenden, kategorisch unterbunden. Auf diese Weise lässt sich so ein sehr hoher Grad an Modularisierung erreichen, es zeigt sich aber, dass mit wachsender Zahl von Microservices die Komplexität an anderen Stellen, z. B. bei der Infrastruktur und deren Management, enorm steigt.
 
@@ -77,27 +77,45 @@ Das Schlüsselargument ist hier Beherrschung von Komplexität auch in großen Sy
 
 Der Zugriff auf ein Modul ist wie bei den Microservices technisch nur über vom Modul selbst zur Verfügung gestellte Schnittstellen möglich. Das bedeutet, dass das Entstehen von unerwünschten Abhängigkeiten technisch unterbunden wird. Dadurch wird ein Modul zu einem Baustein, mit dem große Systeme hergestellt werden können. Die Gefahr, dass diese durch unkontrolliert entstehende Abhängigkeiten fragil bzw. unwartbar und nicht erweiterbar werden, ist deutlich reduziert.
 
----------------- reviewed, hier beschreiben, warum module einen besseren Schutz vor unerlaubten Zugriff ermöglichen ----------------
+> Es wäre ein Missverständnis einzuwenden, dass durch einfache Erweiterungen einer Modulschnittstelle der Zugriff auch auf interne Bereiche möglich wird. Das ist zwar technisch möglich, hier kommt allerdings zum Tragen, dass es in realen Projekten eine klare Verantwortlichkeit für Module gibt. Dadurch kann "organisatorisch" sichergestellt werden, dass Modulschnittstellen nicht von aussen und nicht beliebig verändert werden.
 
-Beim Java Platform Module System ist es sogar möglich, dass ein Modul bis ins Detail steuert, welche anderen Module auf welche Teile der bereitgestellten Schnittstelle zugreifen können. Anders als Microservices werden Module nicht notwendigerweise in eigenen Betriebssystemprozessen ausgeführt.
+## Modulithen - Das beste aus beiden Welten
 
-## Modulithen
+Die oben nur kurz beschriebenen Vorteile von Monolithen auf der einen und Microservices auf der anderen Seite hinterlassen den Wunsch, die Vorteile beider Ansätze zu kombinieren und ihre jeweiligen Nachteile zu relativieren. 
 
-Sollte es also nicht möglich sein, Softwaresysteme zu konstruieren, die strukturell deutlich weniger komplex sind als die klassischen Monolithen, trotzdem aber deren einfachere Handhabbarkeit im Produktivbetrieb nutzen? Gibt es gleichzeitig eine Möglichkeit, bei Bedarf die Vorteile von Microservices z. B. in Sachen Skalierbarkeit mit einzubringen? Dieser Beitrag versucht anhand eines konkreten Beispiels zu zeigen, dass ein modular aufgebauter Monolith, ggf. an performancekritischen Stellen gezielt kombiniert mit hochskalierbaren Mikroservices, genau dies realisiert. Dieses Konzept taucht seit einiger Zeit in der Literatur unter dem Kunstnamen "Modulith" auf.
+Sollte es nicht möglich sein, Softwaresysteme zu konstruieren, die strukturell deutlich weniger komplex sind als die klassischen Monolithen, trotzdem aber deren einfachere Handhabbarkeit im Produktivbetrieb nutzen? Gibt es gleichzeitig eine Möglichkeit, bei Bedarf die Vorteile von Microservices z. B. in Sachen Skalierbarkeit mit einzubringen? Dieser Beitrag versucht anhand eines konkreten Beispiels zu zeigen, dass ein modular aufgebauter Monolith, ggf. an performancekritischen Stellen gezielt kombiniert mit hochskalierbaren Mikroservices, genau dies realisiert. Dieses Konzept taucht seit einiger Zeit in der Literatur unter dem Kunstnamen "Modulith plus Microservices" auf.
 
-## Wie Code in Java strukturiert wird
+Bevor dies im Folgenden näher beschrieben wird, sollen zunächst konventionelle Ansätze zur Strukturierung und Kapselung von Code in Java vorgestellt werden.
 
-Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, strukturiert man Java Code schon lange in Konstrukte wie interfaces, classes und packages und verwendet access level (public, protected, ...), um Zugriff auf interne Teile dieser Einheiten gezielt zu steuern und ggf. zu unterbinden. Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
+## Wie Code in Java strukturiert wird - Kapselung durch Zugriffskontrolle und Packages
+
+Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, strukturiert man Java Code schon lange in Konstrukte wie interfaces, classes und packages und verwendet access level (public, protected, ...), um Zugriff auf interne Teile dieser Einheiten gezielt zu steuern und ggf. zu unterbinden.
+
+Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
 
 ------------- evtl. Tabelle mit Zugriffsleveln -------------
 
-Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud zu verhindern. Dies liegt unter anderem an einem Mangel der java-packages: Will man eine Klasse in einem package von ausserhalb des packages nutzbar machen, muss man die Klasse öffentlich (public) machen. Und genau das entspricht ja dem beschriebenen Bausteinprinzip. Es gab aber lange (zumindest in Standard-Java) keinen Mechanismus, um die Sichtbarkeit von packages zu kontrollieren: Gibt es in einem package eine Klasse, die in einem anderen package verwendet werden soll, muss, wie gesagt, die Klasse public gemacht werden. Damit ist sie aber öffentlich für ALLE Systemteile, in denen das zugehörige package direkt oder indirekt verwendet wird.
+Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud wirksam zu verhindern.
 
-Dies ist ein Ausgangspunkt für die Entstehung von big balls of mud: Früher oder später wird es dazu kommen, dass die Klasse von (weit entfernten) Stellen aus verwendet wird, die eigentlich keinen Zugriff haben sollten, da die Klasse für sie ein zu verbergendes Implementierungsdetail eines größeren Bausteins ist.
+Dies liegt unter anderem an einem Mangel der java-packages: Will man eine Klasse in einem package von ausserhalb des packages nutzbar machen, muss man die Klasse öffentlich (public) machen. Und genau das ermöglicht ja erst das beschriebene Bausteinprinzip. Es gab aber lange (zumindest in Standard-Java) keinen Mechanismus, um die Sichtbarkeit von packages zu kontrollieren: Gibt es in einem package eine Klasse, die in einem anderen package verwendet werden soll, muss, wie gesagt, die Klasse public gemacht werden. Damit ist sie aber öffentlich für ALLE Systemteile, in denen das zugehörige package direkt oder indirekt verwendet werden kann.
+
+Gena dies ist aber ein Ausgangspunkt für die Entstehung von big balls of mud: Früher oder später wird es dazu kommen, dass die Klasse von (weit entfernten) Stellen aus verwendet wird, die eigentlich keinen Zugriff haben sollten, da die Klasse für sie ein zu verbergendes Implementierungsdetail eines größeren Bausteins ist.
 
 ## Modularisierung mit Java
 
-Module schaffen hier Abhilfe, indem sie insbesondere für enthaltene packages Mechanismen bereitstellen, mit denen präzise definiert werden kann, von wem (also von welchen anderen Modulen) und wie auf deren Bestandteile zugegriffen werden kann. Module erfordern dabei zwar im ersten Moment einen gewissen Zusatzaufwand, garantieren aber danach eine viel stabilere interne Struktur des Gesamtsystems. Dies wird erreicht, indem die beschriebene Inflation von Abhängigkeiten effektiv verhindert wird.
+Die Java-Plattform bietet seit Version 9 das Java Platform Module System ([JPMS](https://en.wikipedia.org/wiki/Java_Platform_Module_System)), das eine Möglichkeit für die Vermeidung von unkontrollierten internen Abhängigkeiten darstellt:
+
+Mit JPMS können Entwickler Module definieren, die ausschließlich über eine selbst festgelegte Schnittstelle genutzt werden können und gleichzeitig den Zugriff auf interne Teile des Moduls unterbinden. Es ist also möglich, Module zu definieren, die nur über eine explizit definierte Schnittstelle von aussen zugreifbar sind. Der Zugriff auf interne Teile des Moduls ist dabei nicht möglich. Damit wird das Bausteinprinzip konsequent umgesetzt und gleichzeitig die Entstehung von big balls of mud verhindert.
+
+Mit JPMS ist es sogar möglich, dass Module bis ins Detail steuern, welche anderen Module auf welche Teile der bereitgestellten Schnittstelle zugreifen können. Module erfordern dabei zwar im ersten Moment einen gewissen Zusatzaufwand, garantieren aber danach eine viel stabilere interne Struktur des Gesamtsystems. Dies wird erreicht, indem die beschriebene Inflation von (internen) Abhängigkeiten effektiv verhindert wird.
+
+---------------- reviewed ----------------
+
+
+
+Anders als Microservices werden Module (nicht notwendigerweise) in eigenen Betriebssystemprozessen ausgeführt.
+
+
 
 ## Ein Anwendungsbeispiel
 
