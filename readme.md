@@ -2,12 +2,14 @@
 
 r-uu's github root repository
 
-- [developing modularised software in java](https://github.com/r-uu/r-uu/blob/main/doc/developing%20modularised%20software%20in%20java.md)
+- articles about software developing
 
-- [lib-repository](https://github.com/r-uu/r-uu.lib) [lib](../r-uu.lib/readme.md)
+-- [developing modularised software in java](https://github.com/r-uu/r-uu/blob/main/doc/developing%20modularised%20software%20in%20java.md)
 
-  r-uu's collection of reusable java code.
+- code repositories
 
-- [app-repository](https://github.com/r-uu/r-uu.app) [app](../r-uu.app/readme.md)
+-- [lib-repository](https://github.com/r-uu/r-uu.lib) [lib](../r-uu.lib/readme.md)
+r-uu's collection of reusable java code.
 
-  r-uu's applications are primarily pocs for the library code from [lib](https://github.com/r-uu/r-uu.lib).
+-- [app-repository](https://github.com/r-uu/r-uu.app) [app](../r-uu.app/readme.md)
+r-uu's applications are primarily pocs for the library code from [lib](https://github.com/r-uu/r-uu.lib).
