@@ -9,7 +9,7 @@ r-uu's github root repository
 ## code repositories
 
 ### lib-repository
-- [repository](https://github.com/r-uu/r-uu.lib) - [description](../r-uu.lib/readme.md)
+- [repository](https://github.com/r-uu/r-uu.lib) - [description](https://github.com/r-uu/r-uu.lib/blob/main/readme.md))
 r-uu's collection of reusable java code.
 ### app-repository
 - [repository](https://github.com/r-uu/r-uu.app) - [description](../r-uu.app/readme.md)
