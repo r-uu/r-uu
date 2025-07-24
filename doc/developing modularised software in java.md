@@ -93,7 +93,13 @@ Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, s
 
 Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
 
-------------- evtl. Tabelle mit Zugriffsleveln -------------
+| **Access Modifier** | **Zugriff innerhalb der Klasse** | **Zugriff innerhalb des Packages** | **Zugriff durch Subklassen** | **Zugriff von überall** |
+|---------------------|----------------------------------|-------------------------------------|------------------------------|-------------------------|
+| `public`            | ✅                                | ✅                                   | ✅                            | ✅                       |
+| `protected`         | ✅                                | ✅                                   | ✅                            | ❌                       |
+| `default` (kein Modifier) | ✅                        | ✅                                   | ❌                            | ❌                       |
+| `private`           | ✅                                | ❌                                   | ❌                            | ❌                       |
+Die Tabelle zeigt die Sichtbarkeit von Klassen, Methoden und Variablen in Java. Die Sichtbarkeit wird durch die Verwendung von access modifiers gesteuert.
 
 Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud wirksam zu verhindern.
 
