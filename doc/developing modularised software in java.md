@@ -99,6 +99,7 @@ Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größer
 | `protected`         | ✅                                | ✅                                   | ✅                            | ❌                       |
 | `default` (kein Modifier) | ✅                        | ✅                                   | ❌                            | ❌                       |
 | `private`           | ✅                                | ❌                                   | ❌                            | ❌                       |
+
 Die Tabelle zeigt die Sichtbarkeit von Klassen, Methoden und Variablen in Java. Die Sichtbarkeit wird durch die Verwendung von access modifiers gesteuert.
 
 Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud wirksam zu verhindern.
