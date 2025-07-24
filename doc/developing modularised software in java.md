@@ -71,13 +71,13 @@ Dies hinterließ bei vielen den Eindruck, dass die Komplexität von Microservice
 
 Dennoch, die Kritik an Microservices führte nach einiger Zeit zu einer gegenläufigen Entwicklung mit Slogans wie "I want my monolith back". Tatsächlich tat sich gleichzeitig und unabhängig vom Trend zu Microservices auch einiges in Bezug auf Modularisierung im Java-Umfeld ([siehe unten](#modularisierung-mit-java)).
 
----------------- reviewed ----------------
-
 ## Warum ist Modularisierung wichtig und was sind Module?
 
 Das Schlüsselargument ist hier Beherrschung von Komplexität auch in großen Systemen. Große monolithische Systeme weisen häufig problematische Merkmale wie starke Kopplung auf. Bei zu starker Kopplung sind Systemteile unnötiger und oft ungewollter Weise voneinander abhängig. Viele dieser Abhängigkeiten entstehen unkontrolliert und so kommt es, dass schnell so viele existieren, dass große Teile des Systems nahezu unwartbar werden: Jede Änderung birgt die Gefahr von schwer kontrollierbaren Seiteneffekten in kaum vorhersehbaren Teilen des Systems. Dies wiederum führt dazu, dass die Kosten für Wartung und Erweiterung der Software explodieren.
 
 Der Zugriff auf ein Modul ist wie bei den Microservices technisch nur über vom Modul selbst zur Verfügung gestellte Schnittstellen möglich. Das bedeutet, dass das Entstehen von unerwünschten Abhängigkeiten technisch unterbunden wird. Dadurch wird ein Modul zu einem Baustein, mit dem große Systeme hergestellt werden können. Die Gefahr, dass diese durch unkontrolliert entstehende Abhängigkeiten fragil bzw. unwartbar und nicht erweiterbar werden, ist deutlich reduziert.
+
+---------------- reviewed, hier beschreiben, warum module einen besseren Schutz vor unerlaubten Zugriff ermöglichen ----------------
 
 Beim Java Platform Module System ist es sogar möglich, dass ein Modul bis ins Detail steuert, welche anderen Module auf welche Teile der bereitgestellten Schnittstelle zugreifen können. Anders als Microservices werden Module nicht notwendigerweise in eigenen Betriebssystemprozessen ausgeführt.
 
