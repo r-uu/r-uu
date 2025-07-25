@@ -79,11 +79,19 @@ Der Zugriff auf ein Modul ist wie bei den Microservices technisch nur über vom 
 
 > Es wäre ein Missverständnis einzuwenden, dass durch einfache Erweiterungen einer Modulschnittstelle der Zugriff auch auf interne Bereiche möglich wird. Das ist zwar technisch möglich, hier kommt allerdings zum Tragen, dass es in realen Projekten eine klare Verantwortlichkeit für Module gibt. Dadurch kann "organisatorisch" sichergestellt werden, dass Modulschnittstellen nicht von aussen und nicht beliebig verändert werden.
 
-## Modulithen - Das beste aus beiden Welten
+## Modulithen
 
-Die oben nur kurz beschriebenen Vorteile von Monolithen auf der einen und Microservices auf der anderen Seite hinterlassen den Wunsch, die Vorteile beider Ansätze zu kombinieren und ihre jeweiligen Nachteile zu relativieren. 
+Die oben nur kurz beschriebenen Eigenschaften von Monolithen auf der einen und Microservices auf der anderen Seite hinterlassen den Wunsch, die Vorteile beider Ansätze zu kombinieren und ihre jeweiligen Nachteile zu relativieren. 
 
-Sollte es nicht möglich sein, Softwaresysteme zu konstruieren, die strukturell deutlich weniger komplex sind als die klassischen Monolithen, trotzdem aber deren einfachere Handhabbarkeit im Produktivbetrieb nutzen? Gibt es gleichzeitig eine Möglichkeit, bei Bedarf die Vorteile von Microservices z. B. in Sachen Skalierbarkeit mit einzubringen? Dieser Beitrag versucht anhand eines konkreten Beispiels zu zeigen, dass ein modular aufgebauter Monolith, ggf. an performancekritischen Stellen gezielt kombiniert mit hochskalierbaren Mikroservices, genau dies realisiert. Dieses Konzept taucht seit einiger Zeit in der Literatur unter dem Kunstnamen "Modulith plus Microservices" auf.
+Sollte es nicht möglich sein, Softwaresysteme zu konstruieren, die strukturell deutlich weniger komplex sind als die klassischen Monolithen, trotzdem aber deren einfachere Handhabbarkeit im Produktivbetrieb nutzen? Gibt es gleichzeitig eine Möglichkeit, bei Bedarf die Vorteile von Microservices z. B. in Sachen Skalierbarkeit mit einzubringen?
+
+Dieser Beitrag versucht anhand eines konkreten Beispiels zu zeigen, dass ein modular aufgebauter Monolith, ggf. an performancekritischen Stellen gezielt kombiniert mit hochskalierbaren Mikroservices, genau dies realisiert. Das Konzept eines modular aufgebauten Monolithen taucht seit einiger Zeit in der Literatur unter dem Kunstbegriff "Modulith" auf.
+
+<p align="center">
+  <img src="monolith-made-of-lego-bricks.png" alt="Modulith - Ein Monolith aus Bausteinen" width="500"/>
+  <br/>
+  <em>Abb. 3: Modulith - Ein Monolith aus Bausteinen</em>
+</p>
 
 Bevor dies im Folgenden näher beschrieben wird, sollen zunächst konventionelle Ansätze zur Strukturierung und Kapselung von Code in Java vorgestellt werden.
 
@@ -91,16 +99,56 @@ Bevor dies im Folgenden näher beschrieben wird, sollen zunächst konventionelle
 
 Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, strukturiert man Java Code schon lange in Konstrukte wie interfaces, classes und packages und verwendet access level (public, protected, ...), um Zugriff auf interne Teile dieser Einheiten gezielt zu steuern und ggf. zu unterbinden.
 
+<div style="text-align: center;">
+
+<table style="margin: auto;">
+  <thead>
+    <tr>
+      <th style="text-align: left;">Access Modifier</th>
+      <th style="text-align: center;">Innerhalb der Klasse</th>
+      <th style="text-align: center;">Innerhalb des Packages</th>
+      <th style="text-align: center;">Subklassen</th>
+      <th style="text-align: center;">Von überall</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left;"><code>public</code></td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><code>protected</code></td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">❌</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><em>default</em></td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">❌</td>
+      <td style="text-align: center;">❌</td>
+    </tr>
+    <tr>
+      <td style="text-align: left;"><code>private</code></td>
+      <td style="text-align: center;">✅</td>
+      <td style="text-align: center;">❌</td>
+      <td style="text-align: center;">❌</td>
+      <td style="text-align: center;">❌</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Tabelle 1:</strong> Übersicht der Zugriffsebenen in Java</p>
+
+</div>
+
+
 Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
-
-| **Access Modifier** | **Zugriff innerhalb der Klasse** | **Zugriff innerhalb des Packages** | **Zugriff durch Subklassen** | **Zugriff von überall** |
-|---------------------|----------------------------------|-------------------------------------|------------------------------|-------------------------|
-| `public`            | ✅                                | ✅                                   | ✅                            | ✅                       |
-| `protected`         | ✅                                | ✅                                   | ✅                            | ❌                       |
-| `default` (kein Modifier) | ✅                        | ✅                                   | ❌                            | ❌                       |
-| `private`           | ✅                                | ❌                                   | ❌                            | ❌                       |
-
-Die Tabelle zeigt die Sichtbarkeit von Klassen, Methoden und Variablen in Java. Die Sichtbarkeit wird durch die Verwendung von access modifiers gesteuert.
 
 Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud wirksam zu verhindern.
 
