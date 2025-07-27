@@ -1,12 +1,12 @@
 # Entwicklung modularer Software mit Java
 
-Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart-, Test- und Erweiterbarkeit bei. 
+Modularisierung ist ein wichtiges Qualitätsmerkmal für große Softwaresysteme. Sie verbessert die Möglichkeit, diese zu verstehen, erhöht dadurch ihre Beherrschbarkeit und trägt zu deren effektiverer Wart-, Test- und Erweiterbarkeit bei.
 
-Dieser Beitrag beschreibt unzureichende Modularisierung als eine Ursache für die Schwierigkeit, komplexe Software zu beherrschen und wie es zu Defiziten in der Modularisierung kommt. Es werden Strategien für die Reduzierung dieser Defizite beschrieben und dabei wird insbesondere auf Möglichkeiten zur Modularisierung in Java eingegangen. Diese werden zum Teil an praktischen Beispielen demonstriert.
+Dieser Beitrag beschreibt unzureichende Modularisierung als eine Ursache für die Schwierigkeit, komplexe Software zu beherrschen und wie es insbesondere in Java-Anwendungen zu Defiziten in der Modularisierung kommt. Der Beitrag zeigt ausserdem Strategien für Modularisierung in Java auf und liefert Beispiele für deren praktische Umsetzung.
 
-## Komplexität
+## Komplexität in Softwaresystemen
 
-Die Schwierigkeit, Softwaresysteme zu verstehen, zu warten und zu erweitern, liegt vor allem in deren Komplexität begründet. Was also macht ein System komplex?
+Die Schwierigkeit, Softwaresysteme zu verstehen, zu warten, zu erweitern und zu testen liegt vor allem in deren Komplexität begründet. Was also macht ein Softwaresystem komplex?
 
 Nicht selten ist vor allem die interne Struktur von Systemen dafür verantwortlich. Sie ist häufig gekennzeichnet durch eine kaum überschaubare Menge von direkten und indirekten internen Abhängigkeiten. Diese Abhängigkeiten machen es schwer vorherzusagen, welche Auswirkungen lokale Änderungen auf das Verhalten des Gesamtsystems haben.
 
@@ -30,24 +30,33 @@ Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen oder
   <em>Abb. 2: Es wird eng ...</em>
 </p>
 
-Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt es hier vor allem in der stetig wachsende Zahl von (internen) Abhängigkeiten. Liessen sich diese besser in den Griff kriegen, könnten auch große Systeme besser verstanden, verbessert, erweitert, getestet werden.
+Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise nicht das Problem. Wie schon gesagt, liegt es hier vor allem in der stetig wachsende Zahl von (internen) Abhängigkeiten. Ließen sich diese besser in den Griff kriegen, könnten auch große Systeme besser verstanden, verbessert, erweitert, getestet werden.
 
 ## Anpassungsfähige Systeme - Entworfen für Änderbarkeit
 
 Gesucht wird also nach Ansätzen, die Softwaresysteme anpassbar machen, ihre Grenzen erweitern, ohne dass ihre Komplexität Überhand nimmt und die gleichzeitig effektive Qualitätssicherung unterstützen. Solange zu viele Abhängigkeiten aber die Ursache für die Probleme sind, ist die Beherrschung dieser Abhängigkeiten ein Beitrag zur Lösung. Was hier Hoffnung macht ist, dass eine große Menge dieser Abhängigkeiten weder gewollt noch nötig ist.
 
-Warum gibt es sie dann? Zwei Gründe sind meist ausschlaggebend:
+Warum gibt es sie dann? Zwei Gründe sind zumindest für Java-basierte (Alt-) Systeme meist ausschlaggebend:
 
 - Es kann bequem sein, zusätzliche Abhängigkeiten bewusst in Kauf zu nehmen, und
 - es gibt kein zuverlässig wirksames Mittel, das das unbewusste, ungewollte Entstehen unnötiger Abhängigkeiten verhindert.
+
+> Ein Beispiel für unnötige und aus Architektursicht ungewollte Abhängigkeiten findet man oft in den weit verbreiteten Schichtenarchitekturen für Java Enterprise Softwaresysteme. Die Architektur sieht hier meist eine eigene Softwareschicht vor, die den Zugriff auf die Datenhaltung steuert. Zu ihren Aufgaben gehören typischerweise die Einhaltung der Zugriffsberechtigungen, die zentrale Ressourcenverwaltung (connection-pooling), die Validierung von Ein- und Ausgabedaten für die persistente Datenhaltung, die Transaktionssteuerung zur Sicherstellung der Konsistenz, ....
+> 
+> Sehr häufig wird die Datenzugriffsschicht jedoch umgangen und es wird oft sowohl lesend als auch schreibend auf persistente Daten z. B. direkt aus den Klassen für die Benutzeroberfläche zugegriffen.
+>
+
+<p align="center">
+  <img src="layered-enterprise-architecture.drawio.svg" alt="good and bad practise accessing the data layer ..." width="500"/>
+  <br/>
+  <em>Abb. 3: Architekturkonformer und nicht konformer Zugriff auf den data-layer ...</em>
+</p>
 
 Wie hat die Softwareindustrie darauf reagiert und wie erfolgreich ist bzw. war sie bis jetzt dabei, hochleistungsfähige und gleichzeitig flexibel anpassbare Systeme herzustellen?
 
 ### Klassische Ansätze - Kapselung in Monolithen
 
-Das Folgende bezieht sich in erster Linie auf die heute sehr verbreiteten Java-(Alt)-Systeme, ist in ähnlicher Weise aber auch auf andere Technologiestacks übertragbar.
-
-Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden. Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
+Java-basierte Systeme wurden lange als sogenannte Monolithen ausgeliefert. Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden. Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
 
 Dies erleichtert vieles, hat aber auch seinen Preis: Innerhalb des Monolithen war es lange schwer, die enthaltenen Teilsysteme sauber voneinander zu trennen. So schlichen sich, bewusst oder unbewusst, unnötige Abhängigkeiten zwischen Teilsystemen ein. Viele Monolithen wurden so zu einem "big ball of mud", deren Wart-, Test- und Erweiterbarkeit zunehmend komplexer bis hin zu unmöglich wurden. Es gab schlicht keine effektiven und technisch wasserdichten Mechanismen, mit denen sich die Abhängigkeiten von Teilsystemen besser hätten kontrollieren und ggf. verhindern lassen können.
 
@@ -147,14 +156,15 @@ Um dem Wildwuchs an Abhängigkeiten ("big ball of mud") besser Herr zu werden, s
 
 </div>
 
-
 Diese Einheiten werden als (Lego-) Bausteine aufgefasst, aus denen sich größere Konstruktionen zusammensetzen lassen. Benutzer der größeren Einheiten sollen dabei keinen direkten Zugriff auf die internen Bausteine der Einheit haben, es sei denn, der Zugriff wird über eine öffentliche Schnittstelle explizit erlaubt. Code wird also so organisiert, dass große Bausteine aus kleineren zusammengesetzt werden können. Dieses Muster lässt sich natürlich beliebig oft wiederholen.
 
 Leider zeigt sich schnell, dass die beschriebenen Mechanismen nicht ausreichend sind, um die Entstehung von big balls of mud wirksam zu verhindern.
 
 Dies liegt unter anderem an einem Mangel der java-packages: Will man eine Klasse in einem package von ausserhalb des packages nutzbar machen, muss man die Klasse öffentlich (public) machen. Und genau das ermöglicht ja erst das beschriebene Bausteinprinzip. Es gab aber lange (zumindest in Standard-Java) keinen Mechanismus, um die Sichtbarkeit von packages zu kontrollieren: Gibt es in einem package eine Klasse, die in einem anderen package verwendet werden soll, muss, wie gesagt, die Klasse public gemacht werden. Damit ist sie aber öffentlich für ALLE Systemteile, in denen das zugehörige package direkt oder indirekt verwendet werden kann.
 
-Gena dies ist aber ein Ausgangspunkt für die Entstehung von big balls of mud: Früher oder später wird es dazu kommen, dass die Klasse von (weit entfernten) Stellen aus verwendet wird, die eigentlich keinen Zugriff haben sollten, da die Klasse für sie ein zu verbergendes Implementierungsdetail eines größeren Bausteins ist.
+> Da hilft es auch nicht, sein Gesamtsystem etwa mit maven in einem multi-module-Projekt bauen zu lassen: maven Module bieten keine zusätzliche Kapselung für Java-Projekte.
+
+Genau dies ist aber ein Ausgangspunkt für die Entstehung von big balls of mud: Früher oder später wird es dazu kommen, dass die Klasse von (weit entfernten) Stellen aus verwendet wird, die eigentlich keinen Zugriff haben sollten, da die Klasse für sie ein zu verbergendes Implementierungsdetail eines größeren Bausteins ist.
 
 ## Modularisierung mit Java
 
@@ -162,11 +172,11 @@ Die Java-Plattform bietet seit Version 9 das Java Platform Module System ([JPMS]
 
 Mit JPMS können Entwickler Module definieren, die ausschließlich über eine selbst festgelegte Schnittstelle genutzt werden können und gleichzeitig den Zugriff auf interne Teile des Moduls unterbinden. Es ist also möglich, Module zu definieren, die nur über eine explizit definierte Schnittstelle von aussen zugreifbar sind. Der Zugriff auf interne Teile des Moduls ist dabei nicht möglich. Damit wird das Bausteinprinzip konsequent umgesetzt und gleichzeitig die Entstehung von big balls of mud verhindert.
 
-Mit JPMS ist es sogar möglich, dass Module bis ins Detail steuern, welche anderen Module auf welche Teile der bereitgestellten Schnittstelle zugreifen können. Module erfordern dabei zwar im ersten Moment einen gewissen Zusatzaufwand, garantieren aber danach eine viel stabilere interne Struktur des Gesamtsystems. Dies wird erreicht, indem die beschriebene Inflation von (internen) Abhängigkeiten effektiv verhindert wird.
+Mit JPMS ist es sogar möglich, dass Module bis ins Detail selbst steuern, welche anderen Module auf welche Teile der bereitgestellten Schnittstelle zugreifen können. Die durchgängige Verwendung von Modulen erfordert dabei zwar im ersten Moment einen gewissen Zusatzaufwand, garantiert aber danach eine viel stabilere interne Struktur des Gesamtsystems. Dies wird erreicht, indem die beschriebene Inflation von (internen) Abhängigkeiten effektiv verhindert wird.
 
 ---------------- reviewed ----------------
 
-
+## Modulithen plus Microservices
 
 Anders als Microservices werden Module (nicht notwendigerweise) in eigenen Betriebssystemprozessen ausgeführt.
 
