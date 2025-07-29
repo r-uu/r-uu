@@ -34,7 +34,7 @@ Zu wenig Platz wie in **Abb. 2** ist bei Softwaresystemen heute normalerweise ni
 
 ## Anpassungsfähige Systeme - Entworfen für Änderbarkeit
 
-Gesucht wird also nach Ansätzen, die Softwaresysteme anpassbar machen, ihre Grenzen erweitern, ohne dass ihre Komplexität Überhand nimmt und die gleichzeitig effektive Qualitätssicherung unterstützen. Solange zu viele Abhängigkeiten aber die Ursache für die Probleme sind, ist die Beherrschung dieser Abhängigkeiten ein Beitrag zur Lösung. Was hier Hoffnung macht ist, dass eine große Menge dieser Abhängigkeiten weder gewollt noch nötig ist.
+Gesucht wird also nach Ansätzen, die Softwaresysteme besser anpassbar machen. Moderne Softwaresysteme müssen erweiterbar sein, ohne dass dadurch ihre Komplexität Überhand nimmt. Die Zuverlässigkeit von Software muss durch Qualitätssicherung effektiv gesteigert werden, Software muss so entworfen werden, dass sie langfristig effektiv testbar ist. Solange aber innerhalb der Systeme zu viele Abhängigkeiten existieren, ist die Beherrschung dieser Abhängigkeiten ein Beitrag zur Lösung. Was hier Hoffnung macht ist, dass eine große Menge dieser Abhängigkeiten weder gewollt noch nötig ist.
 
 Warum gibt es sie dann? Zwei Gründe sind zumindest für Java-basierte (Alt-) Systeme meist ausschlaggebend:
 
