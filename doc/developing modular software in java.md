@@ -22,7 +22,9 @@ Jein. Soll ein System entwickelt werden, entwerfen Softwarearchitekten meist sin
   <em>Abb. 1: Erosion einer Systemarchitektur</em>
 </p>
 
-Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen oder alte wegfallen? Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen.
+Was passiert aber, wenn sich die Anforderungen ändern und neue hinzukommen oder alte wegfallen?
+
+Dasselbe wie bei "klassischen" Architekturen für Gebäude, Städte, Infrastruktur, ... Zunächst tragfähige Lösungen kommen an ihre Grenzen:
 
 <p align="center">
   <img src="mont-st-michel.png" alt="Es wird eng ..." width="500"/>
@@ -186,19 +188,23 @@ Mit JPMS ist es sogar möglich, dass Module bis ins Detail selbst steuern, welch
 
 Was ist hier der entscheidende Punkt?
 
-Durch die Modulgrenzen kann der (willkürliche, ungewollte, unerwünschte) Zugriff auf Internas eines Moduls konsequent unterbunden werden! Ein Modul kann _selbstständig_ sicherstellen, dass ein Zugriff von ausserhalb des Moduls auf Internas nicht möglich ist, selbst wenn z. B. eine interne Klasse als ```public``` deklariert wird.
+Durch die Modulgrenzen kann der (willkürliche, ungewollte, unerwünschte) Zugriff auf Internas eines Moduls konsequent unterbunden werden! Ein Modul kann _selbstständig_ sicherstellen, dass ein Zugriff von ausserhalb des Moduls auch auf ```public``` Internas (Klassen, Interfaces, Enums) nicht möglich ist.
 
 > Innerhalb eines Moduls müssen oft viele Typen ```public``` sein, wenn es in dem Modul mehrere ```packages``` gibt.
 
----------------- reviewed ----------------
-
 ## Modulithen plus Microservices
 
-Anders als Microservices werden Module (nicht notwendigerweise) in eigenen Betriebssystemprozessen ausgeführt.
+Bevor im Folgenden ein konkretes Beispiel vorgestellt wird noch eine Bemerkung zu Microservices: Selbstverständlich ist es möglich und häufig auch sinnvoll, Modulithen mit Microservices zu kombinieren. Dies kommt immer dann in Betracht, wenn für bestimmte Systemteile Kriterien wie Skalierbarkeit wichtig sind. Microservices skalieren besser als Modulithen. Ausserdem erweisen sie sich als vorteilhaft, wenn Teilsysteme häufig und schnell geändert werden müssen. Modulithen sind vergleichsweise große Deploymenteinheiten, die oft längere Releasezyklen haben, als die kleineren Microservices. Insofern ist eine Koexistenz von Modulithen und Microservices keineswegs unüblich.
+
+# Ein Anwendungsbeispiel - jeeeraaah
+
+Im Projekt jeeeraaah geht es im Kern um die Verwaltung von Aufgaben (Tasks) und die Planung von Arbeitsabläufen. Dazu sollen zusammengehörige Tasks in Gruppen (TaskGroup) organisiert werden. **Abb. 4** zeigt das zentrale Objektmodell:
 
 
 
-## Ein Anwendungsbeispiel
+---------------- reviewed ----------------
+
+
 
 ---------- Hintergrund ----------
 

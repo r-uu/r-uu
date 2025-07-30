@@ -1,0 +1,38 @@
+@startuml
+interface de.ruu.app.jeeeraaah.common.TaskGroup {
+~ String name()
+~ TaskGroup<T> name(String)
+~ Optional<String> description()
+~ TaskGroup<T> description(String)
+~ Optional<Set<T>> tasks()
+~ boolean removeTask(T)
+}
+
+interface de.ruu.app.jeeeraaah.common.Task {
+~ {static} Comparator<Task> COMPARATOR
+~ TG taskGroup()
+~ String name()
+~ Boolean closed()
+~ Optional<String> description()
+~ Optional<LocalDate> start()
+~ Optional<LocalDate> end()
+~ SELF taskGroup(TG)
+~ SELF description(String)
+~ SELF start(LocalDate)
+~ SELF end(LocalDate)
+~ SELF closed(Boolean)
+~ Optional<SELF> superTask()
+~ SELF superTask(SELF)
+~ Optional<Set<SELF>> subTasks()
+~ boolean addSubTask(SELF)
+~ boolean removeSubTask(SELF)
+~ Optional<Set<SELF>> predecessors()
+~ boolean addPredecessor(SELF)
+~ boolean removePredecessor(SELF)
+~ Optional<Set<SELF>> successors()
+~ boolean addSuccessor(SELF)
+~ boolean removeSuccessor(SELF)
+}
+
+
+@enduml
