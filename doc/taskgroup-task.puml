@@ -34,7 +34,7 @@ TaskGroup "1" ---> "*" Task      : tasks
 Task      "*" ---> "1" TaskGroup : taskGroup
 
 Task "1" --down-->  "*" Task : subTasks
-Task "*" --up-->    "1" Task : superTask
+Task "*" --up-->    "1" Task : top-to-top
 Task "1" --left-->  "*" Task : predecessors
 Task "1" --right--> "*" Task : successors
 

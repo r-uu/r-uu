@@ -1,0 +1,74 @@
+classDiagram
+    class TaskBean {
+        +Long id
+        +Short version
+        +String name
+        +String description
+        +LocalDate start
+        +LocalDate end
+        +Boolean closed
+        +TaskGroupBean taskGroup
+        +TaskBean superTask
+        +Set~TaskBean~ subTasks
+        +Set~TaskBean~ predecessors
+        +Set~TaskBean~ successors
+        +TaskBean(TaskGroupBean, String)
+        +TaskBean(Entity~Long~, TaskGroupBean, String)
+        +name(String) TaskBean
+        +taskGroup() TaskGroupBean
+        +name() String
+        +description() Optional~String~
+        +start() Optional~LocalDate~
+        +end() Optional~LocalDate~
+        +superTask() Optional~TaskBean~
+        +subTasks() Optional~Set~TaskBean~~
+        +predecessors() Optional~Set~TaskBean~~
+        +successors() Optional~Set~TaskBean~~
+        +taskGroup(TaskGroupBean) TaskBean
+        +superTask(TaskBean) TaskBean
+        +addSubTask(TaskBean) boolean
+        +addPredecessor(TaskBean) boolean
+        +addSuccessor(TaskBean) boolean
+        +removeSubTask(TaskBean) boolean
+        +removePredecessor(TaskBean) boolean
+        +removeSuccessor(TaskBean) boolean
+        +toDTO(ReferenceCycleTracking) TaskEntityDTO
+        +toFXBean(ReferenceCycleTracking) TaskFXBean
+        +getName() String
+        +setName(String) void
+        +getDescription() String
+        +setDescription(String) void
+        +getStart() LocalDate
+        +setStart(LocalDate) void
+        +getEnd() LocalDate
+        +setEnd(LocalDate) void
+        +getClosed() boolean
+        +setClosed(boolean) void
+    }
+
+    class TaskGroupBean {
+        +Long id
+        +Short version
+        +String name
+        +String description
+        +Set~TaskBean~ tasks
+        +TaskGroupBean(String)
+        +TaskGroupBean(Entity~Long~, String)
+        +name(String) TaskGroupBean
+        +description() Optional~String~
+        +tasks() Optional~Set~TaskBean~~
+        +getDescription() String
+        +setDescription(String) void
+        +mainTasks() Optional~Set~TaskBean~~
+        +addTask(TaskBean) boolean
+        +removeTask(TaskBean) boolean
+        +toFXBean(ReferenceCycleTracking) TaskGroupFXBean
+        +toDTO(ReferenceCycleTracking) TaskGroupEntityDTO
+    }
+
+    TaskBean "1" o-- "1" TaskGroupBean : taskGroup
+    TaskBean "1" o-- "0..1" TaskBean : superTask
+    TaskBean "1" *-- "0..*" TaskBean : subTasks
+    TaskBean "1" o-- "0..*" TaskBean : predecessors
+    TaskBean "1" o-- "0..*" TaskBean : successors
+    TaskGroupBean "1" *-- "0..*" TaskBean : tasks
