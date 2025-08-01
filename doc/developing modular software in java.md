@@ -200,6 +200,11 @@ Bevor im Folgenden ein konkretes Beispiel vorgestellt wird noch eine Bemerkung z
 
 Im Projekt jeeeraaah geht es im Kern um die Verwaltung von Aufgaben (Tasks) und die Planung von Arbeitsabläufen. Dazu sollen zusammengehörige Tasks in Gruppen (TaskGroup) organisiert werden. **Abb. 4** zeigt das zentrale Objektmodell:
 
+<p align="center">
+  <img src="taskgroup-task.svg" alt="TaskGroup - Task" width="350"/>
+  <br/>
+  <em>Abb. 5: TaskGroup - Task</em>
+</p>
 
 
 ---------------- reviewed ----------------

@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/taskgroup-task.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/template.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/testbench.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/developing modular software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modular software in java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.puml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -309,11 +313,11 @@
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources\de\ruu\lib\fx\control\buttons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\r-uu\develop\github\r-uu\doc" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources\de\ruu\lib\controls\buttons" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\main\resources" />
       <recent name="C:\Users\r-uu\develop\github\r-uu.lib\fx\core\src\test\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\gen\java\fx\comp\src\main\resources" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.hierarchy.TaskHierarchyView" />
