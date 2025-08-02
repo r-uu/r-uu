@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/doc/lupe-griff-links-unten-transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/lupe-griff-links-unten-transparent.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/monolith-lego-2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/developing modular software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modular software in java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/taskgroup-task.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/taskgroup-task.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks-with-internal-dependencies.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks-with-internal-dependencies.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
