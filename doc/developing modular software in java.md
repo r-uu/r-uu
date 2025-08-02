@@ -58,7 +58,7 @@ Wie hat die Softwareindustrie darauf reagiert und wie erfolgreich ist bzw. war s
 
 ### Klassische Ansätze - Kapselung in Java-Monolithen
 
-Java-basierte Systeme wurden lange als sogenannte Monolithen ausgeliefert. Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden (Lego-Bausteine in **Abb. 3**). Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
+Java-basierte Systeme wurden lange als sogenannte Monolithen ausgeliefert. Monolithen werden typischerweise als eine große Einheit entworfen, in der sich mehrere Teilsysteme befinden (Lego-Bausteine in **Abb. 3**, links). Der Monolith wird dabei in einer einzigen, großen Einheit erstellt und (in einem Applikationsserver) in einem einzigen Betriebssystemprozess ausgeführt.
 
 <p align="center">
   <img src="monolith-made-of-lego-bricks-with-internal-dependencies.drawio.svg" alt="Modulith - Ein Monolith aus Bausteinen" width="500"/>
