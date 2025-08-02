@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/doc/lupe-griff-links-unten-transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/lupe-griff-links-unten-transparent.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/monolith-lego-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-task-objects.drawio" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-task-objects.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/doc/md/poc-domain.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks-with-internal-dependencies.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks-with-internal-dependencies.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/monolith-made-of-lego-bricks.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/developing modular software in java.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/developing modular software in java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/taskgroup-task.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-taskgroup-task.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/taskgroup-task.drawio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-taskgroup-task.drawio.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/taskgroup-task.puml" beforeDir="false" afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-taskgroup-task.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/taskgroup-task.svg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/jeeeraaah-uml-taskgroup-task.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
