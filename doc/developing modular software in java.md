@@ -214,14 +214,6 @@ Die Idee ist, Aufgaben in Teilaufgaben zu gliedern (Tasks und SubTasks) und für
   <em>Abb. 6: Task-Objekte</em>
 </p>
 
+In der Anwendung sieht 
+
 ---------------- reviewed ----------------
-
-
-
----------- Hintergrund ----------
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-
-## Modulith

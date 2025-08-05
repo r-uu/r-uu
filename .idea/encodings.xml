@@ -85,6 +85,10 @@
     <file url="file://$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.app/jfx-exe-min/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.app/postgres/backup.restore/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.app/postgres/backup.restore/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.app/postgres/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.app/postgres/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.app/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.app/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/archunit/src/main/java" charset="UTF-8" />
@@ -97,6 +101,8 @@
     <file url="file://$PROJECT_DIR$/../r-uu.lib/cdi/se/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/cdi/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/cdi/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.lib/config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../r-uu.lib/config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/excel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/excel/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../r-uu.lib/fx/comp.demo/src/main/java" charset="UTF-8" />
