@@ -5,49 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessorsApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessorsAppRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/ActionAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/ActionAddMainOrSubTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/ActionAddMainTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksAppRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/dash/DashController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/edit/TaskEditorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyControllerAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyControllerAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessorsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessorsAppRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsAppRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessorsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessors.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessorsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessorsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessorsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/add/ActionAddToSuperSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/add/ActionAddToSuperSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/TaskHierarchySuccessorsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/TaskHierarchySuccessorsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/add/ActionAddToSuperSub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/add/ActionAddToSuperSub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/ActionAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/ActionAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasksController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyPredecessors.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessors.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessors.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuccessors.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successors/TaskHierarchySuccessors.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasks.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasks.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchySuperSubTasks.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/supersub/TaskHierarchySuperSubTasks.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/list/directneighbours/TaskViewListDirectNeighbours.css" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/list/directneighbours/TaskListDirectNeighbours.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/list/directneighbours/TaskViewListDirectNeighbours.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/list/directneighbours/TaskListDirectNeighbours.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskFXBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskServiceJPA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../r-uu.app/postgres/backup.restore/src/main/java/de/ruu/app/util/postgres/backup_restore/PostgresBackupRestoreManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/postgres/backup.restore/src/main/java/de/ruu/app/util/postgres/backup_restore/PostgresBackupRestoreManagerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskRelationExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/TaskRelationExceptionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/rs/ExceptionDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.lib/util/src/main/java/de/ruu/lib/util/rs/ExceptionDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/DBClean.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/DBClean.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/DBPopulate.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/DBPopulate.run.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +101,7 @@
     "Application.DBPopulateTiny.executor": "Run",
     "Application.DBPopulateTinySE (1).executor": "Run",
     "Application.DBPopulateTinySE.executor": "Run",
-    "Application.DashAppRunner.executor": "Debug",
+    "Application.DashAppRunner.executor": "Run",
     "Application.DataAsStringTransformer.executor": "Run",
     "Application.DataFactory.executor": "Run",
     "Application.DemoAppRunner.executor": "Run",
@@ -294,7 +265,7 @@
     "Maven.r-uu [clean,deploy].executor": "Run",
     "Maven.r-uu [clean,install].executor": "Run",
     "Maven.r-uu [clean].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
+    "Maven.r-uu [install].executor": "Debug",
     "Maven.r-uu [package].executor": "Run",
     "Maven.r-uu [test].executor": "Run",
     "Maven.r-uu [validate].executor": "Run",
@@ -349,12 +320,12 @@
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.lib/util-config-demo/src/test/resources/META-INF",
+    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/add/super_sub_or_successor",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
     "show.migrate.to.gradle.popup": "false",
     "to.speed.mode.migration.done": "true",
     "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
@@ -362,14 +333,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.predecessor.add" />
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.predecessor" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.supersub" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\util-config-demo\src\test\resources\META-INF" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\util-config-demo\src\test\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.lib\util-config\src\main\resources\META-INF" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\postgres\backup.restore\src\main\resources" />
-      <recent name="C:\Users\r-uu\develop\github\r-uu.app\postgres\backup.restore\src\main\resources\de\ruu\app\util\postgres\backup_restore\_2_" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\successor\add\super_sub_or_successor" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\successor\add\super_sup_or_successor" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\successor\add" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\java\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\predecessor\add\super_sub" />
+      <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\predecessor\super_sub" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\r-uu\develop\github\r-uu.app\jeeeraaah\client\fx\src\main\resources\de\ruu\app\jeeeraaah\client\fx\task\view\hierarchy\successors" />
@@ -396,14 +369,14 @@
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.list.directneighbours" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.common" />
+      <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.predecessor" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.successors" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.supersub" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy" />
-      <recent name="de.ruu.lib.gen.java.element" />
-      <recent name="de.ruu.lib.fx.gaga" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DashAppRunner">
+  <component name="RunManager" selected="Maven.r-uu [mvn clean install, but keep liberty]">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="r-uu.app-demo-common-jpa-se" />
       <method v="2">
@@ -428,12 +401,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskHierarchySuperSubTasksAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.supersub.TaskHierarchySuperSubTasksAppRunner" />
+    <configuration name="TypeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.generate.TypeGenerator" />
       <module name="r-uu.app-jeeeraaah-client-fx" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.supersub.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.generate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -441,49 +414,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaskListDirectNeighboursAppRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.fx.task.view.list.directneighbours.TaskListDirectNeighboursAppRunner" />
-      <module name="r-uu.app-jeeeraaah-client-fx" />
+    <configuration name="TestRelationsJPA.testMappingOfInterrelatedTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.fx.task.view.list.directneighbours.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.jpa.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="de.ruu.app.jeeeraaah.common.jpa" />
+      <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.common.jpa.TestRelationsJPA" />
+      <option name="METHOD_NAME" value="testMappingOfInterrelatedTasks" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="r-uu [clean,install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="cmdOptions" />
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="clean" />
-                <option value="install" />
-              </list>
-            </option>
-            <option name="multimoduleDir" />
-            <option name="pomFileName" value="pom.xml" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="projectsCmdOptionValues">
-              <list />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method v="2" />
     </configuration>
     <configuration name="r-uu [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
       <MavenSettings>
@@ -515,25 +460,89 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <configuration name="r-uu [mvn clean install, but keep liberty]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="-Dclean.keep.liberty=true" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="r-uu [mvn clean install]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+                <option value="install" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Application.DashAppRunner" />
       <item itemvalue="Application.DBPopulate" />
       <item itemvalue="Application.DBPopulateSE" />
       <item itemvalue="Application.DBClean" />
-      <item itemvalue="Application.TaskHierarchySuperSubTasksAppRunner" />
-      <item itemvalue="Application.TaskListDirectNeighboursAppRunner" />
       <item itemvalue="Application.PostgresBackupRestoreManagerAppRunner" />
-      <item itemvalue="Maven.r-uu [clean,install]" />
+      <item itemvalue="Application.TypeGenerator" />
+      <item itemvalue="JUnit.TestRelationsJPA.testMappingOfInterrelatedTasks" />
+      <item itemvalue="Maven.r-uu [mvn clean install]" />
+      <item itemvalue="Maven.r-uu [mvn clean install, but keep liberty]" />
       <item itemvalue="Maven.r-uu [install]" />
       <item itemvalue="Remote JVM Debug.r-uu - jeee-raaah - server" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PostgresBackupRestoreManagerAppRunner" />
-        <item itemvalue="Application.TaskHierarchySuperSubTasksAppRunner" />
-        <item itemvalue="Application.TaskListDirectNeighboursAppRunner" />
+        <item itemvalue="Maven.r-uu [mvn clean install, but keep liberty]" />
         <item itemvalue="Maven.r-uu [install]" />
-        <item itemvalue="Maven.r-uu [clean,install]" />
+        <item itemvalue="Application.PostgresBackupRestoreManagerAppRunner" />
+        <item itemvalue="JUnit.TestRelationsJPA.testMappingOfInterrelatedTasks" />
+        <item itemvalue="Application.TypeGenerator" />
       </list>
     </recent_temporary>
   </component>
@@ -575,29 +584,24 @@
           <option name="timeStamp" value="54" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/predecessor/TaskHierarchyPredecessorsController.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="362" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/src/main/java/de/ruu/app/jeeeraaah/client/rs/TaskServiceClient.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="419" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/util-config/src/test/java/de/ruu/lib/util/config/mp/TestWritableConfigSource.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="363" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="420" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.lib/util-config/src/main/java/de/ruu/lib/util/config/mp/WritableFileConfigSource.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="374" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java</url>
+          <line>240</line>
+          <option name="timeStamp" value="421" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/TaskViewController.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="391" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/main/java/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/TaskHierarchyControllerAbstract.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="393" />
+          <url>file://$PROJECT_DIR$/../r-uu.app/jeeeraaah/server/src/main/java/de/ruu/app/jeeeraaah/server/TaskService.java</url>
+          <line>256</line>
+          <option name="timeStamp" value="422" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -607,10 +611,5 @@
         <PinnedItemInfo parentTag="de.ruu.app.jeeeraaah.common.jpadto.TaskGroupEntityDTO" memberName="description" />
       </pinned-members>
     </pin-to-top-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="taskFXBean" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
