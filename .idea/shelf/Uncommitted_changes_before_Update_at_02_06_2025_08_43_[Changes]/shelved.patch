@@ -1,0 +1,95 @@
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"NullableNotNullManager\">\r\n    <option name=\"myDefaultNullable\" value=\"org.jetbrains.annotations.Nullable\" />\r\n    <option name=\"myDefaultNotNull\" value=\"org.jetbrains.annotations.NotNull\" />\r\n    <option name=\"myNullables\">\r\n      <value>\r\n        <list size=\"14\">\r\n          <item index=\"0\" class=\"java.lang.String\" itemvalue=\"org.jspecify.annotations.Nullable\" />\r\n          <item index=\"1\" class=\"java.lang.String\" itemvalue=\"com.android.annotations.Nullable\" />\r\n          <item index=\"2\" class=\"java.lang.String\" itemvalue=\"androidx.annotation.RecentlyNullable\" />\r\n          <item index=\"3\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.compatqual.NullableDecl\" />\r\n          <item index=\"4\" class=\"java.lang.String\" itemvalue=\"org.jetbrains.annotations.Nullable\" />\r\n          <item index=\"5\" class=\"java.lang.String\" itemvalue=\"androidx.annotation.Nullable\" />\r\n          <item index=\"6\" class=\"java.lang.String\" itemvalue=\"org.eclipse.jdt.annotation.Nullable\" />\r\n          <item index=\"7\" class=\"java.lang.String\" itemvalue=\"edu.umd.cs.findbugs.annotations.Nullable\" />\r\n          <item index=\"8\" class=\"java.lang.String\" itemvalue=\"android.support.annotation.Nullable\" />\r\n          <item index=\"9\" class=\"java.lang.String\" itemvalue=\"jakarta.annotation.Nullable\" />\r\n          <item index=\"10\" class=\"java.lang.String\" itemvalue=\"javax.annotation.CheckForNull\" />\r\n          <item index=\"11\" class=\"java.lang.String\" itemvalue=\"javax.annotation.Nullable\" />\r\n          <item index=\"12\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.qual.Nullable\" />\r\n          <item index=\"13\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.compatqual.NullableType\" />\r\n        </list>\r\n      </value>\r\n    </option>\r\n    <option name=\"myNotNulls\">\r\n      <value>\r\n        <list size=\"14\">\r\n          <item index=\"0\" class=\"java.lang.String\" itemvalue=\"androidx.annotation.RecentlyNonNull\" />\r\n          <item index=\"1\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.qual.NonNull\" />\r\n          <item index=\"2\" class=\"java.lang.String\" itemvalue=\"org.jspecify.annotations.NonNull\" />\r\n          <item index=\"3\" class=\"java.lang.String\" itemvalue=\"jakarta.annotation.Nonnull\" />\r\n          <item index=\"4\" class=\"java.lang.String\" itemvalue=\"androidx.annotation.NonNull\" />\r\n          <item index=\"5\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.compatqual.NonNullType\" />\r\n          <item index=\"6\" class=\"java.lang.String\" itemvalue=\"lombok.NonNull\" />\r\n          <item index=\"7\" class=\"java.lang.String\" itemvalue=\"android.support.annotation.NonNull\" />\r\n          <item index=\"8\" class=\"java.lang.String\" itemvalue=\"com.android.annotations.NonNull\" />\r\n          <item index=\"9\" class=\"java.lang.String\" itemvalue=\"edu.umd.cs.findbugs.annotations.NonNull\" />\r\n          <item index=\"10\" class=\"java.lang.String\" itemvalue=\"org.checkerframework.checker.nullness.compatqual.NonNullDecl\" />\r\n          <item index=\"11\" class=\"java.lang.String\" itemvalue=\"org.jetbrains.annotations.NotNull\" />\r\n          <item index=\"12\" class=\"java.lang.String\" itemvalue=\"javax.annotation.Nonnull\" />\r\n          <item index=\"13\" class=\"java.lang.String\" itemvalue=\"org.eclipse.jdt.annotation.NonNull\" />\r\n        </list>\r\n      </value>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_23\" default=\"true\" project-jdk-name=\"23\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 5ae6d8b7f5a80747504bbb1239aaa27818b3a393)
++++ b/.idea/misc.xml	(date 1748846613936)
+@@ -5,51 +5,20 @@
+     <option name="originalFiles">
+       <list>
+         <option value="$PROJECT_DIR$/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.lib/jpa/se.eclipselink/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/demo/client/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/rs-demo/pom.xml" />
++        <option value="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx-executable/pom.xml" />
+       </list>
+-    </option>
+-  </component>
+-  <component name="NullableNotNullManager">
+-    <option name="myDefaultNullable" value="org.jetbrains.annotations.Nullable" />
+-    <option name="myDefaultNotNull" value="org.jetbrains.annotations.NotNull" />
+-    <option name="myNullables">
+-      <value>
+-        <list size="14">
+-          <item index="0" class="java.lang.String" itemvalue="org.jspecify.annotations.Nullable" />
+-          <item index="1" class="java.lang.String" itemvalue="com.android.annotations.Nullable" />
+-          <item index="2" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNullable" />
+-          <item index="3" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableDecl" />
+-          <item index="4" class="java.lang.String" itemvalue="org.jetbrains.annotations.Nullable" />
+-          <item index="5" class="java.lang.String" itemvalue="androidx.annotation.Nullable" />
+-          <item index="6" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.Nullable" />
+-          <item index="7" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.Nullable" />
+-          <item index="8" class="java.lang.String" itemvalue="android.support.annotation.Nullable" />
+-          <item index="9" class="java.lang.String" itemvalue="jakarta.annotation.Nullable" />
+-          <item index="10" class="java.lang.String" itemvalue="javax.annotation.CheckForNull" />
+-          <item index="11" class="java.lang.String" itemvalue="javax.annotation.Nullable" />
+-          <item index="12" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.Nullable" />
+-          <item index="13" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NullableType" />
+-        </list>
+-      </value>
+     </option>
+-    <option name="myNotNulls">
+-      <value>
+-        <list size="14">
+-          <item index="0" class="java.lang.String" itemvalue="androidx.annotation.RecentlyNonNull" />
+-          <item index="1" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.qual.NonNull" />
+-          <item index="2" class="java.lang.String" itemvalue="org.jspecify.annotations.NonNull" />
+-          <item index="3" class="java.lang.String" itemvalue="jakarta.annotation.Nonnull" />
+-          <item index="4" class="java.lang.String" itemvalue="androidx.annotation.NonNull" />
+-          <item index="5" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullType" />
+-          <item index="6" class="java.lang.String" itemvalue="lombok.NonNull" />
+-          <item index="7" class="java.lang.String" itemvalue="android.support.annotation.NonNull" />
+-          <item index="8" class="java.lang.String" itemvalue="com.android.annotations.NonNull" />
+-          <item index="9" class="java.lang.String" itemvalue="edu.umd.cs.findbugs.annotations.NonNull" />
+-          <item index="10" class="java.lang.String" itemvalue="org.checkerframework.checker.nullness.compatqual.NonNullDecl" />
+-          <item index="11" class="java.lang.String" itemvalue="org.jetbrains.annotations.NotNull" />
+-          <item index="12" class="java.lang.String" itemvalue="javax.annotation.Nonnull" />
+-          <item index="13" class="java.lang.String" itemvalue="org.eclipse.jdt.annotation.NonNull" />
+-        </list>
+-      </value>
++    <option name="ignoredFiles">
++      <set>
++        <option value="$PROJECT_DIR$/../r-uu.app/demo/datamodel/pom.xml" />
++      </set>
+     </option>
+   </component>
+   <component name="ProjectRootManager" version="2" languageLevel="JDK_23" default="true" project-jdk-name="23" project-jdk-type="JavaSDK" />
+Index: .run/DBPopulate.run.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><component name=\"ProjectRunConfigurationManager\">\r\n  <configuration default=\"false\" name=\"DBPopulate\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n    <option name=\"MAIN_CLASS_NAME\" value=\"de.ruu.app.jeeeraaah.client.rs.demo.DBPopulate\" />\r\n    <module name=\"r-uu.app-jeeeraah-client-rs-demo\" />\r\n    <extension name=\"coverage\">\r\n      <pattern>\r\n        <option name=\"PATTERN\" value=\"de.ruu.app.jeeeraaah.client.rs.demo.*\" />\r\n        <option name=\"ENABLED\" value=\"true\" />\r\n      </pattern>\r\n    </extension>\r\n    <method v=\"2\">\r\n      <option name=\"Make\" enabled=\"true\" />\r\n    </method>\r\n  </configuration>\r\n</component>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.run/DBPopulate.run.xml b/.run/DBPopulate.run.xml
+--- a/.run/DBPopulate.run.xml	(revision 5ae6d8b7f5a80747504bbb1239aaa27818b3a393)
++++ b/.run/DBPopulate.run.xml	(date 1748846574104)
+@@ -1,7 +1,9 @@
+ <component name="ProjectRunConfigurationManager">
+   <configuration default="false" name="DBPopulate" type="Application" factoryName="Application" nameIsGenerated="true">
++    <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../../software/develop/java/jdk" />
++    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+     <option name="MAIN_CLASS_NAME" value="de.ruu.app.jeeeraaah.client.rs.demo.DBPopulate" />
+-    <module name="r-uu.app-jeeeraah-client-rs-demo" />
++    <module name="r-uu.app-jeeeraaah-client-rs-demo" />
+     <extension name="coverage">
+       <pattern>
+         <option name="PATTERN" value="de.ruu.app.jeeeraaah.client.rs.demo.*" />

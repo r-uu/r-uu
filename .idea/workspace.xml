@@ -5,8 +5,263 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8e61226-9a48-4338-9d22-0b9dceb4e3a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_EntityJPA_EntityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_EntityJPA_EntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/demo/client-executable-jpackage-maven/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_EntityDTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_TaskGroup_EntityDTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_EntityDTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/client/fx/src/test/java/de/ruu/app/jeeeraaah/client/fx/types/Test_Map_Task_EntityDTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskGroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/TaskGroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupEntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskGroupLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/dto/TaskLazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/Collector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/Collector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/PreconditionCheckRelationalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/bean/PreconditionCheckRelationalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskGroupFXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/fx/TaskGroupFXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/jpa/TaskGroupEntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/bean/dto/Map_TaskGroup_Bean_EntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_Bean_EntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/bean/dto/Map_Task_Bean_EntityDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_Bean_EntityDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/bean/fxbean/Map_TaskGroup_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_Bean_FXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/bean/fxbean/Map_Task_Bean_FXBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_Bean_FXBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/dto/bean/Map_TaskGroup_EntityDTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_EntityDTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/dto/bean/Map_Task_EntityDTO_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_EntityDTO_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/dto/jpa/Map_TaskGroup_EntityJPA_EntityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/dto/jpa/Map_Task_EntityJPA_EntityDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/fxbean/bean/Map_TaskGroup_FXBean_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_FXBean_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/fxbean/bean/Map_Task_FXBean_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_FXBean_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/dto/Map_TaskGroup_EntityDTO_EntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_EntityDTO_EntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/dto/Map_Task_EntityDTO_EntityJPA.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_EntityDTO_EntityJPA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy/Map_TaskGroup_EntityJPA_Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_EntityJPA_Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/jpa/lazy/Map_Task_EntityJPA_Lazy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_EntityJPA_Lazy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_TaskGroup_Lazy_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_TaskGroup_Lazy_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/lazy/bean/Map_Task_Lazy_Bean.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/de/ruu/app/jeeeraaah/common/map/Map_Task_Lazy_Bean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/fx/TestCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/bean/TestCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/fx/TestPreconditionCheckRelationalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../r-uu.app/jeeeraaah/common/src/test/java/de/ruu/app/jeeeraaah/common/bean/TestPreconditionCheckRelationalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min-2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.app/jfx-exe-min/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/Generator$GeneratorSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/GeneratorException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/LineIndenter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/LineIndenterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitFileWriter$CompilationUnitFileWriterAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitFileWriter$CompilationUnitFileWriterSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitFileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitResourceFileWriter$CompilationUnitResourceFileWriterAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitResourceFileWriter$CompilationUnitResourceFileWriterSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/CompilationUnitResourceFileWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/Generator$GeneratorAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/Generator$GeneratorSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCodeBlock$GeneratorCodeBlockAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCodeBlock$GeneratorCodeBlockSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCodeBlock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCodeBlockTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCompilationUnit$GeneratorCompilationUnitAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCompilationUnit$GeneratorCompilationUnitSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCompilationUnit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorCompilationUnitTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/GeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/JavaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/JavaTypeDeclared.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/JavaTypePrimitive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/TypeKindDeclared.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/TypeKindPrimitive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/Visibility.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/bean/BeanGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/bean/demo/BeanGeneratorTest$JavaModelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/bean/demo/BeanGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo$JavaBeanDemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/bean/demo/JavaBeanDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/context/CompilationUnitContext$CompilationUnitContextAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/context/CompilationUnitContext$CompilationUnitContextSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/context/CompilationUnitContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/context/CompilationUnitContextTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/doc/GeneratorJavaDoc$GeneratorJavaDocAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/doc/GeneratorJavaDoc$GeneratorJavaDocSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/doc/GeneratorJavaDoc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/doc/GeneratorJavaDocTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotation$GeneratorAnnotationAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotation$GeneratorAnnotationSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameter$GeneratorAnnotationParameterAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameter$GeneratorAnnotationParameterSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameters$GeneratorAnnotationParametersAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameters$GeneratorAnnotationParamtersSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationParametersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotations$GeneratorAnnotationsAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotations$GeneratorAnnotationsSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorAnnotationsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorElement$GeneratorElementAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorElementTest$GeneratorElementSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorElementTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiers$GeneratorModifiersAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiers$GeneratorModifiersSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersAbstractable$GeneratorModifiersAbstractableAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersAbstractable$GeneratorModifiersAbstractableSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersAbstractable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersClass$GeneratorModifiersClassAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersClass$GeneratorModifiersClassSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersField$GeneratorModifiersFieldAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersField$GeneratorModifiersFieldSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersMethod$GeneratorModifiersMethodAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersMethod$GeneratorModifiersMethodSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/GeneratorModifiersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/field/GeneratorField$GeneratorFieldAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/field/GeneratorField$GeneratorFieldSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/field/GeneratorField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/field/GeneratorFieldTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethod$GeneratorMethodAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethod$GeneratorMethodSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodDeclaration$GeneratorDeclarationAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodDeclaration$GeneratorDeclarationSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodDeclaration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodDeclarationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodInterface$GeneratorMethodInterfaceAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodInterface$GeneratorMethodInterfaceSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodInterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorMethodTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameter$GeneratorAnnotationParameterSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameter$GeneratorParameterAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameters$GeneratorAnnotationParamtersSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameters$GeneratorParametersAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorParametersTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorSignature$GeneratorSignatureAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorSignature$GeneratorSignatureSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorSignature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorSignatureTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorThrowsClause$GeneratorJavaDocSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorThrowsClause$GeneratorThrowsClauseAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorThrowsClause.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/method/GeneratorThrowsClauseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageDeclaration$GeneratorPackageDeclarationAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageDeclaration$GeneratorPackageDeclarationSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageDeclaration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageDeclarationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageStatement$GeneratorPackageStatementAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageStatement$GeneratorPackageStatementSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/GeneratorPackageStatementTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/pckg/package-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClass$GeneratorClassAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClass$GeneratorClassSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassExtends$GeneratorClassExtendsAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassExtends$GeneratorClassExtendsSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassExtends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassImplements$GeneratorClassImplementsAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassImplements$GeneratorClassImplementsSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorClassImplements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterface$GeneratorInterfaceAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterface$GeneratorInterfaceSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterfaceExtends$GeneratorInterfaceExtendsAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterfaceExtends$GeneratorInterfaceExtendsSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorInterfaceExtends.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorType$GeneratorElementDelegate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorType$GeneratorTypeAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/element/type/GeneratorType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXBeanGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXMapper$DeclaredTypeProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXMapper$DeclaredTypeProcessorEmpty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXMapper$ImportManagement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/FXPropertyUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/demo/FXBean$FXBeanBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/demo/FXBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/demo/FXBeanGeneratorTest$FXModelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/demo/FXBeanGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/FXBeanEditorFXMLGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanDemo$FXBeanDemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanEditorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanEditorDemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanEditorDemoAppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanEditorDemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/FXBeanEditorDemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/GeneratorRunner$JavaModelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/GeneratorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/JavaBeanDemo$JavaBeanDemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/bean/editor/demo/JavaBeanDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCAppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCAppRunnerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewCSS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewCSSTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewFXCViewTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewFXML.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewFXMLTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCViewServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/GeneratorFXCompBundle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/DemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/DemoAppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/DemoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/DemoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/empty/Empty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyAppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/empty/EmptyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainAppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/HierarchyDemoMainService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1AppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub1/HierarchyDemoSub1Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2AppRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/demo/hierarchy/sub2/HierarchyDemoSub2Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/runner/ComponentDemoEmptyGeneratorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/comp/runner/ComponentDemoHierarchyGeneratorRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/FXTableViewConfiguratorGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/FXTableViewConfiguratorGeneratorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/JavaModelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo$FXModelDemoBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/demo/FXModelDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/fx/tableview/demo/FXTableViewConfigurator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/naming/GeneratorImportStatement$GeneratorImportStatementAbstract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/naming/GeneratorImportStatement$GeneratorImportStatementSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/naming/GeneratorImportStatement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.lib/gen/bin/de/ruu/lib/gen/java/naming/ImportManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../r-uu.maven-parent/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +276,14 @@
       <list>
         <option value="AnnotationType" />
         <option value="package-info" />
-        <option value="Interface" />
         <option value="module-info" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.maven-parent" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../r-uu.lib" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -73,268 +328,267 @@
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="flattenModules" value="true" />
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showScratchesAndConsoles" value="false" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddAppRunner.executor": "Run",
-    "Application.AutoCompleteTextFieldCountryDemo.executor": "Run",
-    "Application.AutoCompleteTextFieldCountryDemoRunner.executor": "Run",
-    "Application.AutoCompleteTextFieldDemo.executor": "Run",
-    "Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner.executor": "Run",
-    "Application.ButtonsGenerator.executor": "Run",
-    "Application.ClearableTextFieldDemo.executor": "Run",
-    "Application.ClearableTextFieldDemoRunner.executor": "Run",
-    "Application.ConfiguratorAppRunner.executor": "Run",
-    "Application.DBClean (1).executor": "Run",
-    "Application.DBClean.executor": "Run",
-    "Application.DBCleanSE (1).executor": "Run",
-    "Application.DBCleanSE.executor": "Run",
-    "Application.DBCleanViaTaskHierarchy.executor": "Run",
-    "Application.DBCommandRunner.executor": "Run",
-    "Application.DBPopulate.executor": "Run",
-    "Application.DBPopulateSE.executor": "Debug",
-    "Application.DBPopulateTiny.executor": "Run",
-    "Application.DBPopulateTinySE (1).executor": "Run",
-    "Application.DBPopulateTinySE.executor": "Run",
-    "Application.DashAppRunner.executor": "Run",
-    "Application.DataAsStringTransformer.executor": "Run",
-    "Application.DataFactory.executor": "Run",
-    "Application.DemoAppRunner.executor": "Run",
-    "Application.EditAppRunner.executor": "Run",
-    "Application.EmptyAppRunner.executor": "Run",
-    "Application.FXBeanEditorDemoAppRunner.executor": "Run",
-    "Application.FXComponentBundleGenerator.executor": "Run",
-    "Application.GanttChartChatGPT.executor": "Run",
-    "Application.GanttChatGPT.executor": "Run",
-    "Application.HierarchyDemoMainAppRunner.executor": "Run",
-    "Application.HierarchyDemoSub1AppRunner.executor": "Run",
-    "Application.HierarchyDemoSub2AppRunner.executor": "Run",
-    "Application.MainAppRunner.executor": "Run",
-    "Application.PostgresBackupRestoreManagerAppRunner.executor": "Run",
-    "Application.RUUFXDemoComponentMainAppRunner.executor": "Run",
-    "Application.RePopulateDB.executor": "Run",
-    "Application.RemoveAppRunner.executor": "Run",
-    "Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor": "Run",
-    "Application.TableCellColorExample.executor": "Run",
-    "Application.TaskEditorAppRunner.executor": "Run",
-    "Application.TaskGroupEditorRunner.executor": "Run",
-    "Application.TaskGroupManagementAppRunner.executor": "Run",
-    "Application.TaskGroupSelectorAppRunner.executor": "Run",
-    "Application.TaskHierarchyAppRunner.executor": "Run",
-    "Application.TaskHierarchyPredecessorsAppRunner.executor": "Debug",
-    "Application.TaskHierarchySuperSubTasksAppRunner.executor": "Run",
-    "Application.TaskHierarchyViewAppRunner.executor": "Run",
-    "Application.TaskListDirectNeighboursAppRunner.executor": "Run",
-    "Application.TaskManagementAppRunner.executor": "Run",
-    "Application.TaskTreeTableViewAppRunner.executor": "Run",
-    "Application.TaskViewAppRunner.executor": "Run",
-    "Application.TaskViewListDirectNeighboursAppRunner.executor": "Run",
-    "Application.TaskViewWithDirectNeighboursAppRunner.executor": "Run",
-    "Application.TypeGenerator.executor": "Run",
-    "Application.chatgpt.GanttChatGPT.executor": "Run",
-    "Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor": "Run",
-    "Application.de.ruu.app.util.postgres.backup_restore.TypeGenerator.executor": "Run",
-    "Application.de.ruu.app.util.postgres.backup_restore._2_.DashAppRunner.executor": "Run",
-    "Application.de.ruu.lib.fx.TypeGenerator.executor": "Run",
-    "Application.de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner.executor": "Run",
-    "JUnit.All in r-uu.lib-jackson.executor": "Run",
-    "JUnit.All in r-uu.lib-util.executor": "Run",
-    "JUnit.CompanyServiceJPASETest.executor": "Run",
-    "JUnit.CreateModifyTaskBeanWorkflowTest.executor": "Run",
-    "JUnit.MapperTest.executor": "Run",
-    "JUnit.PostalAddressServiceJPASETest.executor": "Run",
-    "JUnit.RePopulateDB.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.executor": "Run",
-    "JUnit.TaskGroupServiceJPASETest.testDelete.executor": "Debug",
-    "JUnit.TaskServiceJPASETest.executor": "Run",
-    "JUnit.TaskServiceJPASETest.testDelete.executor": "Debug",
-    "JUnit.TaskServiceJPASETest.testFindWithRelated.executor": "Debug",
-    "JUnit.TestAbstractRepository.executor": "Run",
-    "JUnit.TestBeansDataModel.executor": "Run",
-    "JUnit.TestBeansDataModel.testGroupBeanCount.executor": "Run",
-    "JUnit.TestBeansDataModel.testTaskBeansPerGroupCount.executor": "Debug",
-    "JUnit.TestBidirectional.executor": "Run",
-    "JUnit.TestBidirectional.taskGroupSingleWithTaskSingleWithSubTaskSingle.executor": "Run",
-    "JUnit.TestBidirectional.taskWithAllRelationsSingle.executor": "Run",
-    "JUnit.TestBidirectional.testTaskGroupSingle.executor": "Run",
-    "JUnit.TestBidirectional.testTaskGroupSingleWithTaskSingle.executor": "Run",
-    "JUnit.TestClientTask.executor": "Run",
-    "JUnit.TestClientTaskGroup.executor": "Debug",
-    "JUnit.TestClientTaskGroup.testCreate.executor": "Run",
-    "JUnit.TestClientTaskGroup.testCreateWithTasks.executor": "Run",
-    "JUnit.TestClientTaskGroup.testFindAll.executor": "Run",
-    "JUnit.TestCollector.executor": "Debug",
-    "JUnit.TestDTOsDataModel.executor": "Run",
-    "JUnit.TestDTOsDataModel.testSubTaskBeansPerMainTaskBeans.executor": "Debug",
-    "JUnit.TestDTOsDataModel.testTaskBeansPerGroupCount.executor": "Debug",
-    "JUnit.TestIntegerTextFieldConfigurator.executor": "Run",
-    "JUnit.TestJSONB.executor": "Run",
-    "JUnit.TestJSONB.fromJson.executor": "Run",
-    "JUnit.TestJSONB.toJson.executor": "Run",
-    "JUnit.TestJackson.executor": "Run",
-    "JUnit.TestJackson.testMainTasksInGroupCount.executor": "Debug",
-    "JUnit.TestJackson.testTasksInGroupCount.executor": "Debug",
-    "JUnit.TestJacksonPedantic.executor": "Run",
-    "JUnit.TestJacksonPedantic.testGroupRESTSingle.executor": "Run",
-    "JUnit.TestJacksonPedantic.testGroupSingleWithManipulatedIdAndVersion.executor": "Run",
-    "JUnit.TestJacksonPedantic.testGroupSingleWithTaskSingle.executor": "Debug",
-    "JUnit.TestJacksonPedantic.testGroupSingleWithTaskSingleWithChildSingle.executor": "Debug",
-    "JUnit.TestJacksonTaskGroupPedantic.executor": "Run",
-    "JUnit.TestJacksonTaskGroupPedantic.testGroupSingleWithTaskSingle.executor": "Debug",
-    "JUnit.TestJacksonTaskPedantic.executor": "Run",
-    "JUnit.TestJsonB.executor": "Run",
-    "JUnit.TestJsonB.findTestDataTasksInJsonData.executor": "Run",
-    "JUnit.TestJsonB.printJson.executor": "Run",
-    "JUnit.TestJsonB.testMainTasksInGroupCount.executor": "Debug",
-    "JUnit.TestJsonBPedantic.executor": "Run",
-    "JUnit.TestJsonBPedantic.testGroupSingle.executor": "Run",
-    "JUnit.TestJsonBPedantic.testGroupSingleWithChildSingle.executor": "Run",
-    "JUnit.TestJsonBPedantic.testGroupSingleWithTaskSingle.executor": "Run",
-    "JUnit.TestJsonBPedantic.testGroupSingleWithTaskSingleWithChildSingle.executor": "Debug",
-    "JUnit.TestJsonBWithCreator.executor": "Run",
-    "JUnit.TestJsonBWithCreator.fromJson.executor": "Debug",
-    "JUnit.TestLayeredDataModel.executor": "Run",
-    "JUnit.TestLayeredDataModel.testMainTasksPerGroupCount.executor": "Run",
-    "JUnit.TestLayeredDataModel.testSubTasksPerMainTasks.executor": "Run",
-    "JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.executor": "Run",
-    "JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupDTOWithTasks.executor": "Run",
-    "JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupJPAWithTaskAndSubTask.executor": "Run",
-    "JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupJPAWithTasks.executor": "Run",
-    "JUnit.TestMapStructTaskWithEntityDTOAndEntityJPA.executor": "Run",
-    "JUnit.TestMapStructTaskWithEntityDTOAndEntityJPA.testStandaloneDTO.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor": "Run",
-    "JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor": "Run",
-    "JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor": "Run",
-    "JUnit.TestMappingTaskGroupDTO.executor": "Run",
-    "JUnit.TestPreconditionCheckRelationalOperations.executor": "Run",
-    "JUnit.TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask.executor": "Run",
-    "JUnit.TestPreconditionCheckRelationalOperations.testCanBeSubTask.executor": "Debug",
-    "JUnit.TestPreconditionCheckRelationalOperations.testCheckSubTask.executor": "Debug",
-    "JUnit.TestRelationsBean.executor": "Run",
-    "JUnit.TestRelationsBean.testMakeTaskSubTaskOfTask.executor": "Debug",
-    "JUnit.TestRelationsJPA.executor": "Run",
-    "JUnit.TestRelationsJPA.testMappingOfInterrelatedTasks.executor": "Debug",
-    "JUnit.TestRelationsMappingDTO.executor": "Run",
-    "JUnit.TestRelationsMappingDTO.testRelationsMappingForPredecessor.executor": "Debug",
-    "JUnit.TestSimpleTypeService.executor": "Run",
-    "JUnit.TestTaskEntityJPA.executor": "Run",
-    "JUnit.TestTaskEntityJPA.test.executor": "Run",
-    "JUnit.TestTaskGroupBeanLazy.executor": "Run",
-    "JUnit.TestTaskGroupEntityDTO.executor": "Run",
-    "JUnit.TestTaskGroupEntityDTO.standaloneWithName.executor": "Run",
-    "JUnit.TestTaskGroupEntityDTO.standaloneWithoutName.executor": "Run",
-    "JUnit.TestTaskGroupServiceClient.executor": "Run",
-    "JUnit.TestTaskGroupServiceClient.testFindAll.executor": "Run",
-    "JUnit.TestTaskGroupServiceJPASE.executor": "Run",
-    "JUnit.TestTaskGroupServiceJPASE.findAll.executor": "Run",
-    "JUnit.TestTaskGroupServiceJPASE.moveTaskToNewGroup.executor": "Run",
-    "JUnit.TestTaskGroupServiceJPASE.testFindAll.executor": "Debug",
-    "JUnit.TestTaskGroupServiceJPASE.testMoveTaskToNewGroup.executor": "Run",
-    "JUnit.TestTaskServiceClient.testCreate.executor": "Run",
-    "JUnit.TestTaskServiceClient.testFindAll.executor": "Run",
-    "JUnit.TestTaskServiceJPASE.executor": "Run",
-    "JUnit.TestTaskServiceJPASE.findWithRelated.executor": "Debug",
-    "JUnit.TestTaskServiceJPASE.removeRelated.executor": "Debug",
-    "JUnit.TestWritableConfigSource.executor": "Run",
-    "JUnit.TestWritableConfigSource.testConfigPropertyInjection.executor": "Run",
-    "JUnit.TestWritableFileConfigSource.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_Bean_FXBean.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_DTO_Bean.withSubTasks.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_EntityDTO_DTO.standaloneMapped.executor": "Run",
-    "JUnit.Test_Map_TaskGroup_Lazy_Bean.executor": "Debug",
-    "JUnit.Test_Map_Task_Bean_FXBean.executor": "Run",
-    "JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped.executor": "Run",
-    "JUnit.Test_Map_Task_Bean_FXBean.standaloneReMapped.executor": "Run",
-    "JUnit.Test_Map_Task_DTO_Bean.executor": "Run",
-    "JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor": "Debug",
-    "JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor": "Run",
-    "JUnit.Test_Map_Task_EntityDTO_DTO.executor": "Run",
-    "JUnit.Test_Map_Task_EntityDTO_DTO.standaloneMapped.executor": "Run",
-    "JUnit.Test_Map_Task_EntityDTO_DTO.withChildren.executor": "Debug",
-    "JUnit.TimeTest.executor": "Run",
-    "JUnit.types in r-uu.app-jeeeraaah-client-fx.executor": "Run",
-    "Maven.backup.restore [clean,install].executor": "Run",
-    "Maven.common2 [install].executor": "Run",
-    "Maven.config [clean,install].executor": "Run",
-    "Maven.postgres [clean,install].executor": "Run",
-    "Maven.r-uu [clean,deploy].executor": "Run",
-    "Maven.r-uu [clean,install].executor": "Run",
-    "Maven.r-uu [clean].executor": "Run",
-    "Maven.r-uu [install].executor": "Run",
-    "Maven.r-uu [mvn clean install, but keep liberty].executor": "Run",
-    "Maven.r-uu [mvn clean install].executor": "Run",
-    "Maven.r-uu [package].executor": "Run",
-    "Maven.r-uu [test].executor": "Run",
-    "Maven.r-uu [validate].executor": "Run",
-    "Maven.r-uu [verify].executor": "Run",
-    "Maven.r-uu.app [install].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress [test].executor": "Run",
-    "Maven.r-uu.app-datamodel-postaladdress-jpadto-se [test].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [clean].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [compile].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah [package].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx [test].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-fx-executable [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-client-rs [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [clean,install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [compile].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-common-se [install].executor": "Run",
-    "Maven.r-uu.app-jeeeraaah-server [install].executor": "Run",
-    "Maven.r-uu.app-postgres [clean,install].executor": "Run",
-    "Maven.r-uu.lib [clean,install].executor": "Run",
-    "Maven.r-uu.lib [install].executor": "Run",
-    "Maven.r-uu.lib-archunit [clean,install].executor": "Run",
-    "Maven.r-uu.lib-excel [install].executor": "Run",
-    "Maven.r-uu.lib-fx [clean,install].executor": "Run",
-    "Maven.r-uu.lib-fx-comp [clean,install].executor": "Run",
-    "Maven.r-uu.lib-fx-comp [compile].executor": "Run",
-    "Maven.r-uu.lib-fx-comp-demo [install].executor": "Run",
-    "Maven.r-uu.lib-fx-core [clean,install].executor": "Run",
-    "Maven.r-uu.lib-jsonb [clean,install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct [clean,install].executor": "Run",
-    "Maven.r-uu.lib-mapstruct-explore [clean...].executor": "Run",
-    "Maven.r-uu.lib-util [clean,install].executor": "Run",
-    "Maven.r-uu.lib-util [test].executor": "Run",
-    "Maven.r-uu.lib-util-config [clean,install].executor": "Run",
-    "Maven.r-uu.lib-util-config-demo [clean,install].executor": "Run",
-    "Maven.r-uu.lib.util-config [clean,install].executor": "Run",
-    "Remote JVM Debug.r-uu - jeee-raaah - server.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield",
-    "last_opened_file_path": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/add/super_sub_or_successor",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.build.tools.auto.reload": "ALL",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "show.migrate.to.gradle.popup": "false",
-    "to.speed.mode.migration.done": "true",
-    "two.files.diff.last.used.folder": "C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoCompleteTextFieldCountryDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoCompleteTextFieldCountryDemoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoCompleteTextFieldDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AutoCompleteTextFieldWithArrowButtonCountryDemoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ButtonsGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClearableTextFieldDemo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClearableTextFieldDemoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfiguratorAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBClean (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBClean.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBCleanSE (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBCleanSE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBCleanViaTaskHierarchy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBCommandRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBPopulate.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBPopulateSE.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DBPopulateTiny.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBPopulateTinySE (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.DBPopulateTinySE.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DashAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataAsStringTransformer.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DataFactory.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DemoAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EditAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmptyAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXBeanEditorDemoAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FXComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChartChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GanttChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyDemoMainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyDemoSub1AppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HierarchyDemoSub2AppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PostgresBackupRestoreManagerAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RUUFXDemoComponentMainAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RePopulateDB.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RunnerTaskTreeTableViewComponentBundleGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TableCellColorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskEditorAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupEditorRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupManagementAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskGroupSelectorAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskHierarchyAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskHierarchyPredecessorsAppRunner.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TaskHierarchySuperSubTasksAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskHierarchyViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskListDirectNeighboursAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskManagementAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskTreeTableViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskViewAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskViewListDirectNeighboursAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TaskViewWithDirectNeighboursAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TypeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.chatgpt.GanttChatGPT.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.app.jeeeraaah.client.fx.test.TableCellColorExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.app.util.postgres.backup_restore.TypeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.app.util.postgres.backup_restore._2_.DashAppRunner.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.lib.fx.TypeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.de.ruu.lib.fx.control.autocomplete.textfield.AutoCompleteTextFieldCountryDemoRunner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in r-uu.lib-jackson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.All in r-uu.lib-util.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CompanyServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateModifyTaskBeanWorkflowTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MapperTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PostalAddressServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RePopulateDB.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskGroupServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskGroupServiceJPASETest.testDelete.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TaskServiceJPASETest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TaskServiceJPASETest.testDelete.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TaskServiceJPASETest.testFindWithRelated.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestAbstractRepository.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBeansDataModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBeansDataModel.testGroupBeanCount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBeansDataModel.testTaskBeansPerGroupCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestBidirectional.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBidirectional.taskGroupSingleWithTaskSingleWithSubTaskSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBidirectional.taskWithAllRelationsSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBidirectional.testTaskGroupSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBidirectional.testTaskGroupSingleWithTaskSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestClientTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestClientTaskGroup.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestClientTaskGroup.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestClientTaskGroup.testCreateWithTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestClientTaskGroup.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestCollector.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDTOsDataModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestDTOsDataModel.testSubTaskBeansPerMainTaskBeans.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestDTOsDataModel.testTaskBeansPerGroupCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestIntegerTextFieldConfigurator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJSONB.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJSONB.fromJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJSONB.toJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJackson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJackson.testMainTasksInGroupCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJackson.testTasksInGroupCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJacksonPedantic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJacksonPedantic.testGroupRESTSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJacksonPedantic.testGroupSingleWithManipulatedIdAndVersion.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJacksonPedantic.testGroupSingleWithTaskSingle.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJacksonPedantic.testGroupSingleWithTaskSingleWithChildSingle.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJacksonTaskGroupPedantic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJacksonTaskGroupPedantic.testGroupSingleWithTaskSingle.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJacksonTaskPedantic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonB.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonB.findTestDataTasksInJsonData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonB.printJson.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonB.testMainTasksInGroupCount.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJsonBPedantic.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBPedantic.testGroupSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBPedantic.testGroupSingleWithChildSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBPedantic.testGroupSingleWithTaskSingle.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBPedantic.testGroupSingleWithTaskSingleWithChildSingle.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestJsonBWithCreator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestJsonBWithCreator.fromJson.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestLayeredDataModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestLayeredDataModel.testMainTasksPerGroupCount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestLayeredDataModel.testSubTasksPerMainTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupDTOWithTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupJPAWithTaskAndSubTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskGroupWithEntityDTOAndEntityJPA.groupJPAWithTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskWithEntityDTOAndEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructTaskWithEntityDTOAndEntityJPA.testStandaloneDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMapStructWithEntityDTOAndEntityJPA.testDTOWithNonSelfParent.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMappingTaskDTO.dtoStandaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMappingTaskGroupDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPreconditionCheckRelationalOperations.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPreconditionCheckRelationalOperations.testCanBeAddedAsSubTask.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestPreconditionCheckRelationalOperations.testCanBeSubTask.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestPreconditionCheckRelationalOperations.testCheckSubTask.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestRelationsBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRelationsBean.testMakeTaskSubTaskOfTask.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestRelationsJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRelationsJPA.testMappingOfInterrelatedTasks.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestRelationsMappingDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestRelationsMappingDTO.testRelationsMappingForPredecessor.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestSimpleTypeService.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskEntityJPA.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskEntityJPA.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupBeanLazy.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupEntityDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupEntityDTO.standaloneWithName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupEntityDTO.standaloneWithoutName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceClient.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceClient.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceJPASE.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceJPASE.findAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceJPASE.moveTaskToNewGroup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskGroupServiceJPASE.testFindAll.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestTaskGroupServiceJPASE.testMoveTaskToNewGroup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskServiceClient.testCreate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskServiceClient.testFindAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskServiceJPASE.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTaskServiceJPASE.findWithRelated.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestTaskServiceJPASE.removeRelated.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TestWritableConfigSource.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestWritableConfigSource.testConfigPropertyInjection.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestWritableFileConfigSource.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_Bean_FXBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_DTO_Bean.withSubTasks.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_EntityDTO_DTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_EntityDTO_DTO.standaloneMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_TaskGroup_Lazy_Bean.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Test_Map_Task_Bean_FXBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_Bean_FXBean.standaloneMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_Bean_FXBean.standaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneMapped.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Test_Map_Task_DTO_Bean.standaloneReMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.standaloneMapped.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test_Map_Task_EntityDTO_DTO.withChildren.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.TimeTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.types in r-uu.app-jeeeraaah-client-fx.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.backup.restore [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.common2 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.config [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.postgres [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,deploy].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [mvn clean install, but keep liberty].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [mvn clean install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu [verify].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-datamodel-postaladdress-jpadto-se [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-fx-executable [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-rs [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-client-rs [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-jpadto [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-common-se [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-jeeeraaah-server [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.app-postgres [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-archunit [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-excel [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx-comp [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx-comp [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx-comp-demo [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-fx-core [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-jsonb [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-mapstruct-explore [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-util [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-util [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-util-config [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib-util-config-demo [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.r-uu.lib.util-config [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;Remote JVM Debug.r-uu - jeee-raaah - server.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.lib/fx/core/src/test/java/de/ruu/lib/fx/control/autocomplete/textfield&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/client/fx/src/main/resources/de/ruu/app/jeeeraaah/client/fx/task/view/hierarchy/successor/add/super_sub_or_successor&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;ALL&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/r-uu/develop/github/r-uu.app/jeeeraaah/server.new&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.predecessor.add" />
@@ -359,11 +613,11 @@
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.hierarchy.TaskHierarchyView" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.ruu.app.jeeeraaah.common.map" />
+      <recent name="de.ruu.app.jeeeraaah.common.bean" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.successors" />
       <recent name="de.ruu.app.jeeeraaah.client.fx.task.view.hierarchy.predecessor" />
       <recent name="de.ruu.util.config.mp" />
-      <recent name="de.ruu.lib.gen.java.fx.comp.buttons" />
-      <recent name="de.ruu.app.jeeeraaah.common" />
     </key>
     <key name="MoveInnerDialog.RECENTS_KEY">
       <recent name="de.ruu.util.config.mp" />
@@ -409,7 +663,7 @@
       <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.map.jpa.dto.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,7 +679,7 @@
       <module name="r-uu.app-jeeeraaah-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.map.jpa.dto.*" />
+          <option name="PATTERN" value="de.ruu.app.jeeeraaah.common.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -449,6 +703,8 @@
             <option name="goals">
               <list>
                 <option value="install" />
+                <option value="-rf" />
+                <option value="pom.xml" />
               </list>
             </option>
             <option name="multimoduleDir" />
@@ -544,11 +800,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Maven.r-uu [mvn clean install, but keep liberty]" />
         <item itemvalue="Maven.r-uu [install]" />
-        <item itemvalue="Application.ConfiguratorAppRunner" />
+        <item itemvalue="Maven.r-uu [mvn clean install, but keep liberty]" />
         <item itemvalue="JUnit.TestMapStructTaskWithEntityDTOAndEntityJPA" />
         <item itemvalue="JUnit.TestJacksonTaskGroupPedantic.testGroupSingleWithTaskSingle" />
+        <item itemvalue="Application.ConfiguratorAppRunner" />
       </list>
     </recent_temporary>
   </component>
