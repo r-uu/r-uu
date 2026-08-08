@@ -1,6 +1,5 @@
 # r-uu - github root repository
-r-uu's github root repository
-
+The r-uu GitHub main repository contains material related to modern software development. Most of it focuses on Java, but there are also articles that cover more general software development topics.
 ## articles about software developing
 
 ### developing modularised software in java
