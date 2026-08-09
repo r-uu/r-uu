@@ -4,7 +4,8 @@ This repository contains material related to modern software development. Most o
 
 ## articles
 
-- [jpms - modular software in java](https://github.com/r-uu/java/blob/main/doc/article/jpms/modular-software-in-java.md)
+- [JPMS - Modular Software in Java](https://github.com/r-uu/java/blob/main/doc/article/jpms/modular-software-in-java.md)
+- [JPMS in Action - Das "Proof of Concept"-Projekt pragma](https://github.com/r-uu/java/blob/main/app/pragma/doc/implementation/jpms-in-action/jpms%20in%20action%20-%20pragma.md)
 
 ## code repositories
 
