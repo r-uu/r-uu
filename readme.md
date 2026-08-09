@@ -1,7 +1,7 @@
 # r-uu - github root repository
 This repository contains material related to modern software development. Most of it focuses on Java, but there are also articles that cover more general software development topics.
 
-## articles about software developing
+## articles
 
 ### developing modularised software in java
 - [article](https://github.com/r-uu/r-uu/blob/main/doc/developing%20modularised%20software%20in%20java.md)
