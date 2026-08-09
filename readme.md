@@ -3,8 +3,7 @@ This repository contains material related to modern software development. Most o
 
 ## articles
 
-### developing modularised software in java
-- [article](https://github.com/r-uu/r-uu/blob/main/doc/developing%20modularised%20software%20in%20java.md)
+- [article](https://github.com/r-uu/java/blob/main/doc/article/jpms/modular-software-in-java.md)
 
 ## code repositories
 
