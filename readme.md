@@ -1,9 +1,10 @@
 # r-uu - github root repository
+
 This repository contains material related to modern software development. Most of it focuses on Java, but there are also articles that cover more general software development topics.
 
 ## articles
 
-- [article](https://github.com/r-uu/java/blob/main/doc/article/jpms/modular-software-in-java.md)
+- [jpms - modular software in java](https://github.com/r-uu/java/blob/main/doc/article/jpms/modular-software-in-java.md)
 
 ## code repositories
 
