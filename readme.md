@@ -1,5 +1,7 @@
 # r-uu - github root repository
 
+** This repository is deprecated! Content has been moved to https://gitlab.com/r-uu/java and will be maintained only there from now on. **
+
 This repository contains material related to modern software development. Most of it focuses on Java, but there are also articles that cover more general software development topics.
 
 ## articles
